@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rgV-Fx-lEb">
+    <device id="ipad10_9rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Custom Navigation Controller-->
+        <scene sceneID="pR3-Vo-MXV">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="rgV-Fx-lEb" customClass="CustomNavigationController" customModule="IBM_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fpZ-df-tW3">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="4wf-IU-NBR" kind="relationship" relationship="rootViewController" id="K8l-I5-uqh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ww2-As-ZYJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-591" y="102"/>
+        </scene>
+        <!--Snapshot View Controller-->
+        <scene sceneID="aQy-7S-jfN">
+            <objects>
+                <viewController id="4wf-IU-NBR" customClass="SnapshotViewController" customModule="IBM_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1V9-0q-30O">
+                        <rect key="frame" x="0.0" y="0.0" width="1180" height="820"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="XmB-VJ-IlX">
+                                <rect key="frame" x="454" y="247" width="272.5" height="326"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash-logo" translatesAutoresizingMaskIntoConstraints="NO" id="0yW-Wh-Q0a">
+                                        <rect key="frame" x="8" y="0.0" width="256" height="256"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="256" id="K34-pI-mE2"/>
+                                            <constraint firstAttribute="width" constant="256" id="vMp-MB-1ub"/>
+                                        </constraints>
+                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Digital Health Pass Wallet" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZP-SX-eDe">
+                                        <rect key="frame" x="0.0" y="296" width="272.5" height="30"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uhn-dd-nRM">
+                                        <rect key="frame" x="89" y="369.5" width="200" height="50"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="JuZ-eV-TJT"/>
+                                            <constraint firstAttribute="width" constant="200" id="Vx3-bZ-fTQ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                        <state key="normal" title="Add Wallet Item">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="6"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="l76-At-2rc" kind="presentation" id="Y3f-BD-ueY"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="Uhn-dd-nRM"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hmZ-9F-xp3"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="XmB-VJ-IlX" firstAttribute="centerX" secondItem="1V9-0q-30O" secondAttribute="centerX" id="YiJ-Hw-ifL"/>
+                            <constraint firstItem="XmB-VJ-IlX" firstAttribute="centerY" secondItem="1V9-0q-30O" secondAttribute="centerY" id="b5b-ER-Mdn"/>
+                            <constraint firstItem="XmB-VJ-IlX" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="1V9-0q-30O" secondAttribute="leading" constant="20" id="uvV-3V-SvD"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="XmB-VJ-IlX" secondAttribute="trailing" constant="20" id="vvj-W5-1Wp"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="LfW-fR-q01"/>
+                    <connections>
+                        <outlet property="addWalletItemButton" destination="Uhn-dd-nRM" id="tmw-h8-zv2"/>
+                        <outlet property="appNameLabel" destination="TZP-SX-eDe" id="OFo-QE-gtl"/>
+                        <outlet property="logoImageView" destination="0yW-Wh-Q0a" id="xgL-Pw-y7r"/>
+                        <outlet property="stackView" destination="XmB-VJ-IlX" id="THv-Pb-Xc1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cOV-Ir-z5R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="230" y="102"/>
+        </scene>
+        <!--AddWalletItemNavID-->
+        <scene sceneID="KmH-9A-eYc">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="AddWalletItemNavID" storyboardName="Wallet" referencedIdentifier="AddWalletItemNavID" id="l76-At-2rc" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tyh-BV-xpD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="635" y="102"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splash-logo" width="612" height="792"/>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

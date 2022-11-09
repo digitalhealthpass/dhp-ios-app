@@ -1,0 +1,83 @@
+
+/* Class = "UILabel"; text = "Build"; ObjectID = "2fh-CN-eO4"; */
+"2fh-CN-eO4.text" = "Build";
+
+/* Class = "UITableViewSection"; footerTitle = "iPad devices supports Kiosk Mode. This mode would default front-facing camera for QR code scanning. "; ObjectID = "6Pa-vH-ADj"; */
+"6Pa-vH-ADj.footerTitle" = "iPads unterstützen den Kiosk-Modus.  Dieser Modus wird die Kamera auf der Vorderseite verwenden um QR Codes zu scannen. ";
+
+/* Class = "UITableViewSection"; footerTitle = "Pass Verify will check for signature verification with the issuer and validate the revocation status of the credential if enabled "; ObjectID = "Aby-t5-zEa"; */
+"Aby-t5-zEa.footerTitle" = "Zertifikat Prüf-App wird die Signatur des Austellers verifizieren und die Liste annulierter Zertifikate abfragen (falls aktivitert)";
+
+/* Class = "UITableViewSection"; headerTitle = "Verification Rules"; ObjectID = "Aby-t5-zEa"; */
+"Aby-t5-zEa.headerTitle" = "Prüfregeln";
+
+/* Class = "UILabel"; text = "full.name@email.com"; ObjectID = "D77-eh-bUy"; */
+"D77-eh-bUy.text" = "full.name@email.com";
+
+/* Class = "UINavigationItem"; title = "Reset"; ObjectID = "DdB-TM-6lr"; */
+"DdB-TM-6lr.title" = "Zurücksetzen";
+
+/* Class = "UITableViewSection"; headerTitle = "cache storage"; ObjectID = "F4K-zJ-SUW"; */
+"F4K-zJ-SUW.headerTitle" = "Cache-Speicher";
+
+/* Class = "UILabel"; text = "Region"; ObjectID = "Hyf-vL-cNh"; */
+"Hyf-vL-cNh.text" = "Umgebung";
+
+/* Class = "UILabel"; text = "DEV"; ObjectID = "J2p-Br-rt4"; */
+"J2p-Br-rt4.text" = "DEV";
+
+/* Class = "UILabel"; text = "Reset"; ObjectID = "K7c-OI-Dox"; */
+"K7c-OI-Dox.text" = "Zurücksetzen";
+
+/* Class = "UILabel"; text = "Terms and Conditions"; ObjectID = "Lxt-Dq-VSh"; */
+"Lxt-Dq-VSh.text" = "Nutzungsbedingungen";
+
+/* Class = "UILabel"; text = "Reset Frequency"; ObjectID = "Ng9-uM-S60"; */
+"Ng9-uM-S60.text" = "Frequenz zurücksetzen";
+
+/* Class = "UILabel"; text = "Full Name"; ObjectID = "OCe-VS-QM0"; */
+"OCe-VS-QM0.text" = "Name";
+
+/* Class = "UITableViewController"; title = "Reset"; ObjectID = "e0X-9Q-W9D"; */
+"e0X-9Q-W9D.title" = "Zurücksetzen";
+
+/* Class = "UILabel"; text = "FL"; ObjectID = "hvQ-o0-3Us"; */
+"hvQ-o0-3Us.text" = "FL";
+
+/* Class = "UILabel"; text = "Revoke "; ObjectID = "j7S-zG-bJ2"; */
+"j7S-zG-bJ2.text" = "Annulieren";
+
+/* Class = "UILabel"; text = "v1.0.0(01)"; ObjectID = "m1u-Yj-apI"; */
+"m1u-Yj-apI.text" = "v1.0.0(01)";
+
+/* Class = "UILabel"; text = "Automatic Cache Reset"; ObjectID = "mu8-0i-kJd"; */
+"mu8-0i-kJd.text" = "Automatischer Reset des Caches";
+
+/* Class = "UILabel"; text = "Reset Schemas"; ObjectID = "nl5-L9-tmT"; */
+"nl5-L9-tmT.text" = "Schemata zurücksetzen";
+
+/* Class = "UILabel"; text = "Monthly"; ObjectID = "qRe-8d-Ts2"; */
+"qRe-8d-Ts2.text" = "Monatlich";
+
+/* Class = "UILabel"; text = "Reset Issuer"; ObjectID = "snW-Jo-jgi"; */
+"snW-Jo-jgi.text" = "Austeller zurücksetzen";
+
+/* Class = "UILabel"; text = "Privacy Policy"; ObjectID = "tqE-Be-Off"; */
+"tqE-Be-Off.text" = "Datenschutzerklärung";
+
+/* Class = "UILabel"; text = "About your privacy"; ObjectID = "ncz-L6-F7r"; */
+"ncz-L6-F7r.text" = "Über Ihre Privatsphäre";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "ubz-S4-7Rt"; */
+"ubz-S4-7Rt.title" = "Profil";
+
+/* Class = "UILabel"; text = "Log Out"; ObjectID = "yOh-BN-f2R"; */
+"yOh-BN-f2R.text" = "Abmelden";
+
+/* Class = "UILabel"; text = "Admin User"; ObjectID = "ySk-r5-QJF"; */
+"ySk-r5-QJF.text" = "Administrator";
+
+/* Class = "UILabel"; text = "Kiosk Mode"; ObjectID = "ygU-lw-cUX"; */
+"ygU-lw-cUX.text" = "Kiosk-Modus";
+
+"VXI-dk-jbx.text" = "Metadaten zurücksetzen";

@@ -1,0 +1,430 @@
+/*
+  Localizable.strings
+  Verifier
+
+  Created by John Martino on 2021-03-09, translated to German by Marc Stoecklin on 2021-03-24.
+  (c) Copyright Merative US L.P. and others 2020-2022. All rights reserved.
+*/
+
+// Common
+"button.title.ok" = "OK";
+"button.title.cancel" = "Abbrechen";
+"button.title.dontallow" = "Nicht erlauben";
+"label.placeholder.password" = "Passwort - benötigt";
+"alert.shareButtonTitle" = "Teilen";
+"error.server.title" = "Serverfehler";
+"error.client.title" = "Clientfehler";
+"error.network.title" = "Netzwerkfehler";
+"error.server.4.message" = "Der Server kann die Anfrage derzeit aufgrund einer vorübergehenden Überlastung oder Wartung des Servers nicht verarbeiten";
+"error.server.1402.message" = "Ungültige Antwort des Servers";
+"error.server.1403.message" = "Ungültiges Antwort-Format des Servers";
+"error.server.500s.message" = "Der Server ist zur Zeit aufgrund Überlastung oder Wartung nicht im Stande die Anfrage zu bearbeiten.";
+"error.client.53.message" = "Die Anfrage wurde abgebrochen, da die App im Hintergrund-Modus war.";
+"error.client.1401.message" = "Anfrage fehlgeschlagen";
+"error.client.400s.message" = "Die Anfrage kann aufgrund einem ungültigen Format nicht durchgeführt werden";
+"error.network.message" = "Die Aktion wurde aufgrund fehlender Netzwerkzugriff abgebrochen.";
+"error.default.title" = "Oops! Etwas ging schief";
+"error.default.message" = "Es tut uns Leid und wir hoffen, dass wir den Fehler bald beheben können.";
+"crypto.jsonFailed" = "Verschlüsselung - JSON Serialisierung fehlgeschlagen";
+"crypto.stringEncodingFailed" = "Verschlüsselung - String Enkodierung fehlgeschlagen";
+"crypto.dataEncodingFailed" = "Verschlüsselung - Daten Enkodierung fehlgeschlagen";
+"crypto.sealCreationFailed" = "ChaChaPoly Verschlüsselung - Siegel-Erstellung fehlgeschlagen";
+"crypto.sealBoxCreationFailed" = "ChaChaPoly Verschlüsselung - Siegel-Box-Erstellung erfolgreich";
+"crypto.chachaPolySuccess" = "ChaChaPoly Verschlüsselung - Erfolgreich";
+"crypto.aesSealFailed" = "AES Verschlüsselung - Siegel-Erstellung fehlgeschlagen";
+"crypto.aesSealBoxFailed" = "AES Verschlüsselung - Siegel-Box erfolgreich geöffnet ";
+"crypto.aesSuccess" = "AES Verschlüsselung - Erfolgreich";
+"crypto.dec.chaSealCreationFailed" = "ChaChaPoly Entschlüsselung - Siegel-Erstellung fehlgeschlagen";
+"cryoto.dec.chaSealBoxFailed" = "ChaChaPoly Entschlüsselung - Siegel-Box-Erstellung erfolgreich";
+"crypto.dec.chaSuccess" = "ChaChaPoly Entschlüsselung - Erfolgreich";
+"crypto.dec.aesSealCreationFailed" = "AES Entschlüsselung - Siegel-Erstellung fehlgeschlagen";
+"crypto.dec.aesSealBoxFailed" = "AES Entschlüsselung - Siegel-Box-Erstellung erfolgreich";
+"crypto.dec.aesSuccess" = "AES Entschlüsselung - Erfolgreich";
+"crypto.hash.jsonEncFailed" = "Hashing - JSON Serialisierung fehlgeschlagen";
+"crypto.hash.stringEncFailed" = "Hashing - String Enkodierung fehlgeschlagen";
+"crypto.hash.dataEncFailed" = "Hashing - Daten Enkodierung fehlgeschlagen";
+"crypto.hash.success" = "Hashing - Erfolgreich";
+"buffer.encodeFailed" = "Fehler beim Enkodieren des Archives.";
+"buffer.decodeFailed" = "Fehler beim Dekodieren des Archives.";
+
+// Contact Details
+"contact.delete.message" = "Bitte bestätigen, dass Sie diese Verbindung löschen möchten.";
+"contact.delete.title" = "Verbindung löschen";
+"contact.section.title1" = "GETEILTE ZERTIFIKATE";
+"contact.section.title2" = "KONTAKTINFORMATION";
+"contact.section.title3" = "Registrierung";
+"contact.upload" = "Zertifikat hochladen";
+"contact.name" = "Name";
+"contact.phone" = "Telefon";
+"contact.email" = "Email";
+"contact.address" = "Adresse";
+"contact.website" = "Webseite";
+"contact.gender" = "Geschlecht";
+"contact.age" = "Altersgruppe";
+"contact.race" = "(Race)";
+"contact.location" = "Ort";
+"contact.downloads" = "Heruntergeladene Zertifikate";
+"contact.download" = "Zertifikate herunterladen";
+"contact.shared" = "Geteilte Zertifikate";
+"contact.info" = "KONTAKTINFORMATION";
+"contact.registration" = "Registrierung";
+"contact.id" = "ID";
+"contact.firstName" = "Vorname";
+"contact.lastName" = "Nachname";
+"contact.prepareForDownload" = "Bereite Herunterladen des Zertifikats vor";
+"contact.wait" = "Bitte warten ...";
+"contact.pleaseWait" = "Bitte warten";
+"contact.addToWallet" = "Füge Zertifikat zum Wallet hinzu";
+"contact.downloadComplete.title" = "Herunterladen abgeschlossen";
+"contact.downloadComplete.subtitle" = "Es gibt keine neuen Zertifikate für Ihr Wallet";
+"contact.downloadFailed" = "Herunterladen fehlgeschlagen";
+"contact.credential.empty" = "Es gibt keine neuen Zertifikate für Ihr Wallet";
+"contact.credential.format" = "Anzahl neuer Zertifikate für Ihr Wallet: %@";
+"contact.credentials.available" = "Verfügbare Zertifikate";
+"contact.credentials.shared" = "Geteilte Zertifikate";
+"contact.credentials.credshared" = "Geteilte Zertifikate";
+"contact.credentials.selected" = "Ausgewählte Zertifikate";
+"contact.credentials.uploading" = "Lade Zertifikate hoch";
+"contact.credentials.submitting" = "Übermittle Daten";
+"contact.credentials.notProcessed" = "Zertifikate nicht verarbeitet";
+"contact.credentials.verifying" = "Überprüfe Zertifikate..";
+"contact.dataSubjectInitiated" = "Verarbeitung über das digitale Wallet gestartet";
+"contact.purpose" = "Zweck";
+"contact.partiallySubmitted.title" = "Daten teilweise übermittelt";
+"contact.partiallySubmitted.subtitle" = "Einer oder mehrere Zertifikate wurden nicht übermittelt.";
+"contact.uploadComplete.title" = "Hochladen abgeschlossen";
+"contact.uploadComplete.subtitle" = "Zertifikate erfolgreich hochgeladen";
+"contact.uploadFailed.title" = "Hochladen fehlgeschlagen";
+"contact.uploadFailed.subtitle" = "Übertragung der Zertifikate fehlgeschlagen.\nBitte versuchen Sie es später nochmals.";
+
+// Credential Details
+"cred.delete.message" = "Möchten Sie dieses Zertifikat wirklich löschen?";
+"cred.delete.title" = "Zertifikat löschen";
+"cred.share.title" = "Zertifikate teilen";
+"cred.share.message" = "Geben Sie einen Namen ein um das Zertifikat zu teilen";
+"cred.share.fail.message" = "Speichern der Zertifikate fehlgeschlagen.";
+"cred.share.failed.title" = "Teilen der Zertifikate fehlgeschlagen";
+"cred.share.failed.message" = "Der Vorgang konnte nicht abgeschlossen werden, da kein Dateiname angegeben wurde.";
+
+// Credential Obfuscation
+"obfuscation.personalInformation" = "Persönliche Information";
+
+// Data
+"data.schemaProfile" = "Profil";
+"data.schemaID" = "ID";
+"data.user.standard" = "Standardbenutzer";
+"data.user.verifier" = "Prüfberechtigung";
+"data.user.reader" = "Leseberechtigung";
+"data.user.writer" = "Schreibberechtigung";
+"data.user.admin" = "Administrator";
+"data.timeout" = "Sitzung abgelaufen";
+
+// Environment Target
+"env.canada" = "Canada";
+"env.france" = "France";
+"env.germany" = "Germany";
+"env.italy" = "Italy";
+"env.netherlands" = "Netherlands";
+"env.poland" = "Poland";
+"env.portugal" = "Portugal";
+"env.spain" = "Spain";
+"env.sweden" = "Sweden";
+"env.uk" = "UK";
+"env.us" = "USA";
+"env.ap" = "Asia Pacific";
+"env.emea" = "EMEA";
+
+"env.ap.subtitle" = "Asia, Oceania";
+"env.emea.subtitle" = "Europe, Middle East, Africa";
+
+"env.title" = "Wählen Sie die Region aus, in der Ihr Gesundheitsnachweis ausgestellt wird";
+
+// Get Started
+"gs.step0.title" = "Digital Health Pass Wallet";
+"gs.step0.message" = "Ein eleganter Weg für Nationen und Organisationen um Personen sicher zusammenzubringen, z.B. Arbeitsplatz, Schule, Stadion oder Flughafen.";
+"gs.step1.title" = "Schritt 1";
+"gs.step1.message" = "Ein Gesundheitsdienstleister sendet Ihnen sichere und vertrauliche Ausweise bezüglich Impfstatus oder Testresultat.";
+"gs.step2.title" = "Schritt 2";
+"gs.step2.message" = "Wenn Sie den Ausweis mit einer Organisation teilen wird Ihr Wallet Ihre Privatsphäre und Sicherheit schützen.";
+"gs.finishButtonTitle.getStarted" = "Beginnen";
+"gs.finishButtonTitle.next" = "Weiter";
+
+// Key Pair Management
+"kpm.existing" = "Existierende Schlüssel im Wallet";
+"kpm.untitled" = "Unbenannt";
+"kpm.navigationTitleFormat" = "Schlüssel kopiert am %@";
+"kpm.label" = "In die Zwischenablage kopiert";
+"kpm.headerTitle" = "Zugehörige Kontakte";
+"kpm.footerTitle" = "Tippen um zu kopieren";
+"kpm.delete.title" = "Schlüsselpaar löschen";
+"kpm.delete.message" = "Möchten Sie das Schlüsselpaar wirklich löschen?";
+"kpm.delete.confirm" = "Ja, löschen";
+
+// Launch
+"launch.jailbreak.title" = "Jailbreak";
+"launch.jailbreak.message" = "Ein Jailbreak wurde auf diesem Gerät erkannt.\nDie App beendet sich jetzt.";
+
+// Login
+"login.next" = "Weiter";
+"login.prev" = "Zurück";
+"login.done" = "Fertig";
+"login.permission.title" = "Berechtigung";
+"login.permission.message" = "Dieser Benutzer hat keine Berechtigung um Zertifikate zu prüfen";
+"login.reason" = "Bitte melden Sie sich an";
+"login.auth.touchID" = "Touch ID Anmeldung";
+"login.auth.faceID" = "Face ID Anmeldung";
+"login.reg.touchID" = "Möchten Sie sich für Touch ID Anmeldung registrieren?";
+"login.reg.faceID" = "Möchten Sie sich für Face ID Anmeldung registrieren?";
+"login.no" = "Nein";
+"login.register" = "Registrieren";
+"login.reg.reason" = "Registrieren für Geräte-Anmeldung";
+
+// Networking
+"networking.clientError" = "Anfrage fehlgeschlagen";
+"networking.serverError.data" = "Serveranfrage fehlgeschlagen : Ungültige Antwortdaten";
+"networking.serverError.format" = "Serveranfrage fehlgeschlagen : Ungültiges Antwortformat";
+
+// Obfuscation
+"obf.ok" = "ok";
+"obf.credSubjNotFound" = "Zeritifikat-Halter wurde nicht gefunden";
+"obf.pathFieldNotFound" = "Pfadeintrag wurde nicht gefunden";
+"obf.pathNotFoundFormat" = "Zertifikat %@ wurde nicht gefunden";
+"obf.valOrNonceNotFound" = "Val oder Nonce wurde nicht gefunden";
+"obf.fieldPathCheckFormat" = "Fehler bei der Prüfung des Zertifikats %@ ";
+
+// PIN Options
+"pin.title.create" = "PIN erstellen";
+"pin.title.confirm" = "PIN bestätigen";
+"pin.title.unlock" = "Bitte PIN eingeben";
+"pin.detail.create" = "Bitte geben Sie eine 4-stellige PIN ein um Ihre Sicherheit zu erhöhen";
+"pin.detail.confirm" = "Um sicher zu sein, bitte geben Sie die PIN nochmals ein";
+"pin.detail.unlock" = "Geben Sie die 4-stellige PIN ein um Ihr Wallet zu öffnen";
+"pin.reset.message" = "Dies wird alle Ihre Einstellungen und Zertifikate zurücksetzen. Ihre PIN wird ebenfalls gelöscht.";
+"pin.reset.title" = "Wallet zurücksetzen";
+"pin.skip.title" = "Einstellungen überspringen";
+"pin.biometric.message" = "Biometrische Anmeldung mit 4-stelliger PIN um das Wallet zu öffnen";
+"pin.biometric.title" = "Bitte PIN eingeben";
+"pin.confirmation.title" = "PIN-Bestätigung fehlgeschlagen";
+"pin.confirmation.message" = "Hoppla, die PINs stimmen nicht überein.";
+"pin.confirmation.skip" = "Einstellungen überspringen";
+"pin.confirmation.startOver" = "Neu starten";
+"pin.retry" = "Bitte nochmals versuchen";
+"pin.invalid.title" = "Ungültige PIN";
+"pin.invalid.message" = "Hoppla, die eingegebene PIN ist ungültig. Bitte nochmals versuchen.";
+"pin.complete.title" = "Gute Neuigkeiten";
+"pin.complete.message" = "Sie können diese PIN verwenden um sich bei der App anzumelden.\n\nSie können die PIN und Anmeldungs-Einstellungen jederzeit in Ihrer Wallet-App anpassen.";
+"pin.complete.faceID" = "Sie können Face ID verwenden um sich bei der App anzumelden.\n\nSie können die PIN und Anmeldungs-Einstellungen jederzeit in Ihrer Wallet-App anpassen.";
+"pin.complete.touchID" = "Sie können Touch ID verwenden um sich bei der App anzumelden.\n\nSie können die PIN und Anmeldungs-Einstellungen jederzeit in Ihrer Wallet-App anpassen.";
+"pin.complete.continue" = "Weiter";
+
+// Profile
+"profile.organization.footer" = "Optional placeholder helper text explaining how you can switch between different organization.";
+"profile.revokeStatus.footer" = "Die Prüf-App wird nach den gescannten Pass auf Annulation durch den Aussteller prüfen";
+"profile.kioskMode.footer" = "iPads unterstützen Kiosk Modus. Dieser Modus verwendet die Kamera auf der Vorderseite um QR Codes zu scannen.";
+"profile.daily" = "Täglich";
+"profile.weekly" = "Wöchentlich";
+"profile.monthly" = "Monatlich";
+"profile.never" = "Nie";
+"profile.resetIssuer.title" = "Aussteller zurücksetzen";
+"profile.resetIssuer.message" = "Möchten Sie den Cache der Aussteller-Daten wirklich zurücksetzen?\nIhre Ausweise werden nicht gelöscht.";
+"profile.resetSchema.action" = "Ja, zurücksetzen";
+"profile.resetSchema.title" = "Schema zurücksetzen";
+"profile.resetSchema.message" = "Möchten Sie den Cache der Schema-Daten wirklich zurücksetzen?";
+"profile.resetMetadata.title" = "Metadaten zurücksetzen";
+"profile.resetMetadata.message" = "Sollen die Metadaten wirklich zurückgesetzt werden?";
+"profile.walletBackup.title" = "Wallet Backup";
+"profile.walletBackup.messageFormat" = "Dateiname: %@\n\nDiese Backup-Datei muss verschlüsselt werden.  Bitte geben Sie ein Passwort ein um das Backup zu schützen.";
+"profile.walletBackup.now" = "Backup starten";
+"profile.walletBackup.failed" = "Backup fehlgeschlagen";
+"profile.walletBackup.failedMessage" = "Die Backup-Datei konnte nicht erstellt werden, da das Passwort ungültig war";
+"profile.footer" = "Digital Health Pass Wallet kann eine Sicherheitskopie Ihres Wallets erstellen und an einen gewünschten Ort senden.\n\nNach Erstellen der Sicherheitskopie können Sie die App verwenden um Ihr Wallet auf einem neuen Gerät wiederherzustellen.";
+"profile.wallet.open" = "Wallet öffnen";
+"profile.pin.change" = "PIN ändern";
+"profile.pin.create" = "PIN erstellen";
+"profile.pin.touchID" = "Touch ID";
+"profile.pin.faceID" = "Face ID";
+"profile.pin" = "PIN";
+"profile.pin.deleteMessage" = "Ihre 4-stellige PIN wird gelöscht.";
+"profile.pin.delete" = "PIN löschen";
+"profile.keygen.title" = "Sicherheitsschlüssel löschen";
+"profile.keygen.message" = "Ein assymetisches Schlüsselpaar besteht aus einem öffentlichen und privaten Schlüssel, welche zusammen generiert werden.  Sie verteilen den öffentlichen Schlüssel frei, halten den privaten Schlüssel jedoch geheim. Das Schlüsselpaar wird zur sicheren Aufbewahrung in einem digitalen Schlüsselbund aufbewahrt.";
+"profile.keygen.placeholder" = "Privates Tag - Optional";
+"profile.keygen.generate" = "Erstellen";
+"profile.cards.deleteAll" = "Möchten Sie wirklich die Zertifikate in Ihrem Wallet löschen?";
+"profile.cards.eraseAll" = "Alle Zertifikate löschen";
+"profile.issuerData.delete" = "Möchten Sie wirklich den Cache der Aussteller-Daten leeren?\nIhre Zertifikate werden dadurch nicht gelöscht.";
+"profile.issuerData.reset" = "Austeller-Daten Cache leeren";
+"profile.schema.reset" = "Möchten Sie wirklich den Cache der Schema-Daten leeren?\nIhre Zertifikate werden dadurch nicht gelöscht.";
+"profile.schema.resetCache" = "Schema Cache leeren";
+"profile.metadata.reset" = "Möchten Sie wirklich den Cache der Metadaten leeren?\nIhre Zertifikate werden dadurch nicht gelöscht.";
+"profile.metadata.resetButton" = "Metadaten Cache leeren";
+"profile.resetFrequency" = "Frequenz";
+"profile.reset.footer0Formant" = "Sie haben zur Zeit %@ Zertifikate in Ihrem Wallet.";
+"profile.reset.footer1Formant" = "Die App legt einige Daten im einem Cache im Hintegrund ab um die Geschwindigkeit der App zu erhöhen.\n\nCache-Grösse: %@";
+"profile.reset.footer2Formant" = "Eine regelmässige automatische Leerung des Caches kann die benötigte App-Grösse verringern.  Dies wird jedoch keine Zertifikate in Ihrem Wallet entfernen.\n\nLetzte automatische Leerung des Caches: %@";
+"profile.untitled" = "Unbenannt";
+"profile.createdFormat" = "ERSTELLT %@";
+
+// Registration
+"reg.failed" = "Registrierung fehlgeschlagen";
+"reg.editOrgCode" = "Organisationscode bearbeiten";
+"reg.editCode" = "Code bearbeiten";
+"reg.exit" = "Beenden";
+"reg.decline" = "Nicht beantworten";
+"reg.confirmation" = "Bitte wählen Sie maximal 3 Optionen von der Liste";
+"reg.select" = "Wählen Sie einen Eintrag";
+"reg.enterValue" = "Geben Sie einen Wert ein";
+"reg.failed.message" = "Etwas ging schief";
+"reg.org.title" = "Registrierung der Organisation";
+"reg.nyi" = "Noch nicht implementiert";
+"reg.retry" = "Nochmals versuchen";
+
+// Reset
+"reset.cache.footer1" = "Die App speichert einige Daten im Hintergrund um die Geschwindigkeit und das Benutzererlebnis der App zu verbessern.\n\nCache-Grösse: %@";
+"reset.cache.footer2" = "Regelmässiges Zurücksetzen des Caches kann die App-Grösse verringern.\n\nLetzter Cache-Reset: %@";
+
+// Restore
+"restore.buttonTitle" = "Wiederherstellen";
+"restore.backup.title" = "Backup wiederherstellen";
+"restore.backup.messageFormat" = "Dateiname: %@\n\n Ein Wallet Backup wurde empfangen, möchten Sie den Wiederherstellungsproyess mit dieser Datei starten? \n\nDiese Aktion wird existierende Zertifikate überschreiben.";
+"restore.wallet.title" = "Wallet wiederherstellen";
+"restore.wallet.messageFormat" = "Dateiname: %@\n\n Diese Backup-Datei ist verschlüsselt. \n\nBitte geben Sie das zugehörige Passwort ein";
+"restore.wallet.message" = "Diese Backup-Datei ist verschlüsselt. Bitte geben Sie das zugehörige Passwort ein";
+"restore.complete.title" = "Wiederherstellung abgeschlossen";
+"restore.complete.message" = "Die Backupdatei wurde erfolgreich geladen.";
+"restore.failed.title" = "Wiederherstellung fehlgeschlagen";
+"restore.failed.messageUnknown" = "Das Backup konnte nicht wiederhergestellt werden.  Ein unbekannter Fehler ist aufgetreten.";
+"restore.failed.messageFormat" = "Das Backup konnte nicht wiederhergestellt werden. %@.";
+
+// Result
+"result.invalidCredential" = "Ungültiges Zertifikat";
+"result.validCredential" = "Gültiges Zertifikat";
+"result.credentialInformation" = "Zertifikatinformation";
+"result.loading" = "Lade...";
+"result.expired" = "Abgelaufen";
+"result.notExpired" = "Nicht abgelaufen";
+"result.expirationVerificationSkipped" = "Prüfung des Ablaufdatums übersprungen";
+"result.validSignature" = "Gültige Signatur";
+"result.invalidSignature" = "Ungültige Signatur";
+"result.signatureVerificationSkipped" = "Prüfung der Signatur übersprungen";
+"result.revoked" = "Annuliert";
+"result.notRevoked" = "Nicht annuliert";
+"result.revokedVerificationSkipped" = "Prüfung der Annulation übersprungen";
+"result.expiredDate" = "ABGELAUFEN";
+"result.expiresDate" = "LÄUFT AB AM";
+"result.issuedFormat" = "AUSGESTELLT AM %@";
+
+// Scan
+"scan.scan.buttonTitle" = "Scanen";
+"scan.settings.buttonTitle" = "Einstellungen";
+"scan.pressScan.buttonTitle" = "Drücken Sie 'Scannen' um die Prüfung des QR Codes zu starten.";
+"scan.scanNotAuthorized" = "Die Prüf-App ist hat keine Berechtigung um auf die Kamera zuzugreifen.\n\nBitte passen Sie die Einstellungen der Prüf-App an.";
+"scan.invalid.title" = "Ungültig";
+"scan.invalid.message" = "Bitte scannen Sie ein gültiges QR Code Zertifikat um es zu prüfen";
+"scan.invalid.message.wallet" = "Bitte scannen Sie ein gültiges QR Code Zertifikat um es zum Wallet hinzuzufügen";
+"scan.credentialValid" = "Zertifikat gültig";
+"scan.credentialInvalid" = "Zeritifikat ungültig";
+"scan.add" = "Zum Wallet hinzufügen";
+"scan.replace" = "Zertifikat ersetzen";
+"scan.verification.errorMessage" = "Das Zertifikat konnte nicht überprüft werden.  Bitte versuchen Sie es nochmals.";
+"scan.verification.success" = "Erfolgreich zum Wallet hinzugefügt";
+
+// Session
+"session.ended" = "Ihre Sitzung wurde beendet. Wir haben Sie zu Ihrer eigenen Sicherheit abgemeldet.";
+
+// Settings
+"settings.environment.title" = "Umgebung";
+"settings.environment.message" = "Die neue Umgebung wurde aufgrund der App-Einstellungen ausgewählt.\nBitte starten Sie die App neu.";
+
+// Terms and Conditions
+"t_c.title" = "Ablehnen und App schliessen";
+"t_c.message" = "Die Benützung der App setzt die Zustimmung zu den Nutzungsbedingungen voraus.";
+
+// Verification Utils
+"verification.credentialExpired" = "Das Zertifikat hat das Ablaufdatum überschritten";
+"verification.invalidSignature.notFound" = "Zertifikateigenschaften wurden nicht gefunden";
+"verification.invalidSignature.keysNotFound" = "Die Schlüssel des Ausstellers des Zertifikats wurden nicht gefunden";
+"verification.invalidSignature.invalidSignatureData" = "Ungültige Zertifikat-Signatur-Daten";
+"verification.invalidSignature.invalidData" = "Ungültige Zertifikat-Signatur";
+"verification.invalidSignature.unsupportedKeys" = "Die Schlüssel des Ausstellers werden nicht unterstützt";
+"verification.invalidSignature.ecSignatureNoMatch" = "EC signature verification failed, no match";
+"verification.credentialRevoke.propertiesNotFound" = "Zertifikateigenschaften nicht gefunden";
+"verification.credentialRevoke.issuerRevoked" = "Zertifikat wurde vom Aussteller annuliert";
+"verification.credentialExpired.missingDate" = "Ablaufdatum fehlt: Prüfung des Ablaufdatums übersprungen";
+"verification.credentialRevoke.skipped" = "Prüfung der Annulation des Zertifikats wurde aufgrund der Einstellungen übersprungen.";
+"verification.successful" = "Erfolgreiche Überprüfung";
+"verification.notExpired" = "Zertifikat nicht abgelaufen";
+"verification.notRevoked" = "Zertifikat nicht annuliert";
+"verification.validSignature" = "Zertifikat-Signatur ungültig";
+"verification.jsonDecodeFailed" = "Dekodierung fehlgeschlagen";
+"verification.invalidKey" = "Ungültiger Schlüssel";
+
+// Wallet
+"wallet.section.cardsFormat" = "Zertifikate (%d)";
+"wallet.section.connectionsFormat" = "Verbindungen (%d)";
+"wallet.decodeError.title" = "Dekodierungsfehler";
+"wallet.discard.title" = "Kontakt entfernen";
+"wallet.discard.message" = "Möchten Sie wirklich diesen Kontakt entfernen?";
+"wallet.discard.yes" = "Ja, entfernen";
+"wallet.discard.no" = "Nein";
+"wallet.verification.title" = "Prüffehler";
+"wallet.verification.message" = "Der Kontakt konnte nicht geprüft werden.";
+"wallet.verification.retry" = "Neu versuchen";
+"wallet.verification.discard.title" = "Kontakt entfernen";
+"wallet.verification.discard.message" = "Möchten Sie wirklich die Prüfung des Kontakts abbrechen und den Kontakt entfernen?";
+"wallet.success" = "Erfolgreich zum Wallet hinzufügen";
+"wallet.cameraAccess.title" = "\"IBM Wallet\" möchte auf Photos zugreifen.";
+"wallet.cameraAccess.message" = "Um Zertifikate und Nachweise hinzuzufügen können QR Codes aus der Photo Library geladen werden.";
+
+//Verifier - ScanViewController
+"ScanView.result.expiredDate" = "ABGELAUFEN";
+"ScanView.result.expiresDate" = "LÄUFT AB AM";
+
+"ScanView.select.organization.title" = "Organisation wählen?";
+"ScanView.select.organization.message" = "Es wurde keine Organisation ausgewählt um ein Zertifikat zu prüfen. Möchten Sie von einer Liste auswählen?";
+"ScanView.select.organization.button" = "Liste zeigen";
+
+"ScanView.organization.expired.title" = "Organisation abgelaufen";
+"ScanView.organization.expired.message1" = "Der ausgewählte Organisations-Code ist abgelaufen.\nBitte scannen Sie einen neuen QR Code, welcher von Ihrer Organisation zur Verfügung gestellt wird.";
+"ScanView.organization.expired.message2" = "Der ausgewählte Organisations-Code ist abgelaufen.\nBitte scannen Sie einen neuen QR Code, welcher von Ihrer Organisation zur Verfügung gestellt wird, oder wählen Sie einen von der Liste.";
+"ScanView.organization.expired.button1" = "Scannen";
+"ScanView.organization.expired.button2" = "Liste zeigen";
+
+"ScanView.no.organization.title" = "Keine Organisation";
+"ScanView.no.organization.message" = "Sie haben keine Organisation ausgewählt um Zertifikate zu verifizieren.\nBitte scannen Sie einen neuen QR Code, welcher von Ihrer Organisation zur Verfügung gestellt wird.";
+
+//Verifier - CameraAccessViewController
+"CameraAccess.cameraAccess.message1" = "Health Pass hat keine Berechtigung um auf die Kamera zuzugreifen.  Bitte erteilen Sie die Berechtigung in den Einstellungen.";
+"CameraAccess.cameraAccess.message2" = "Digital Health Pass Verify benötigt Berechtigungen um auf die Kamera zuzugreifen um QR Codes zu scannen.";
+"CameraAccess.cameraAccess.button1" = "Einstellungen";
+"CameraAccess.cameraAccess.button2" = "OK, ich verstehe";
+
+//Verifier - OrganizationDetailsTableViewController
+"OrganizationDetails.organization.error.title" = "Ungültige Organisation";
+"OrganizationDetails.organization.error.message" = "Der gescannte QR Code ist nicht gültig um Zertifikate zu verifizieren.\nBitte kontaktieren Sie den Administrator";
+"OrganizationDetails.organization.error.message2" = "Die gewählte Organisation ist nicht geeignet um Zertifikate zu überprüfen.\nBitte wenden Sie sich an den Administrator";
+
+"OrganizationDetails.tableView.section.title" = "Kontaktinformationen";
+"OrganizationDetails.organization.selection.helper" = "Optional placeholder helper text explaining how this organization uses scans.";
+"OrganizationDetails.organization.selection.button1" = "Mit Scannen beginnen";
+"OrganizationDetails.organization.selection.button2" = "Weiter scannen";
+
+"OrganizationDetails.discard.organization.title" = "Organisation entfernen";
+"OrganizationDetails.discard.organization.message" = "Sind Sie sicher, dass Sie diese Organisation entfernen möchten?";
+
+
+//Verifier - ProfileTableViewController
+"Profile.currentOrganization.title" = "Meine Organisationen";
+
+//Verifier - OrganizationListTableViewController
+"OrganizationList.header.title1" = "Verfügbare Organisation";
+"OrganizationList.header.title2" = "Abgelaufene Organisation";
+
+"OrganizationList.selected.label" = "Ausgewählt";
+
+// Privacy Statement
+"privacy.statement" = "<p style=\'margin: 0px; font-stretch: normal; font-size: 14px; line-height: normal; font-family: \"IBM Plex Sans\";\'><span style=\"font-size: 18px;\">Datenschutzerkl&auml;rung</span></p>\n<p style=\'margin: 0px; font-stretch: normal; font-size: 14px; line-height: normal; font-family: \"IBM Plex Sans\"; min-height: 18px;\'><span style=\"font-size: 18px;\"><br></span></p>\n<p style=\'margin: 0px 0px 12px; font-stretch: normal; font-size: 14px; line-height: normal; font-family: \"IBM Plex Sans\"; color: rgb(26, 26, 26);\'><span style=\"font-size: 18px;\"><span style=\"letter-spacing: 0.3px;\"><strong>Lesen Sie die Datenschutzrichtlinie von IBM sorgf&auml;ltig, bevor Sie Digital Health Pass Wallet verwenden.</strong></span></span></p>\n<p style=\'margin: 0px 0px 12px; font-stretch: normal; font-size: 14px; line-height: normal; font-family: \"IBM Plex Sans\"; color: rgb(26, 26, 26);\'><span style=\"font-size: 18px;\"><span style=\"letter-spacing: 0.3px;\"><strong>Informationen zu den allgemeinen Datenschutzverfahren von IBM finden Sie in der&nbsp;</strong><a href=\"https://www.ibm.com/privacy\"><span style=\"color: rgb(11, 76, 180);\">IBM Datenschutzrichtlinie</span></a><strong>. &nbsp;Au&szlig;erdem finden Sie nachfolgend eine Zusammenfassung wichtiger Aspekte.</strong></span></span></p>\n<ul>\n    <li style=\'margin: 0px; font-stretch: normal; font-size: 14px; line-height: normal; font-family: \"IBM Plex Sans\";\'><span style=\"font-size: 18px;\">Mit Digital Health Pass Wallet haben Sie die Kontrolle &uuml;ber Ihre Daten.</span></li>\n    <li style=\'margin: 0px; font-stretch: normal; font-size: 14px; line-height: normal; font-family: \"IBM Plex Sans\"; color: rgb(26, 26, 26);\'><span style=\"font-size: 18px;\"><span style=\"letter-spacing: 0.3px;\">Sie k&ouml;nnen einen Gesundheitsberechtigungsnachweis in Form eines QR-Codes von einer ausstellenden Organisation, wie z. B. einem Laboranbieter oder einer Apotheke, empfangen und herunterladen. &nbsp;Der Gesundheitsberechtigungsnachweis wird aus den pers&ouml;nlichen Informationen generiert, deren Verwendung f&uuml;r diesen Zweck Sie zustimmen, wie, z. B. Ihr Name, Geburtsdatum, Kontaktinformationen und Daten zu einem COVID-19-Test oder einer Impfung. Stellen Sie sicher, dass Sie die Richtlinien und Datenschutzbestimmungen einer ausstellenden Organisation lesen und verstehen.</span></span></li>\n    <li style=\'margin: 0px; font-stretch: normal; font-size: 14px; line-height: normal; font-family: \"IBM Plex Sans\";\'><span style=\"font-size: 18px;\">Ihre Berechtigungsnachweise und pers&ouml;nlichen Informationen werden ausschlie&szlig;lich auf Ihrem Mobilger&auml;t gespeichert und werden nur auf Ihre Entscheidung hin geteilt. &nbsp;</span></li>\n    <li style=\'margin: 0px; font-stretch: normal; font-size: 14px; line-height: normal; font-family: \"IBM Plex Sans\";\'><span style=\"font-size: 18px;\">IBM kann Ihr Digital Health Pass Wallet nicht sehen oder darauf zugreifen und speichert keine Ihrer pers&ouml;nlichen Informationen.</span></li>\n    <li style=\'margin: 0px; font-stretch: normal; font-size: 14px; line-height: normal; font-family: \"IBM Plex Sans\";\'><span style=\"font-size: 18px;\">Sie k&ouml;nnen entscheiden, Ihren Berechtigungsnachweis mit einer pr&uuml;fenden Organisation (z. B. Flugzeug, Stadion) zu teilen. Diese Organisation scannt dann den QR-Code, um den Berechtigungsnachweis zu pr&uuml;fen. &nbsp;Sie k&ouml;nnen den Berechtigungsnachweis auch auf Papier drucken, statt Ihr Mobilger&auml;t zu verwenden. &nbsp;M&ouml;glicherweise m&uuml;ssen Besucher bestimmte Anforderungen von pr&uuml;fenden Organisationen zum Nachweisen des Gesundheitsstatus erf&uuml;llen, damit sie die Lokation betreten d&uuml;rfen. &nbsp;Stellen Sie sicher, dass Sie auch deren Richtlinien und Datenschutzverfahren verstehen</span><strong><span style=\"font-size: 18px;\">. </span></strong></li>\n</ul>";
+
+"terms.conditions.wallet" = "VERTRAGSBEDINGUNGEN – Digital Health Pass Wallet\n\nDiese Lizenz kommt ausschließlich zwischen Ihnen und IBM zustande. IBM trägt die alleinige Verantwortung für die App und ihren Inhalt.\n\nApps, die Sie von IBM unter diesen Vertragsbedingungen erhalten, werden lizenziert, nicht verkauft. Durch die Installation und Nutzung dieser App stimmen Sie diesen Bedingungen zu. Wenn Sie diese Bedingungen im Auftrag eines anderen Lizenznehmers akzeptieren, versichern und gewährleisten Sie, dass Sie berechtigt sind, diesen Lizenznehmer zur Einhaltung dieser Bedingungen zu verpflichten. Wenn Sie diesen Bedingungen nicht zustimmen, dürfen Sie die App nicht verwenden und müssen sie von Ihrem Gerät entfernen.\n\nDigital Health Pass Wallet dient zum Empfangen und Aufbewahren von Berechtigungsnachweisen (z. B. Testergebnisse, Zertifizierungen usw.), die Sie von verschiedenen Ausstellern erhalten. Sie können entscheiden, ob Sie diese Berechtigungsnachweise an verschiedene Organisationen weitergeben, die diese anfordern. Die Kontrolle über diese Berechtigungsnachweise liegt bei Ihnen: sie werden nur mit Ihrer Genehmigung weitergegeben. \n\nBegriffsbestimmungen \n„Berechtigte Nutzung“ – Verwendung auf einem einzigen Mobilgerät mit einem geeigneten Betriebssystem. \n„IBM“ – International Business Machines Corporation oder eines ihrer verbundenen Unternehmen. \n„App“ – die zugehörige Software, einschließlich des Originals und aller vollständigen Kopien oder Teilkopien, sowie \nmaschinenlesbare Instruktionen und Daten, 2) Komponenten, Dateien und Module, 3) audiovisuelle Inhalte (z. B. Abbildungen, Texte, Aufzeichnungen oder Bilder) und zugehöriges Lizenzmaterial (z. B. Schlüssel und Dokumentation). \n\nLizenzerteilung\nDie App ist Eigentum von IBM oder eines IBM Lieferanten, sie ist urheberrechtlich geschützt und wird lizenziert, nicht verkauft. IBM erteilt Ihnen eine nicht ausschließliche Lizenz zur Nutzung der App auf einem einzigen Gerät wie angegeben und zum Erstellen einer Sicherungskopie, sofern\nSie die App rechtmäßig bezogen haben und diese Vertragsbedingungen einhalten; \nsicherstellen, dass jeder Benutzer die App nur für Ihre Geschäftszwecke nutzt und diese Vertragsbedingungen einhält;\nSie sich verpflichten, 1) die App nicht abweichend von diesen Vertragsbedingungen zu nutzen, zu kopieren, zu ändern oder weiterzugeben; 2) die App nicht rückumzuwandeln (reverse assemble, reverse compile) oder in anderer Weise zu übersetzen, soweit nicht durch gesetzliche Regelung etwas anderes zwingend vorgeschrieben ist; 3) die Komponenten, Dateien, Module, audiovisuellen Inhalte und das zugehörige Lizenzmaterial der App nicht ohne die App zu nutzen; oder 4) die App nicht weiterzuverteilen, in Unterlizenz zu vergeben, zu vermieten oder zu verleasen; und \nSie diese App, wenn Sie sie als Unterstützende App beziehen, nur zur Unterstützung des Hauptprogramms und unter Einhaltung sämtlicher Einschränkungen in der Lizenz für das Hauptprogramm nutzen. In diesem Unterpunkt „d“ bezeichnet eine „Unterstützende App“ eine App, die Teil eines anderen IBM Programms („Hauptprogramm“) ist oder in Verbindung mit diesem Programm funktioniert und als solche in der zugehörigen Dokumentation bezeichnet wird; und Sie alle Nutzungsregeln einhalten, die in den Servicebedingungen des Hauptprogramms festgelegt sind. \n\nDie App ist nicht übertragbar, außer an Konten, die dem Käufer im Rahmen eines Volume-Purchase- oder Family-Sharing-Programms zugeordnet sind.\n\nExterne Services\nDie App kann den Zugriff auf Services und Websites von IBM und/oder Drittanbietern (gemeinsam als \"Externe Services\" bezeichnet) ermöglichen. Sie erklären sich damit einverstanden, Externe Services auf eigenes Risiko zu verwenden. IBM ist nicht für die Prüfung oder Bewertung des Inhalts oder der Richtigkeit Externer Services von Drittanbietern verantwortlich und übernimmt keine Haftung für solche Externen Services von Drittanbietern. Von einer App oder einem Externen Service angezeigte Daten, wie z. B. finanzielle, medizinische Informationen und standortbezogene Informationen, dienen ausschließlich zur allgemeinen Information und werden von IBM oder IBM Beauftragten nicht garantiert. Sie werden die Externen Services nicht in einer Weise nutzen, die mit diesen Vertragsbedingungen nicht vereinbar ist oder die gegen die geistigen Eigentumsrechte von IBM oder einem anderen Anbieter verstößt. Sie erklären sich damit einverstanden, die Externen Services nicht zu verwenden, um Personen oder Organisationen zu belästigen, zu beleidigen, zu stalken, zu bedrohen oder zu verleumden, und dass IBM für eine solche Nutzung nicht verantwortlich ist. Soweit Sie sich für die Nutzung Externer Services entscheiden, tragen Sie die alleinige Verantwortung für die Einhaltung aller anwendbaren Gesetze. IBM behält sich das Recht vor, Externe Services jederzeit ohne Vorankündigung oder Verpflichtungen gegenüber Ihnen zu ändern, auszusetzen, zu entfernen, zu inaktivieren oder Zugriffsbeschränkungen oder -begrenzungen für Externe Services aufzuerlegen. \n\nZustimmung zur Nutzung von Daten: Sie erklären sich damit einverstanden, dass IBM technische Daten und zugehörige Informationen - darunter technische Informationen zu Ihrem Gerät, Ihrer System- und Anwendungssoftware sowie Ihren Peripheriegeräten - erfassen kann. Diese Daten werden regelmäßig erfasst, um die Bereitstellung von Software-Updates, Produktunterstützung und anderen Services (falls vorgesehen) im Zusammenhang mit der App zu ermöglichen. IBM kann diese Informationen in anonymisierter Form für die Verbesserung von IBM Produkten oder die Bereitstellung von Services oder Technologien verwenden.\n\nUpdates, Fixes, Patches und sonstige Wartungsmaßnahmen\nSofern nicht an anderer Stelle schriftlich festgelegt, erfolgt die Wartung ausschließlich durch und nach Ermessen von IBM. Der Distributor hat keine Verpflichtung zu Wartung und/oder Unterstützung.\n\nWenn Sie ein Update, einen Fix oder Patch für eine App erhalten, akzeptieren Sie alle zusätzlichen oder abweichenden Bedingungen für dieses Update, diesen Fix oder Patch, die in den zugehörigen Vertragsbedingungen angegeben sind. Werden keine zusätzlichen oder abweichenden Bedingungen bereitgestellt, unterliegt das Update, der Fix oder Patch ausschließlich diesen Vertragsbedingungen. Wird die App durch ein Update ersetzt, verpflichten Sie sich, die Nutzung der ersetzten App unverzüglich einzustellen.\n\nLaufzeit und Kündigung – Diese Vertragsbedingungen bleiben bis zur Kündigung wirksam. IBM kann Ihre Lizenz kündigen, wenn Sie diese Vertragsbedingungen nicht einhalten. Wird die Lizenz von einer der Vertragsparteien aus irgendeinem Grund gekündigt, erklären Sie sich damit einverstanden, die Nutzung der App unverzüglich einzustellen und alle Kopien der App zu vernichten.\n\nGeld-zurück-Garantie\nWenn Sie aus irgendeinem Grund mit der App nicht zufrieden sind, können Sie die Lizenz kündigen und sich den für die App gegebenenfalls gezahlten Betrag zurückerstatten lassen, sofern Sie IBM die Vernichtung der App innerhalb von 30 Tagen nach dem Download nachweisen.\n\nKeine Gewährleistung\nVorbehaltlich einer gesetzlichen Gewährleistung, die nicht ausgeschlossen werden kann, übernimmt IBM weder ausdrücklich noch stillschweigend irgendeine Art von Gewährleistung im Hinblick auf die App oder die Unterstützung, sofern verfügbar. Dies gilt insbesondere für die stillschweigenden Gewährleistungen in Bezug auf die Handelsüblichkeit, zufriedenstellende Qualität, die Verwendungsfähigkeit für einen bestimmten Zweck, Rechtsmängel oder die Freiheit von Rechten Dritter, ohne auf diese beschränkt zu sein. Die Gewährleistungsausschlüsse und sonstigen Ausschlüsse in diesem Abschnitt 8 gelten auch für die App-Entwickler von IBM. IBM leistet nur Unterstützung, wenn dies ausdrücklich angegeben ist. Ist dies der Fall, unterliegt die IBM Unterstützung den Gewährleistungsausschlüssen und sonstigen Ausschlüssen in diesem Abschnitt 8. \n\nFalls Sie der Ansicht sind, dass die App nicht der gesetzlichen Gewährleistung entspricht, besteht Ihr einziger Ersatzanspruch darin, IBM zu benachrichtigen und sich den Kaufpreis der App zurückerstatten zu lassen. Alle anderen Schäden, Verbindlichkeiten, Kosten oder Auslagen, die auf die Nichteinhaltung der Gewährleistung zurückzuführen sind, liegen in Ihrer Verantwortung.\n\nHaftungsbegrenzung\nDie Beschränkungen und Ausschlüsse in diesem Abschnitt 9 (Haftungsbegrenzung) gelten in vollem Umfang, soweit nicht durch gesetzliche Regelung etwas anderes zwingend vorgesehen ist.\n\nFälle, in denen IBM haftbar gemacht werden kann\nSoweit IBM Ihnen gegenüber schadenersatzpflichtig ist, haben Sie Anspruch auf Entschädigung durch IBM. Unabhängig vom Rechtsgrund, auf dem der an IBM gerichtete Schadenersatzanspruch beruht (einschließlich Vertragsverletzung, Fahrlässigkeit, unrichtiger Angaben oder anderer Ansprüche aus dem Vertrag oder aufgrund unerlaubter Handlungen), ist die Gesamthaftung von IBM für sämtliche Ansprüche in Bezug auf jede App oder andere Ansprüche, die aus diesen Vertragsbedingungen entstehen, begrenzt auf die Gebühren (maximal zwölf Monatsgebühren, wenn die Gebühren für die App nach einer festen Laufzeit berechnet werden), die Sie für die App bezahlt haben, die Gegenstand des Rechtsanspruches ist. Wenn keine Gebühren für die App anfallen, beträgt die maximale Haftung 50 US-Dollar. Diese Haftungsbegrenzung gilt auch für alle App-Entwickler, Distributoren und Lieferanten von IBM. Dies ist der maximale Betrag, für den IBM, ihre App-Entwickler, Distributoren und Lieferanten gemeinsam haftbar gemacht werden können.\n\nFälle, in denen IBM nicht haftbar ist \nSoweit nach geltendem Recht nicht ausgeschlossen, sind IBM, ihre App-Entwickler, Distributoren oder Lieferanten unter keinen Umständen in folgenden Fällen haftbar, auch wenn sie auf die Möglichkeit solcher Schäden hingewiesen wurden: \nVerlust oder Beschädigung von Daten;\nPersonenschäden; \nmittelbare/indirekte Schäden oder wirtschaftliche Folgeschäden; oder \nentgangenen Gewinn, entgangene Geschäftsabschlüsse, entgangene Umsätze, Schädigung des guten Rufs oder Verlust erwarteter Einsparungen. \nSie bestätigen, dass IBM, ihre App-Entwickler, Distributoren und/oder Lieferanten für etwaige sonstige Ansprüche nicht haftbar sind, sofern in Abschnitt 8 nicht ausdrücklich angegeben. \nDie folgenden Beträge fallen nicht unter die vorstehenden Haftungsbegrenzungen und -ausschlüsse: i) Ansprüche im Zusammenhang mit Personenschäden (einschließlich Tod), ii) Schäden, die vorsätzlich oder grob fahrlässig verursacht wurden, und iii) Ansprüche, die im Zusammenhang mit einer von IBM übernommenen Garantie stehen.\n\nHinweise von Drittanbietern\nDie App kann Drittanbietercode enthalten, für den IBM und nicht der Drittanbieter Ihnen eine Lizenz unter diesen Vertragsbedingungen erteilt. Falls Hinweise zum Drittanbietercode („Third Party Notices“) mitgeliefert werden, geschieht dies nur zu Informationszwecken. Diese Hinweise befinden sich in den NOTICES-Dateien der App.\n\nAllgemeines\nGesetzlich unabdingbare Rechte haben Vorrang vor diesen Vertragsbedingungen. \nFalls eine der Bestimmungen dieser Vertragsbedingungen im Rahmen des geltenden Rechts ungültig oder undurchführbar ist, sind die übrigen Bestimmungen davon nicht betroffen und gelten weiterhin in vollem Umfang. \nSie verpflichten sich zur Einhaltung aller anwendbaren Export- und Importgesetze und -bestimmungen, einschließlich der US-Embargo- und Sanktionsbestimmungen sowie des Exportverbots für bestimmte Verwendungszwecke oder an bestimmte Personen. Sie gewährleisten, dass Sie nicht in einem Land ansässig sind, gegen das die US-Regierung ein Embargo verhängt hat oder das von der US-Regierung als ein den „Terrorismus unterstützendes“ Land eingestuft wurde, und dass Sie in keiner der von der US-Regierung geführten Ausschluss- oder Beschränkungslisten genannt sind. \nSie sind damit einverstanden, dass IBM (ihre Rechtsnachfolger und Zessionare, Vertragspartner und IBM Business Partner) Ihre geschäftsbezogenen Kontaktinformationen in allen Ländern, in denen IBM geschäftlich tätig ist, in Verbindung mit IBM Produkten und Services oder zur Förderung der Geschäftsbeziehung zwischen IBM und Ihnen speichern und nutzen darf. \nSoweit nicht durch gesetzliche Regelung etwas anderes zwingend vorgesehen ist, kommen beide Vertragsparteien überein, 1) keine rechtlichen Schritte im Zusammenhang mit den Vertragsbedingungen später als zwei Jahre nach Entstehen des Anspruches einzuleiten und 2) dass nach Ablauf dieser Frist alle Ansprüche und alle damit in Zusammenhang stehenden Rechte verjähren. \nWeder Sie noch IBM sind für die Nichterfüllung von vertraglichen Verpflichtungen aus Gründen haftbar, die von den Vertragsparteien nicht beeinflusst werden können. \nSie und IBM bestätigen, dass der Distributor dieser App ein Drittbegünstigter dieser Vertragsbedingungen mit allen gesetzlichen Rechten eines solchen Status ist. Mit Ausnahme der vorstehenden Aussage ergeben sich durch diese Vertragsbedingungen weder Rechte noch Ansprüche zugunsten Dritter und IBM ist nicht haftbar für etwaige Ansprüche Dritter gegen Sie.\nDie Lizenzbedingungen und Freistellungsregelungen in Ihren anderen Vereinbarungen mit IBM (z. B. der IBM Kundenvereinbarung) gelten nicht für App-Lizenzen, die im Rahmen dieser Vertragsbedingungen erteilt werden. Keine der Bestimmungen dieser Vertragsbedingungen hat Auswirkungen auf die Bedingungen einer Vereinbarung zwischen Ihnen und einer Drittpartei. \nSie dürfen die App nur in Übereinstimmung mit den US-amerikanischen Gesetzen und den Gesetzen des Landes, in dem die App erworben wurde, nutzen, exportieren oder reexportieren. Insbesondere, aber ohne Beschränkung darauf, darf die App nicht (a) in Länder, gegen die die US-Regierung ein Embargo verhängt hat, oder (b) an Personen, die in der Specially Designated Nationals List des US-Finanzministeriums oder in der Denied Persons List oder der Entity List des US-Wirtschaftsministeriums aufgeführt sind, exportiert oder reexportiert werden. Durch die Nutzung der App gewährleisten Sie, dass Sie nicht in einem dieser Länder ansässig sind oder in einer dieser Listen aufgeführt sind. Sie erklären sich ferner damit einverstanden, dass Sie diese Produkte nicht für Zwecke verwenden, die durch US-amerikanische Gesetze verboten sind, einschließlich unter anderem Entwicklung, Konstruktion, Herstellung oder Produktion von Nuklearwaffen, Flugkörpern oder chemischen oder biologischen Waffen; und\ndie App und die zugehörige Dokumentation sind „kommerzielle Güter“ (Commercial Items) entsprechend der Definition dieses Begriffs in 48 C.F.R. §2.101, bestehend aus „kommerzieller Computer-Software“ (Commercial Computer Software) und „Dokumentation für kommerzielle Computer-Software“ (Commercial Computer Software Documentation) gemäß der Verwendung dieser Begriffe in 48 C.F.R. §12.212 oder 48 C.F.R. §227.7202, sofern zutreffend. In Übereinstimmung mit 48 C.F.R. §12.212 oder 48 C.F.R. §227.7202-1 bis 227.7202-4, sofern zutreffend, werden die kommerzielle Computer-Software und die Dokumentation der kommerziellen Computer-Software für Endbenutzer der US-Regierung (a) nur als kommerzielle Güter und (b) ausschließlich mit den Rechten lizenziert, die allen anderen Endbenutzern gemäß den hierin enthaltenen Bedingungen erteilt werden. \nNicht veröffentlichte Rechte bleiben nach den Urheberrechtsgesetzen der Vereinigten Staaten vorbehalten.\n\nGeltungsbereich und geltendes Recht\nBeide Vertragsparteien sind damit einverstanden, dass die Gesetze des Landes zur Anwendung kommen, in dem die App erworben wurde, um ihre jeweiligen Rechte, Pflichten und Verpflichtungen, die sich aus dem Inhalt dieser Vertragsbedingungen ergeben oder in irgendeiner Weise damit in Zusammenhang stehen, zu regeln, zu interpretieren und durchzuführen, ungeachtet unterschiedlicher Rechtsgrundlagen. \n\nDie Vertragskonvention der Vereinten Nationen für den internationalen Warenverkauf kommt nicht zur Anwendung.\n\nAlle Rechte, Pflichten und Verpflichtungen unterliegen der Rechtsprechung des Landes, in dem Sie die App-Lizenz erworben haben.\n\nV20191205";
+
+"terms.conditions.verifier" = "VERTRAGSBEDINGUNGEN –Digital Health Pass Verify\n\nDiese Lizenz kommt ausschließlich zwischen Ihnen und IBM zustande. IBM trägt die alleinige Verantwortung für die App und ihren Inhalt.\n\nApps, die Sie von IBM unter diesen Vertragsbedingungen erhalten, werden lizenziert, nicht verkauft. Durch die Installation und Nutzung dieser App stimmen Sie diesen Bedingungen zu. Wenn Sie diese Bedingungen im Auftrag eines anderen Lizenznehmers akzeptieren, versichern und gewährleisten Sie, dass Sie berechtigt sind, diesen Lizenznehmer zur Einhaltung dieser Bedingungen zu verpflichten. Wenn Sie diesen Bedingungen nicht zustimmen, dürfen Sie die App nicht verwenden und müssen sie von Ihrem Gerät entfernen.\n\nDie mobile App Digital Health Pass Verify dient zum Empfangen von Berechtigungsnachweisen von Personen, die Digital Health Pass Wallet verwenden, sodass Sie überprüfen können, ob die Berechtigungsnachweise der Person Ihren Anforderungen entsprechen. \n\nMit dem aktuellen Design speichert diese App die Berechtigungsnachweise nicht für eine spätere Verwendung. \n\n\nBegriffsbestimmungen \n„Berechtigte Nutzung“ – Verwendung auf einem einzigen Mobilgerät mit einem geeigneten Betriebssystem. \n„IBM“ – International Business Machines Corporation oder eines ihrer verbundenen Unternehmen. \n„App“ – die zugehörige Software, einschließlich des Originals und aller vollständigen Kopien oder Teilkopien, sowie \nmaschinenlesbare Instruktionen und Daten, 2) Komponenten, Dateien und Module, 3) audiovisuelle Inhalte (z. B. Abbildungen, Texte, Aufzeichnungen oder Bilder) und zugehöriges Lizenzmaterial (z. B. Schlüssel und Dokumentation). \n\nLizenzerteilung\nDie App ist Eigentum von IBM oder eines IBM Lieferanten, sie ist urheberrechtlich geschützt und wird lizenziert, nicht verkauft. IBM erteilt Ihnen eine nicht ausschließliche Lizenz zur Nutzung der App auf einem einzigen Gerät wie angegeben und zum Erstellen einer Sicherungskopie, sofern\nSie die App rechtmäßig bezogen haben und diese Vertragsbedingungen einhalten; \nsicherstellen, dass jeder Benutzer die App nur für Ihre Geschäftszwecke nutzt und diese Vertragsbedingungen einhält; \nSie sich verpflichten, 1) die App nicht abweichend von diesen Vertragsbedingungen zu nutzen, zu kopieren, zu ändern oder weiterzugeben; 2) die App nicht rückumzuwandeln (reverse assemble, reverse compile) oder in anderer Weise zu übersetzen, soweit nicht durch gesetzliche Regelung etwas anderes zwingend vorgeschrieben ist; 3) die Komponenten, Dateien, Module, audiovisuellen Inhalte und das zugehörige Lizenzmaterial der App nicht ohne die App zu nutzen; oder 4) die App nicht weiterzuverteilen, in Unterlizenz zu vergeben, zu vermieten oder zu verleasen; und \nSie diese App, wenn Sie sie als Unterstützende App beziehen, nur zur Unterstützung des Hauptprogramms und unter Einhaltung sämtlicher Einschränkungen in der Lizenz für das Hauptprogramm nutzen. In diesem Unterpunkt „d“ bezeichnet eine „Unterstützende App“ eine App, die Teil eines anderen IBM Programms („Hauptprogramm“) ist oder in Verbindung mit diesem Programm funktioniert und als solche in der zugehörigen Dokumentation bezeichnet wird; und Sie alle Nutzungsregeln einhalten, die in den Servicebedingungen des Hauptprogramms festgelegt sind. \n\nDie App ist nicht übertragbar, außer an Konten, die dem Käufer im Rahmen eines Volume-Purchase- oder Family-Sharing-Programms zugeordnet sind. \n\nExterne Services\nDie App kann den Zugriff auf Services und Websites von IBM und/oder Drittanbietern (gemeinsam als \"Externe Services\" bezeichnet) ermöglichen. Sie erklären sich damit einverstanden, Externe Services auf eigenes Risiko zu verwenden. IBM ist nicht für die Prüfung oder Bewertung des Inhalts oder der Richtigkeit Externer Services von Drittanbietern verantwortlich und übernimmt keine Haftung für solche Externen Services von Drittanbietern. Von einer App oder einem Externen Service angezeigte Daten, wie z. B. finanzielle, medizinische Informationen und standortbezogene Informationen, dienen ausschließlich zur allgemeinen Information und werden von IBM oder IBM Beauftragten nicht garantiert. Sie werden die Externen Services nicht in einer Weise nutzen, die mit diesen Vertragsbedingungen nicht vereinbar ist oder die gegen die geistigen Eigentumsrechte von IBM oder einem anderen Anbieter verstößt. Sie erklären sich damit einverstanden, die Externen Services nicht zu verwenden, um Personen oder Organisationen zu belästigen, zu beleidigen, zu stalken, zu bedrohen oder zu verleumden, und dass IBM für eine solche Nutzung nicht verantwortlich ist. Soweit Sie sich für die Nutzung Externer Services entscheiden, tragen Sie die alleinige Verantwortung für die Einhaltung aller anwendbaren Gesetze. IBM behält sich das Recht vor, Externe Services jederzeit ohne Vorankündigung oder Verpflichtungen gegenüber Ihnen zu ändern, auszusetzen, zu entfernen, zu inaktivieren oder Zugriffsbeschränkungen oder -begrenzungen für Externe Services aufzuerlegen. \n\nZustimmung zur Nutzung von Daten: Sie erklären sich damit einverstanden, dass IBM technische Daten und zugehörige Informationen - darunter technische Informationen zu Ihrem Gerät, Ihrer System- und Anwendungssoftware sowie Ihren Peripheriegeräten - erfassen kann. Diese Daten werden regelmäßig erfasst, um die Bereitstellung von Software-Updates, Produktunterstützung und anderen Services (falls vorgesehen) im Zusammenhang mit der App zu ermöglichen. IBM kann diese Informationen in anonymisierter Form für die Verbesserung von IBM Produkten oder die Bereitstellung von Services oder Technologien verwenden.\n\nUpdates, Fixes, Patches und sonstige Wartungsmaßnahmen\nSofern nicht an anderer Stelle schriftlich festgelegt, erfolgt die Wartung ausschließlich durch und nach Ermessen von IBM. Der Distributor hat keine Verpflichtung zu Wartung und/oder Unterstützung.\n\nWenn Sie ein Update, einen Fix oder Patch für eine App erhalten, akzeptieren Sie alle zusätzlichen oder abweichenden Bedingungen für dieses Update, diesen Fix oder Patch, die in den zugehörigen Vertragsbedingungen angegeben sind. Werden keine zusätzlichen oder abweichenden Bedingungen bereitgestellt, unterliegt das Update, der Fix oder Patch ausschließlich diesen Vertragsbedingungen. Wird die App durch ein Update ersetzt, verpflichten Sie sich, die Nutzung der ersetzten App unverzüglich einzustellen.\n\nLaufzeit und Kündigung – Diese Vertragsbedingungen bleiben bis zur Kündigung wirksam. IBM kann Ihre Lizenz kündigen, wenn Sie diese Vertragsbedingungen nicht einhalten. Wird die Lizenz von einer der Vertragsparteien aus irgendeinem Grund gekündigt, erklären Sie sich damit einverstanden, die Nutzung der App unverzüglich einzustellen und alle Kopien der App zu vernichten.\n\nGeld-zurück-Garantie\nWenn Sie aus irgendeinem Grund mit der App nicht zufrieden sind, können Sie die Lizenz kündigen und sich den für die App gegebenenfalls gezahlten Betrag zurückerstatten lassen, sofern Sie IBM die Vernichtung der App innerhalb von 30 Tagen nach dem Download nachweisen. \n\nKeine Gewährleistung\nVorbehaltlich einer gesetzlichen Gewährleistung, die nicht ausgeschlossen werden kann, übernimmt IBM weder ausdrücklich noch stillschweigend irgendeine Art von Gewährleistung im Hinblick auf die App oder die Unterstützung, sofern verfügbar. Dies gilt insbesondere für die stillschweigenden Gewährleistungen in Bezug auf die Handelsüblichkeit, zufriedenstellende Qualität, die Verwendungsfähigkeit für einen bestimmten Zweck, Rechtsmängel oder die Freiheit von Rechten Dritter, ohne auf diese beschränkt zu sein. Die Gewährleistungsausschlüsse und sonstigen Ausschlüsse in diesem Abschnitt 8 gelten auch für die App-Entwickler von IBM. IBM leistet nur Unterstützung, wenn dies ausdrücklich angegeben ist. Ist dies der Fall, unterliegt die IBM Unterstützung den Gewährleistungsausschlüssen und sonstigen Ausschlüssen in diesem Abschnitt 8. \n\nFalls Sie der Ansicht sind, dass die App nicht der gesetzlichen Gewährleistung entspricht, besteht Ihr einziger Ersatzanspruch darin, IBM zu benachrichtigen und sich den Kaufpreis der App zurückerstatten zu lassen. Alle anderen Schäden, Verbindlichkeiten, Kosten oder Auslagen, die auf die Nichteinhaltung der Gewährleistung zurückzuführen sind, liegen in Ihrer Verantwortung. \n\nHaftungsbegrenzung\nDie Beschränkungen und Ausschlüsse in diesem Abschnitt 9 (Haftungsbegrenzung) gelten in vollem Umfang, soweit nicht durch gesetzliche Regelung etwas anderes zwingend vorgesehen ist.\n\nFälle, in denen IBM haftbar gemacht werden kann\nSoweit IBM Ihnen gegenüber schadenersatzpflichtig ist, haben Sie Anspruch auf Entschädigung durch IBM. Unabhängig vom Rechtsgrund, auf dem der an IBM gerichtete Schadenersatzanspruch beruht (einschließlich Vertragsverletzung, Fahrlässigkeit, unrichtiger Angaben oder anderer Ansprüche aus dem Vertrag oder aufgrund unerlaubter Handlungen), ist die Gesamthaftung von IBM für sämtliche Ansprüche in Bezug auf jede App oder andere Ansprüche, die aus diesen Vertragsbedingungen entstehen, begrenzt auf die Gebühren (maximal zwölf Monatsgebühren, wenn die Gebühren für die App nach einer festen Laufzeit berechnet werden), die Sie für die App bezahlt haben, die Gegenstand des Rechtsanspruches ist. Wenn keine Gebühren für die App anfallen, beträgt die maximale Haftung 50 US-Dollar. Diese Haftungsbegrenzung gilt auch für alle App-Entwickler, Distributoren und Lieferanten von IBM. Dies ist der maximale Betrag, für den IBM, ihre App-Entwickler, Distributoren und Lieferanten gemeinsam haftbar gemacht werden können. \n\nFälle, in denen IBM nicht haftbar ist \nSoweit nach geltendem Recht nicht ausgeschlossen, sind IBM, ihre App-Entwickler, Distributoren oder Lieferanten unter keinen Umständen in folgenden Fällen haftbar, auch wenn sie auf die Möglichkeit solcher Schäden hingewiesen wurden: \nVerlust oder Beschädigung von Daten;\nPersonenschäden; \nmittelbare/indirekte Schäden oder wirtschaftliche Folgeschäden; oder \nentgangenen Gewinn, entgangene Geschäftsabschlüsse, entgangene Umsätze, Schädigung des guten Rufs oder Verlust erwarteter Einsparungen. \nSie bestätigen, dass IBM, ihre App-Entwickler, Distributoren und/oder Lieferanten für etwaige sonstige Ansprüche nicht haftbar sind, sofern in Abschnitt 8 nicht ausdrücklich angegeben. \nDie folgenden Beträge fallen nicht unter die vorstehenden Haftungsbegrenzungen und -ausschlüsse: i) Ansprüche im Zusammenhang mit Personenschäden (einschließlich Tod), ii) Schäden, die vorsätzlich oder grob fahrlässig verursacht wurden, und iii) Ansprüche, die im Zusammenhang mit einer von IBM übernommenen Garantie stehen.\n\nHinweise von Drittanbietern\nDie App kann Drittanbietercode enthalten, für den IBM und nicht der Drittanbieter Ihnen eine Lizenz unter diesen Vertragsbedingungen erteilt. Falls Hinweise zum Drittanbietercode („Third Party Notices“) mitgeliefert werden, geschieht dies nur zu Informationszwecken. Diese Hinweise befinden sich in den NOTICES-Dateien der App. \n\nAllgemeines\nGesetzlich unabdingbare Rechte haben Vorrang vor diesen Vertragsbedingungen. \nFalls eine der Bestimmungen dieser Vertragsbedingungen im Rahmen des geltenden Rechts ungültig oder undurchführbar ist, sind die übrigen Bestimmungen davon nicht betroffen und gelten weiterhin in vollem Umfang. \nSie verpflichten sich zur Einhaltung aller anwendbaren Export- und Importgesetze und -bestimmungen, einschließlich der US-Embargo- und Sanktionsbestimmungen sowie des Exportverbots für bestimmte Verwendungszwecke oder an bestimmte Personen. Sie gewährleisten, dass Sie nicht in einem Land ansässig sind, gegen das die US-Regierung ein Embargo verhängt hat oder das von der US-Regierung als ein den „Terrorismus unterstützendes“ Land eingestuft wurde, und dass Sie in keiner der von der US-Regierung geführten Ausschluss- oder Beschränkungslisten genannt sind. \nSie sind damit einverstanden, dass IBM (ihre Rechtsnachfolger und Zessionare, Vertragspartner und IBM Business Partner) Ihre geschäftsbezogenen Kontaktinformationen in allen Ländern, in denen IBM geschäftlich tätig ist, in Verbindung mit IBM Produkten und Services oder zur Förderung der Geschäftsbeziehung zwischen IBM und Ihnen speichern und nutzen darf. \nSoweit nicht durch gesetzliche Regelung etwas anderes zwingend vorgesehen ist, kommen beide Vertragsparteien überein, 1) keine rechtlichen Schritte im Zusammenhang mit den Vertragsbedingungen später als zwei Jahre nach Entstehen des Anspruches einzuleiten und 2) dass nach Ablauf dieser Frist alle Ansprüche und alle damit in Zusammenhang stehenden Rechte verjähren. \nWeder Sie noch IBM sind für die Nichterfüllung von vertraglichen Verpflichtungen aus Gründen haftbar, die von den Vertragsparteien nicht beeinflusst werden können. \nSie und IBM bestätigen, dass der Distributor dieser App ein Drittbegünstigter dieser Vertragsbedingungen mit allen gesetzlichen Rechten eines solchen Status ist. Mit Ausnahme der vorstehenden Aussage ergeben sich durch diese Vertragsbedingungen weder Rechte noch Ansprüche zugunsten Dritter und IBM ist nicht haftbar für etwaige Ansprüche Dritter gegen Sie. \nDie Lizenzbedingungen und Freistellungsregelungen in Ihren anderen Vereinbarungen mit IBM (z. B. der IBM Kundenvereinbarung) gelten nicht für App-Lizenzen, die im Rahmen dieser Vertragsbedingungen erteilt werden. Keine der Bestimmungen dieser Vertragsbedingungen hat Auswirkungen auf die Bedingungen einer Vereinbarung zwischen Ihnen und einer Drittpartei. \nSie dürfen die App nur in Übereinstimmung mit den US-amerikanischen Gesetzen und den Gesetzen des Landes, in dem die App erworben wurde, nutzen, exportieren oder reexportieren. Insbesondere, aber ohne Beschränkung darauf, darf die App nicht (a) in Länder, gegen die die US-Regierung ein Embargo verhängt hat, oder (b) an Personen, die in der Specially Designated Nationals List des US-Finanzministeriums oder in der Denied Persons List oder der Entity List des US-Wirtschaftsministeriums aufgeführt sind, exportiert oder reexportiert werden. Durch die Nutzung der App gewährleisten Sie, dass Sie nicht in einem dieser Länder ansässig sind oder in einer dieser Listen aufgeführt sind. Sie erklären sich ferner damit einverstanden, dass Sie diese Produkte nicht für Zwecke verwenden, die durch US-amerikanische Gesetze verboten sind, einschließlich unter anderem Entwicklung, Konstruktion, Herstellung oder Produktion von Nuklearwaffen, Flugkörpern oder chemischen oder biologischen Waffen; und\ndie App und die zugehörige Dokumentation sind „kommerzielle Güter“ (Commercial Items) entsprechend der Definition dieses Begriffs in 48 C.F.R. §2.101, bestehend aus „kommerzieller Computer-Software“ (Commercial Computer Software) und „Dokumentation für kommerzielle Computer-Software“ (Commercial Computer Software Documentation) gemäß der Verwendung dieser Begriffe in 48 C.F.R. §12.212 oder 48 C.F.R. §227.7202, sofern zutreffend. In Übereinstimmung mit 48 C.F.R. §12.212 oder 48 C.F.R. §227.7202-1 bis 227.7202-4, sofern zutreffend, werden die kommerzielle Computer-Software und die Dokumentation der kommerziellen Computer-Software für Endbenutzer der US-Regierung (a) nur als kommerzielle Güter und (b) ausschließlich mit den Rechten lizenziert, die allen anderen Endbenutzern gemäß den hierin enthaltenen Bedingungen erteilt werden. \nNicht veröffentlichte Rechte bleiben nach den Urheberrechtsgesetzen der Vereinigten Staaten vorbehalten.\n\nGeltungsbereich und geltendes Recht\nBeide Vertragsparteien sind damit einverstanden, dass die Gesetze des Landes zur Anwendung kommen, in dem die App erworben wurde, um ihre jeweiligen Rechte, Pflichten und Verpflichtungen, die sich aus dem Inhalt dieser Vertragsbedingungen ergeben oder in irgendeiner Weise damit in Zusammenhang stehen, zu regeln, zu interpretieren und durchzuführen, ungeachtet unterschiedlicher Rechtsgrundlagen. \n\nDie Vertragskonvention der Vereinten Nationen für den internationalen Warenverkauf kommt nicht zur Anwendung.\n\nAlle Rechte, Pflichten und Verpflichtungen unterliegen der Rechtsprechung des Landes, in dem Sie die App-Lizenz erworben haben.\n\nV20191205";

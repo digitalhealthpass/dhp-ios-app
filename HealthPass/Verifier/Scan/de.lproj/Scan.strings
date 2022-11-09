@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "Scan a Credential to get started"; ObjectID = "9N5-ZE-Ox1"; */
+"9N5-ZE-Ox1.text" = "Bitte Scannen Sie ein Zertifikat ...";
+
+/* Class = "UILabel"; text = "Start Scanning"; ObjectID = "Aiq-Za-UlI"; */
+"Aiq-Za-UlI.text" = "Scan beginnen";
+
+/* Class = "UILabel"; text = "Health Pass is not authorized to access the device camera.\n\nPlease update Health Pass App settings."; ObjectID = "HJM-sp-C4B"; */
+"HJM-sp-C4B.text" = "Die App ist nicht berechtigt auf die Kamera zuzugreifen.\n\nBitte aktualisieren Sie die App System-Einstellungen.";
+
+/* Class = "UITabBarItem"; title = "Scan"; ObjectID = "Wtk-1p-T7f"; */
+"Wtk-1p-T7f.title" = "Scan";
+
+/* Class = "UIButton"; normalTitle = "Settings"; ObjectID = "a7P-es-heK"; */
+"MRy-l9-ZDM.normalTitle" = "Einstellungen";
+
+/* Class = "UILabel"; text = "IBM Verifier"; ObjectID = "rFJ-HS-39V"; */
+"rFJ-HS-39V.text" = "Digital Health Pass Prüf-App";
+
+/* Class = "UILabel"; text = "Grant Access"; ObjectID = "14e-DM-BE6"; */
+"14e-DM-BE6.text" = "Zugriff erlauben";

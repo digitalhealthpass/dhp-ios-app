@@ -1,0 +1,90 @@
+
+/* Class = "UILabel"; text = "Health Pass"; ObjectID = "1ca-rE-jbp"; */
+"1ca-rE-jbp.text" = "Health Pass";
+
+/* Class = "UILabel"; text = "National Institutes of Health"; ObjectID = "1e3-fg-Mvv"; */
+"1e3-fg-Mvv.text" = "National Institutes of Health";
+
+/* Class = "UILabel"; text = "Test Result "; ObjectID = "38L-cb-ktf"; */
+"38L-cb-ktf.text" = "Test Result ";
+
+/* Class = "UILabel"; text = "Contact"; ObjectID = "Cla-Mx-LDE"; */
+"Cla-Mx-LDE.text" = "Contact";
+
+/* Class = "UILabel"; text = "EXPIRED"; ObjectID = "GEx-UU-vdI"; */
+"GEx-UU-vdI.text" = "EXPIRED";
+
+/* Class = "UITableViewSection"; headerTitle = "CONNECTION"; ObjectID = "Gfd-XA-d6e"; */
+"Gfd-XA-d6e.headerTitle" = "CONNECTION";
+
+/* Class = "UILabel"; text = "Choose a method to start adding items to the Wallet"; ObjectID = "Haf-WU-W8n"; */
+"Haf-WU-W8n.text" = "Choose a method to start adding items to the Wallet";
+
+/* Class = "UILabel"; text = "EXP 10/17/2020"; ObjectID = "Hfr-81-ZBP"; */
+"Hfr-81-ZBP.text" = "EXP 10/17/2020";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "J9i-cr-s7i"; */
+"J9i-cr-s7i.title" = "Title";
+
+/* Class = "UILabel"; text = "Get Started With Digital Health Pass Wallet"; ObjectID = "KOf-yC-itG"; */
+"KOf-yC-itG.text" = "Get Started With Digital Health Pass Wallet";
+
+/* Class = "UIBarButtonItem"; title = "Add To Wallet"; ObjectID = "Ntb-qL-dEM"; */
+"Ntb-qL-dEM.title" = "Add To Wallet";
+
+/* Class = "UILabel"; text = "Add Contact"; ObjectID = "SbK-I5-GYW"; */
+"SbK-I5-GYW.text" = "Add Contact";
+
+/* Class = "UILabel"; text = "Add Wallet Item"; ObjectID = "Uhf-MV-ays"; */
+"Uhf-MV-ays.text" = "Add Wallet Item";
+
+/* Class = "UILabel"; text = "John Smith, Data Privacy Officer"; ObjectID = "WX8-ma-ege"; */
+"WX8-ma-ege.text" = "John Smith, Data Privacy Officer";
+
+/* Class = "UILabel"; text = "New PO Box"; ObjectID = "a8G-oM-jNK"; */
+"a8G-oM-jNK.text" = "New PO Box";
+
+/* Class = "UILabel"; text = "National Institutes of Health"; ObjectID = "bx2-jA-F0C"; */
+"bx2-jA-F0C.text" = "National Institutes of Health";
+
+/* Class = "UILabel"; text = "Org Healthpass 1"; ObjectID = "d9Z-lt-Gco"; */
+"d9Z-lt-Gco.text" = "Org Healthpass 1";
+
+/* Class = "UILabel"; text = "Scan a QR code"; ObjectID = "dHh-qR-vry"; */
+"dHh-qR-vry.text" = "Scan a QR code";
+
+/* Class = "UITableViewSection"; headerTitle = "PO BOX"; ObjectID = "gXS-wW-vji"; */
+"gXS-wW-vji.headerTitle" = "PO BOX";
+
+/* Class = "UILabel"; text = "New Connection"; ObjectID = "iP1-D5-Sb3"; */
+"iP1-D5-Sb3.text" = "New Connection";
+
+/* Class = "UINavigationItem"; title = "Wallet"; ObjectID = "jFl-4s-fnC"; */
+"jFl-4s-fnC.title" = "Wallet";
+
+/* Class = "UILabel"; text = "ISSUED 10/17/2020"; ObjectID = "l4C-YZ-1Xj"; */
+"l4C-YZ-1Xj.text" = "ISSUED 10/17/2020";
+
+/* Class = "UILabel"; text = "John Smith, Data Privacy Officer"; ObjectID = "lFY-Ub-k3g"; */
+"lFY-Ub-k3g.text" = "John Smith, Data Privacy Officer";
+
+/* Class = "UITabBarItem"; title = "Wallet"; ObjectID = "pGw-Sz-ia3"; */
+"pGw-Sz-ia3.title" = "Wallet";
+
+/* Class = "UIBarButtonItem"; title = "Settings"; ObjectID = "pii-75-86J"; */
+"pii-75-86J.title" = "Settings";
+
+/* Class = "UILabel"; text = "QR code from Photo Library"; ObjectID = "s2F-Wr-HPH"; */
+"s2F-Wr-HPH.text" = "QR code from Photo Library";
+
+/* Class = "UITableViewSection"; headerTitle = "CARD"; ObjectID = "sli-LT-ZOs"; */
+"sli-LT-ZOs.headerTitle" = "CARD";
+
+/* Class = "UILabel"; text = "Please Wait..."; ObjectID = "tOP-CV-evh"; */
+"tOP-CV-evh.text" = "Please Wait...";
+
+/* Class = "UILabel"; text = "Add a credential or a contact to Wallet."; ObjectID = "tOx-jW-pHY"; */
+"tOx-jW-pHY.text" = "Add a credential or a contact to Wallet.";
+
+/* Class = "UIButton"; normalTitle = "ADD"; ObjectID = "vkc-Jn-ydD"; */
+"vkc-Jn-ydD.normalTitle" = "ADD";

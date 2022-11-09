@@ -1,0 +1,132 @@
+
+/* Class = "UILabel"; text = "Health Pass"; ObjectID = "0cP-No-chf"; */
+"0cP-No-chf.text" = "Zertifikat";
+
+/* Class = "UILabel"; text = "Website"; ObjectID = "4Na-hd-bZO"; */
+"4Na-hd-bZO.text" = "Webseite";
+
+/* Class = "UILabel"; text = "Contact"; ObjectID = "7h5-ua-wL0"; */
+"7h5-ua-wL0.text" = "Kontakt";
+
+/* Class = "UILabel"; text = "Call"; ObjectID = "81Q-Ra-jVs"; */
+"81Q-Ra-jVs.text" = "Anrufen";
+
+/* Class = "UILabel"; text = "Accept & Upload"; ObjectID = "8nm-kI-fvM"; */
+"8nm-kI-fvM.text" = "Akzeptieren & Hochladen";
+
+/* Class = "UILabel"; text = "Covid-19 Test Resultat"; ObjectID = "AFT-d1-jJh"; */
+"AFT-d1-jJh.text" = "Covid-19 Test Resultat";
+
+/* Class = "UILabel"; text = "Health Pass"; ObjectID = "BcQ-O7-qnK"; */
+"BcQ-O7-qnK.text" = "Zertifikat";
+
+/* Class = "UILabel"; text = "ACME Corp. performs medical and behavioral research for the United States of America, and will use this data as part of that function"; ObjectID = "DTQ-vR-SF8"; */
+"DTQ-vR-SF8.text" = "ACME AG führt medizinische und verhaltensbasierte Forschung aus und wird diese Daten für diese Funktion verwenden";
+
+/* Class = "UILabel"; text = "male"; ObjectID = "E30-mE-MAz"; */
+"E30-mE-MAz.text" = "männlich";
+
+/* Class = "UILabel"; text = "Service"; ObjectID = "N8U-qZ-2ol"; */
+"N8U-qZ-2ol.text" = "Dienst";
+
+/* Class = "UILabel"; text = "Preparing to download credentials"; ObjectID = "NEi-Sl-xuz"; */
+"NEi-Sl-xuz.text" = "Daten werden vorbereitet";
+
+/* Class = "UILabel"; text = "Credential not valid: Expiration date validation failed :: Certificate is expired"; ObjectID = "NWM-Hq-cBD"; */
+"NWM-Hq-cBD.text" = "Daten ungültig: Fehler bei Prüfung des Ablaufdatums :: Zertifikat ist abgelaufen";
+
+/* Class = "UILabel"; text = "Covid-19 Test Resultat"; ObjectID = "OvB-3Y-WxK"; */
+"OvB-3Y-WxK.text" = "Covid-19 Test Resultat";
+
+/* Class = "UIBarButtonItem"; title = "Next"; ObjectID = "PUV-76-rfp"; */
+"PUV-76-rfp.title" = "Weiter";
+
+/* Class = "UILabel"; text = "Covid-19 Test Resultat"; ObjectID = "QWT-1k-CJR"; */
+"QWT-1k-CJR.text" = "Covid-19 Test Resultat";
+
+/* Class = "UILabel"; text = "Expires: 03/20/2021"; ObjectID = "Qau-bP-GgE"; */
+"Qau-bP-GgE.text" = "Ablaufdatum: 03/20/2021";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "ROf-gw-Zpb"; */
+"ROf-gw-Zpb.title" = "Item";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "SIV-k2-ON6"; */
+"SIV-k2-ON6.text" = "Adresse";
+
+/* Class = "UILabel"; text = "Delete Connection"; ObjectID = "VQE-bb-xq3"; */
+"VQE-bb-xq3.text" = "Verbindung entfernen";
+
+/* Class = "UILabel"; text = "Associated Key"; ObjectID = "W4e-3x-B8u"; */
+"W4e-3x-B8u.text" = "Zugeordneter Schlüssel";
+
+/* Class = "UILabel"; text = "Expires: 03/20/2021"; ObjectID = "W7X-Hv-Bvs"; */
+"W7X-Hv-Bvs.text" = "Ablaufdatum: 03/20/2021";
+
+/* Class = "UILabel"; text = "1 Main St Suite 345, New York, NY 12345 United States"; ObjectID = "Yla-Iz-FdS"; */
+"Yla-Iz-FdS.text" = "Sesamstraße 34, 12345 Bärstadt, Deutschland";
+
+/* Class = "UINavigationItem"; title = "Credentials"; ObjectID = "Z4X-xr-dca"; */
+"Z4X-xr-dca.title" = "Ausweisdaten";
+
+/* Class = "UILabel"; text = "Covid-19 Test Resultat"; ObjectID = "ZBz-U8-NPj"; */
+"ZBz-U8-NPj.text" = "Covid-19 Test Resultat";
+
+/* Class = "UILabel"; text = "National Institutes of Health (NIH)"; ObjectID = "ZOf-3w-sva"; */
+"ZOf-3w-sva.text" = "National Institutes of Health (NIH)";
+
+/* Class = "UITableViewController"; title = "Contact Details"; ObjectID = "Zcj-D2-5J1"; */
+"Zcj-D2-5J1.title" = "Kontaktinformationen";
+
+/* Class = "UINavigationItem"; title = "Consent"; ObjectID = "Zcs-6l-aaO"; */
+"Zcs-6l-aaO.title" = "Zustimmung";
+
+/* Class = "UILabel"; text = "Please Wait.."; ObjectID = "ZtB-YJ-le2"; */
+"ZtB-YJ-le2.text" = "Bitte warten..";
+
+/* Class = "UILabel"; text = "Add Health Pass to Connection"; ObjectID = "dhr-il-2HY"; */
+"dhr-il-2HY.text" = "Zertifikat zur Verbindung hinzufügen";
+
+/* Class = "UILabel"; text = "ACME Corp. Research"; ObjectID = "ezj-eV-Gcz"; */
+"ezj-eV-Gcz.text" = "ACME Corp. Research";
+
+/* Class = "UILabel"; text = "No Credentials in Wallet"; ObjectID = "g37-Sd-kws"; */
+"g37-Sd-kws.text" = "Keine Ausweisdaten in der Brieftasche";
+
+/* Class = "UILabel"; text = "Please Wait.."; ObjectID = "hdS-Ce-wcz"; */
+"hdS-Ce-wcz.text" = "Bitte warten..";
+
+/* Class = "UILabel"; text = "Gender"; ObjectID = "jwy-Aa-fAq"; */
+"jwy-Aa-fAq.text" = "Geschlecht";
+
+/* Class = "UILabel"; text = "Medical Research"; ObjectID = "kMg-AK-jze"; */
+"kMg-AK-jze.text" = "Medizinische Forschung";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "mXR-sp-YaR"; */
+"mXR-sp-YaR.text" = "Email";
+
+/* Class = "UILabel"; text = "Category"; ObjectID = "mtF-Au-9X6"; */
+"mtF-Au-9X6.text" = "Kategorie";
+
+/* Class = "UILabel"; text = "Hpass Issuer1 "; ObjectID = "oMy-pa-Gxc"; */
+"oMy-pa-Gxc.text" = "Hpass Aussteller1 ";
+
+/* Class = "UILabel"; text = "Hpass Issuer1 "; ObjectID = "of3-Mn-ti3"; */
+"of3-Mn-ti3.text" = "Hpass Aussteller2 ";
+
+/* Class = "UIBarButtonItem"; title = "Close"; ObjectID = "qq0-tv-obH"; */
+"qq0-tv-obH.title" = "Schliessen";
+
+/* Class = "UILabel"; text = "Covid-19 Test Results"; ObjectID = "sN3-z7-vRK"; */
+"sN3-z7-vRK.text" = "Covid-19 Test Resultate";
+
+/* Class = "UILabel"; text = "Preparing to upload the credentials"; ObjectID = "uys-9q-X4o"; */
+"uys-9q-X4o.text" = "Hochladen der Ausweisdaten werden vorbereitet";
+
+/* Class = "UILabel"; text = "Covid-19 Test Resultat"; ObjectID = "wfn-CP-vdJ"; */
+"wfn-CP-vdJ.text" = "Covid-19 Test Resultat";
+
+/* Class = "UILabel"; text = "Privacy Policy"; ObjectID = "ykw-y7-fUG"; */
+"ykw-y7-fUG.text" = "Datenschutzerklärung";
+
+/* Class = "UILabel"; text = "Health Pass"; ObjectID = "zQf-y6-VLY"; */
+"zQf-y6-VLY.text" = "Zertifikat";

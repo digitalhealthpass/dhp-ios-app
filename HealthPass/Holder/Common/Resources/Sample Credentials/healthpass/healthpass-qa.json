@@ -1,0 +1,38 @@
+{
+    "@context": {
+        "cred": "https://www.w3.org/2018/credentials/v1"
+    },
+    "id": "did:hpass:hpassmsp:326154139805929658112786998782875574410195742971#vc-e0b8f8b6-155f-428d-b3d7-ec9768261f43",
+    "type": [
+        "VerifiableCredential"
+    ],
+    "issuer": "did:hpass:hpassmsp:326154139805929658112786998782875574410195742971",
+    "issuanceDate": "2020-09-10T14:48:39Z",
+    "credentialSchema": {
+        "id": "did:hpass:hpassmsp:326154139805929658112786998782875574410195742971;id=covidtest;version=0.1",
+        "type": "JsonSchemaValidator2018"
+    },
+    "credentialSubject": {
+        "expiryDate": "2021-01-01T19:73:24Z",
+        "labresult": {
+            "issueDate": "2020-03-06T23:54:34-05:00",
+            "loinc": "94531-1",
+            "result": "Positive",
+            "type": "Observation"
+        },
+        "person": {
+            "mrn": "4f929187-35d9-4b52-8aa7-2aa2796d827d",
+            "name": {
+                "familyName": "Hauck852",
+                "givenName": "Richie600"
+            }
+        }
+    },
+    "proof": {
+        "created": "2020-09-10T14:48:39Z",
+        "creator": "did:hpass:hpassmsp:326154139805929658112786998782875574410195742971#key-3",
+        "nonce": "d4a28bfa-a41b-47a4-9ff2-cad54004f844",
+        "signatureValue": "MEUCIQDmEWtlET0IyL28qLDaw35WWYTX8i9ZeC0rs7K0bEZDbwIgCnGdIr4Zhg-bdq-UO2kGHBIQTQtSrIfQTg8Uea9NQDw",
+        "type": "EcdsaSecp256r1Signature2019"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1"
+    ],
+    "id": "did:hpass:095573b3ed146d92780bb6a51fadb9c64e0bc975079723b5f93db666ee44a67d:7c62e7e423fb437e103cd562463f92bb6c26daac0f7cc20e8668953151e5730a#vc-4c6f1d0b-fcbe-43e4-b42d-5b5121ef5daf",
+    "type": [
+        "VerifiableCredential"
+    ],
+    "issuer": "did:hpass:095573b3ed146d92780bb6a51fadb9c64e0bc975079723b5f93db666ee44a67d:7c62e7e423fb437e103cd562463f92bb6c26daac0f7cc20e8668953151e5730a",
+    "issuanceDate": "2020-12-08T17:09:54Z",
+    "expirationDate": "2020-12-08T23:55:00Z",
+    "credentialSchema": {
+        "id": "did:hpass:095573b3ed146d92780bb6a51fadb9c64e0bc975079723b5f93db666ee44a67d:7c62e7e423fb437e103cd562463f92bb6c26daac0f7cc20e8668953151e5730a;id=covid19pcrtest;version=0.1",
+        "type": "JsonSchemaValidator2018"
+    },
+    "credentialSubject": {
+        "date": "2020-12-05",
+        "display": "red",
+        "id": "MRN12345",
+        "name": {
+            "familyName": "Smith",
+            "givenName": "Jane"
+        },
+        "result": "Positive",
+        "testId": "T567890",
+        "type": "Covid-19 PCR Test Result"
+    },
+    "proof": {
+        "created": "2020-12-08T17:09:54Z",
+        "creator": "did:hpass:095573b3ed146d92780bb6a51fadb9c64e0bc975079723b5f93db666ee44a67d:7c62e7e423fb437e103cd562463f92bb6c26daac0f7cc20e8668953151e5730a#key-1",
+        "nonce": "d0a200be-dd15-45b4-870b-05a9058094fc",
+        "signatureValue": "MEUCIQC096z1LfyL4mcJxVmSmjo8-JUr4-N1IZ29DK9hS3i-SQIgcB7TRjWlmq_CtY2ysdVuy_dJ06F8V_YxuK60pMT0OB8",
+        "type": "EcdsaSecp256r1Signature2019"
+    }
+}

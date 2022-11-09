@@ -1,0 +1,75 @@
+
+/* Class = "UILabel"; text = "Loading"; ObjectID = "0PI-tv-oMB"; */
+"0PI-tv-oMB.text" = "Loading";
+
+/* Class = "UINavigationItem"; title = "Registration"; ObjectID = "1Ah-Sd-seh"; */
+"1Ah-Sd-seh.title" = "Registration";
+
+/* Class = "UIBarButtonItem"; title = "Agree"; ObjectID = "1hs-vO-LSe"; */
+"1hs-vO-LSe.title" = "Agree";
+
+/* Class = "UILabel"; text = "Loading"; ObjectID = "5lo-FW-kFN"; */
+"5lo-FW-kFN.text" = "Loading";
+
+/* Class = "UILabel"; text = "Verification Code"; ObjectID = "6xU-n4-vHQ"; */
+"6xU-n4-vHQ.text" = "Verification Code";
+
+/* Class = "UINavigationItem"; title = "User Agreement"; ObjectID = "78h-22-Y15"; */
+"78h-22-Y15.title" = "User Agreement";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "9ZY-QK-JM8"; */
+"9ZY-QK-JM8.normalTitle" = "Next";
+
+/* Class = "UITextField"; placeholder = "Registration Code"; ObjectID = "C92-ar-jrD"; */
+"C92-ar-jrD.placeholder" = "Registration Code";
+
+/* Class = "UILabel"; text = "Didn't receive the code?"; ObjectID = "E83-Yi-K69"; */
+"E83-Yi-K69.text" = "Didn't receive the code?";
+
+/* Class = "UILabel"; text = "Organization Code"; ObjectID = "F5C-HJ-BAl"; */
+"F5C-HJ-BAl.text" = "Organization Code";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "LJY-r1-Hwo"; */
+"LJY-r1-Hwo.normalTitle" = "Next";
+
+/* Class = "UINavigationItem"; title = "Registration Code"; ObjectID = "Vwm-Ke-thD"; */
+"Vwm-Ke-thD.title" = "Registration Code";
+
+/* Class = "UILabel"; text = "Loading"; ObjectID = "XAX-IP-Nvq"; */
+"XAX-IP-Nvq.text" = "Loading";
+
+/* Class = "UINavigationItem"; title = "Verification Codes"; ObjectID = "XO4-eJ-EU5"; */
+"XO4-eJ-EU5.title" = "Verification Codes";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "gKF-bC-y9T"; */
+"gKF-bC-y9T.text" = "00:00";
+
+/* Class = "UITextField"; placeholder = "Organization Code"; ObjectID = "j3i-6H-I3D"; */
+"j3i-6H-I3D.placeholder" = "Organization Code";
+
+/* Class = "UILabel"; text = "Please enter the organization code to get started with the registration."; ObjectID = "kBq-Yu-zvO"; */
+"kBq-Yu-zvO.text" = "Please enter the organization code to get started with the registration.";
+
+/* Class = "UILabel"; text = "Please enter the registration code sent as text message to your phone."; ObjectID = "kyY-gd-jnR"; */
+"kyY-gd-jnR.text" = "Please enter the registration code sent as text message to your phone.";
+
+/* Class = "UIButton"; normalTitle = "Resend Code"; ObjectID = "pi1-0y-WFG"; */
+"pi1-0y-WFG.normalTitle" = "Resend Code";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "pwY-F3-TGv"; */
+"pwY-F3-TGv.normalTitle" = "Next";
+
+/* Class = "UILabel"; text = "Registration Code"; ObjectID = "qAn-VY-5He"; */
+"qAn-VY-5He.text" = "Registration Code";
+
+/* Class = "UITextField"; placeholder = "Verification Code"; ObjectID = "qRP-S5-Ma6"; */
+"qRP-S5-Ma6.placeholder" = "Verification Code";
+
+/* Class = "UILabel"; text = "Loading"; ObjectID = "rLl-48-Hid"; */
+"rLl-48-Hid.text" = "Loading";
+
+/* Class = "UIBarButtonItem"; title = "Disagree"; ObjectID = "vzm-kk-Akg"; */
+"vzm-kk-Akg.title" = "Disagree";
+
+/* Class = "UILabel"; text = "Please enter the verification code sent as text message to your phone."; ObjectID = "yck-se-cDQ"; */
+"yck-se-cDQ.text" = "Please enter the verification code sent as text message to your phone.";

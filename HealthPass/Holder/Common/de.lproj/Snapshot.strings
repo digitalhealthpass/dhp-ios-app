@@ -1,0 +1,6 @@
+
+/* Class = "UILabel"; text = "Digital Health Pass Wallet"; ObjectID = "TZP-SX-eDe"; */
+"TZP-SX-eDe.text" = "Digital Health Pass Wallet";
+
+/* Class = "UIButton"; normalTitle = "Add Wallet Item"; ObjectID = "Uhn-dd-nRM"; */
+"Uhn-dd-nRM.normalTitle" = "Impfpass hinzufügen";

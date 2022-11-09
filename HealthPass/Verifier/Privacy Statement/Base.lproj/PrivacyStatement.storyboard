@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VKt-H9-GHz">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Custom Navigation Controller-->
+        <scene sceneID="YK9-me-7b7">
+            <objects>
+                <navigationController modalPresentationStyle="fullScreen" id="VKt-H9-GHz" customClass="CustomNavigationController" customModule="Pass_Verify" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="48v-r5-JIn">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hHg-bH-6ia">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="i7L-sM-yEv" kind="relationship" relationship="rootViewController" id="lKh-wr-eUu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dFn-iD-Z9e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-719" y="156"/>
+        </scene>
+        <!--About your privacy-->
+        <scene sceneID="dmI-bJ-pdY">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="i7L-sM-yEv" customClass="PrivacyStatementViewController" customModule="Pass_Verify" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="p8b-2o-xsC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f2w-al-23t">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="154-dF-tqq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="f2w-al-23t" firstAttribute="bottom" secondItem="154-dF-tqq" secondAttribute="bottom" constant="34" id="28v-hn-CXo"/>
+                            <constraint firstItem="f2w-al-23t" firstAttribute="leading" secondItem="154-dF-tqq" secondAttribute="leading" id="W3h-MN-22L"/>
+                            <constraint firstItem="f2w-al-23t" firstAttribute="top" secondItem="154-dF-tqq" secondAttribute="top" id="jB2-yL-5R8"/>
+                            <constraint firstItem="154-dF-tqq" firstAttribute="trailing" secondItem="f2w-al-23t" secondAttribute="trailing" id="sDg-CX-2B4"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="About your privacy" largeTitleDisplayMode="never" id="XCx-rN-XSy" propertyAccessControl="none">
+                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="done" id="ZYW-Jq-Xa8">
+                            <connections>
+                                <action selector="onDone:" destination="i7L-sM-yEv" id="Iy3-Gm-9yU"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="doneBarButtonItem" destination="ZYW-Jq-Xa8" id="F8t-as-7XA"/>
+                        <outlet property="privacyStatementWebView" destination="f2w-al-23t" id="R1f-nf-Z5D"/>
+                        <segue destination="nnM-Em-gGE" kind="unwind" identifier="unwindToLaunch" unwindAction="unwindToLaunchWithSegue:" id="158-Jz-wfe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4hF-aB-vCT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="nnM-Em-gGE" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="113.04347826086958" y="154.6875"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

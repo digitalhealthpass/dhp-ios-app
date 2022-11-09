@@ -1,0 +1,448 @@
+/*
+ Localizable.strings
+ Verifier
+ 
+ Created by John Martino on 2021-03-09.
+ (c) Copyright Merative US L.P. and others 2020-2022. All rights reserved.
+ */
+
+// Accessibility
+"accessibility.indicator.loading" = "Loading";
+"accessibility.qrcode" = "QR Code";
+"accessibility.settings" = "Settings";
+"accessibility.dimmed" = "Dimmed";
+"accessibility.organization.logo" = "Organization logo";
+
+// Common
+"button.title.ok" = "OK";
+"button.title.cancel" = "Cancel";
+"button.title.dontallow" = "Don't Allow";
+"label.placeholder.password" = "Password - Required";
+"label.placeholder.fileName" = "File Name - Required";
+"alert.shareButtonTitle" = "Share";
+"error.server.title" = "Server Error";
+"error.client.title" = "Client Error";
+"error.network.title" = "Network Error";
+"error.server.4.message" = "Server error 5: Temporarily overloaded or in maintenance. Please try again.";
+"error.server.1402.message" = "Server response error: The response data is invalid.";
+"error.server.1403.message" = "Server response error: The server response format is invalid.";
+"error.server.500s.message" = "Server error 500: Temporarily overloaded or in maintenance. Please try again.";
+"error.client.53.message" = "Request canceled: Please try again.";
+"error.client.1401.message" = "Request failure: Cannot create this item.";
+"error.client.400s.message" = "Request failure: Cannot create owing to incorrect syntax.";
+"error.network.message" = "Network connection failure. Please try again.";
+"error.default.title" = "An error occurred.";
+"error.default.message" = "Please try again.";
+"crypto.jsonFailed" = "Encryption error: There is an issue with JSON serialization.";
+"crypto.stringEncodingFailed" = "Encryption error: There is an issue with string encoding.";
+"crypto.dataEncodingFailed" = "Encryption error: There is an issue with data encoding.";
+"crypto.sealCreationFailed" = "Encryption error: There is an issue with Seal creation.";
+"crypto.sealBoxCreationFailed" = "Encryption error: There is an issue with Seal Box creation.";
+"crypto.chachaPolySuccess" = "Success: Encryption is complete.";
+"crypto.aesSealFailed" = "AES encryption error: There is an issue with Seal creation.";
+"crypto.aesSealBoxFailed" = "AES encryption error: There is an issue with opening Seal Box.";
+"crypto.aesSuccess" = "Success: AES encryption is complete.";
+"crypto.dec.chaSealCreationFailed" = "Decryption error: There is an issue with Seal creation.";
+"cryoto.dec.chaSealBoxFailed" = "Decryption error: There is an issue with opening Seal Box.";
+"crypto.dec.chaSuccess" = "Success: Decryption is complete.";
+"crypto.dec.aesSealCreationFailed" = "AES decryption error: There is an issue with Seal creation.";
+"crypto.dec.aesSealBoxFailed" = "AES decryption error: There is an issue with opening Seal Box.";
+"crypto.dec.aesSuccess" = "Success: AES decryption is complete.";
+"crypto.hash.jsonEncFailed" = "Hashing error: There is an issue with JSON serialization.";
+"crypto.hash.stringEncFailed" = "Hashing error: There is an issue with string encoding.";
+"crypto.hash.dataEncFailed" = "Hashing error: There is an issue with data encoding.";
+"crypto.hash.success" = "Success: Hashing is complete.";
+"buffer.encodeFailed" = "Archive error: There is an issue with encoding.";
+"buffer.decodeFailed" = "Archive error: There is an issue with decoding.";
+
+// Contact Details
+"contact.delete.message" = "Are you sure want to delete this connection?";
+"contact.delete.title" = "Delete Connection";
+"contact.section.title1" = "SHARED HEALTH PASSES";
+"contact.section.title2" = "CONTACT INFORMATION";
+"contact.section.title3" = "Registration";
+"contact.upload" = "Upload health card, pass";
+"contact.name" = "Name";
+"contact.phone" = "Phone";
+"contact.email" = "Email";
+"contact.address" = "Address";
+"contact.website" = "Website";
+"contact.gender" = "Gender";
+"contact.age" = "Age Range";
+"contact.race" = "Race";
+"contact.location" = "Location";
+"contact.downloads" = "Downloaded health passes";
+"contact.download" = "Download health pass";
+"contact.shared" = "Shared health passes";
+"contact.info" = "CONTACT INFORMATION";
+"contact.registration" = "Registration";
+"contact.prepareForDownload" = "Preparing to download cards";
+"contact.wait" = "Please wait...";
+"contact.pleaseWait" = "Please wait";
+"contact.addToWallet" = "Adding cards to Wallet";
+"contact.downloadComplete.title" = "Download Complete";
+"contact.downloadComplete.subtitle" = "No new cards, passes available to add to the Wallet";
+"contact.downloadFailed" = "Download problem";
+"contact.credential.empty" = "No new cards, passes available to add to the Wallet";
+"contact.credential.format" = "%@ new card%@, pass%@ available to add to the Wallet";
+"contact.credentials.available" = "Available cards, passes";
+"contact.credentials.shared" = "Shared cards, passes";
+"contact.credentials.credshared" = "Cards, passes shared";
+"contact.credentials.selected" = "Selected cards, passes";
+"contact.credentials.reupload.title" = "Are you sure?";
+"contact.credentials.reupload.message" = "One or more selected credentials have already been uploaded to this organization. Do you want to upload again?";
+"contact.credentials.reupload.message2" = "Selected credentials has already been uploaded to this organization. Do you want to upload again?";
+"contact.credentials.reupload.yes" = "Yes";
+"contact.credentials.uploading" = "Uploading cards, passes";
+"contact.credentials.submitting" = "Submitting data";
+"contact.credentials.notProcessed" = "Cards, passes not processed";
+"contact.credentials.verifying" = "Verifying card, pass...";
+"contact.dataSubjectInitiated" = "Data subject initiated using Wallet";
+"contact.partiallySubmitted.title" = "Data Partially Submitted";
+"contact.partiallySubmitted.subtitle" = "At least one card or pass was not submitted.";
+"contact.uploadComplete.title" = "Upload Complete";
+"contact.uploadComplete.subtitle" = "Success: Selected cards, passes have been uploaded.";
+"contact.uploadFailed.title" = "Upload did not complete";
+"contact.uploadFailed.subtitle" = "Card, pass submission did not complete.\nPlease try again.";
+"contact.nodata" = "No data";
+"contact.consentFailed.title" = "Upload did not complete";
+"contact.consentFailed.message" = "Card, pass submission did not complete.\nPlease try again.";
+
+"contact.offboardingFailed.title" = "Off-boarding Incomplete";
+"contact.offboardingFailed.message" = "Couldn't complete the off-boarding process with the contact.\nDo you still want to remove this contact from Wallet?";
+"contact.offboardingFailed.button2" = "Yes, Remove";
+"contact.alert.upload.title" = "Successfully Added";
+"contact.alert.upload.message" = "Would you like to share an existing card with this connection?";
+"contact.alert.upload.action.yes" = "Yes";
+"contact.alert.upload.action.no" = "No";
+
+// Credential Details
+"cred.delete.alertTitle" = "Delete Card";
+"cred.delete.message" = "Are you sure you want to delete this card?";
+"cred.delete.title" = "Yes, Delete";
+"cred.share.title" = "Share cards, passes";
+"cred.share.message" = "Enter a name to share this cards, pass";
+"cred.share.fail.message" = "Failed to save the cards, pass.";
+"cred.share.failed.title" = "Share cards, passes failed";
+"cred.share.failed.message" = "Couldn't complete share action since the file name was empty";
+"cred.expiredDate" = "Expired";
+"cred.expiresDate" = "Expires";
+"cred.issuedDate" = "Issued";
+
+// Credential Obfuscation
+"obfuscation.personalInformation" = "Personal Information";
+
+// Data
+"data.schemaProfile" = "Profile";
+"data.schemaID" = "ID";
+"data.timeout" = "Session Timed Out";
+
+// Environment Target
+"env.canada" = "Canada";
+"env.us" = "USA";
+"env.ap" = "Asia Pacific";
+"env.au" = "Australia";
+"env.emea" = "EMEA";
+
+"env.ap.subtitle" = "Asia, Oceania";
+"env.emea.subtitle" = "Europe, Middle East, Africa";
+
+"env.title" = "Select the region in which your health credential will be issued";
+"env.title.verifier" = "Select the region in which your health credential will be verified";
+
+// Get Started
+"gs.step0.title" = "Welcome to Wallet";
+"gs.step0.message" = "Keep your healthcare cards and passes here. Present their QR codes for validation at work, airports, venues.";
+"gs.step1.title" = "How it works";
+"gs.step1.message" = "Your healthcare provider sends you a secure pass or card that verifies your vaccination or test result.";
+"gs.step2.title" = "Scan for verification";
+"gs.step2.message" = "Each card and pass includes a QR code for scanning and verifying. Wallet keeps data private and secure.";
+"gs.finishButtonTitle.getStarted" = "Get started →";
+"gs.finishButtonTitle.next" = "Next";
+
+// Get Started - Verifier
+"gs.verifier.step0.title" = "Digital Health Pass Verify";
+"gs.verifier.step0.message" = "Check the health and safety of employees and individuals upon entrance";
+"gs.verifier.step1.title" = "Step 1";
+"gs.verifier.step1.message" = "Get ready. Use this app and scan a current, valid verifier credential from, for example, email or a printed copy.";
+"gs.verifier.step2.title" = "Step 2";
+"gs.verifier.step2.message" = "At your entrance, use this app to scan health cards and passes, either from digital wallets or printed copies.";
+"gs.verifier.step3.title" = "Step 3";
+"gs.verifier.step3.message" = "Check the card or pass color, type, and date. Your policies might require checking separate picture ID.";
+"gs.verifier.buttonTitle.continue" = "Continue";
+
+// Key Pair Management
+"kpm.existing" = "Existing key pairs in Wallet";
+"kpm.untitled" = "Untitled";
+"kpm.navigationTitleFormat" = "Key copied at %@";
+"kpm.label" = "Copied to clipboard";
+"kpm.headerTitle" = "Associated Contacts";
+"kpm.footerTitle" = "Tap to copy";
+"kpm.delete.title" = "Delete Key Pair";
+"kpm.delete.message" = "Are you sure want to delete this key pair?";
+"kpm.delete.confirm" = "Yes, Delete";
+
+// Launch
+"launch.jailbreak.title" = "Jailbreak";
+"launch.jailbreak.message" = "Jailbroken device detected.\nClosing Wallet now.";
+
+// Networking
+"networking.clientError" = "Network error: There is an issue with creating the request.";
+"networking.serverError.data" = "Server response error: There is an issue with an invalid response.";
+"networking.serverError.format" = "Server response error: There is an issue with the response format.";
+
+// Obfuscation
+"obf.ok" = "ok";
+"obf.credSubjNotFound" = "Card, pass error: The subject was not detected.";
+"obf.pathFieldNotFound" = "Card, pass error: The path field was not detected.";
+"obf.pathNotFoundFormat" = "Card, pass error: The field %@ was not detected.";
+"obf.valOrNonceNotFound" = "Card, pass error: The val or nonce was not detected.";
+"obf.fieldPathCheckFormat" = "Card, pass error: The field %@ check did not pass.";
+
+// PIN Options
+"pin.title.create" = "Optional PIN";
+"pin.title.confirm" = "Confirm your PIN";
+"pin.title.unlock" = "Enter PIN";
+"pin.detail.create" = "For added security, set a four-digit PIN. Use it with Face ID or touch.";
+"pin.detail.confirm" = "Tap your four-digit PIN again to confirm.";
+"pin.detail.unlock" = "To unlock your Wallet, tap your four-digit PIN.";
+"pin.reset.message" = "This will reset all Wallet settings, delete your cards and connections, and delete your Wallet PIN, if set.";
+"pin.reset.title" = "Reset Wallet";
+"pin.skip.title" = "Skip setup";
+"pin.biometric.message" = "Unlock your Wallet using a biometric login and a PIN.";
+"pin.biometric.title" = "Tap your four-digit PIN";
+"pin.confirmation.title" = "PIN confirmation unsuccessful";
+"pin.confirmation.message" = "The PIN you entered did not match. Please try again.";
+"pin.confirmation.skip" = "Skip Setup";
+"pin.confirmation.startOver" = "Start again";
+"pin.retry" = "Try again";
+"pin.invalid.title" = "Invalid PIN";
+"pin.invalid.message" = "The PIN you entered is invalid. Please try again.";
+"pin.complete.title" = "Success";
+"pin.complete.message" = "You can now use this PIN to log in to the app.\n\nTo change your PIN and related settings, go to the app settings in Wallet.";
+"pin.complete.faceID" = "You can Face ID to log in to the app.\n\nTo change your PIN and related settings, go to the app settings in Wallet.";
+"pin.complete.touchID" = "You can Touch ID to login to the app.\n\nTo change your PIN and related settings, go to the app settings in Wallet.";
+"pin.complete.continue" = "Continue";
+
+// Profile
+"profile.reset.action" = "Yes, Reset";
+"profile.resetCache.title" = "Reset Cache";
+"profile.resetCache.message" = "Are you sure want to reset all the cache data?";
+"profile.walletBackup.title" = "Wallet Backup";
+"profile.walletBackup.messageFormat" = "File Name: %@\n\nThis backup file needs to be encrypted. Tap a password to protect your backup data.";
+"profile.walletBackup.now" = "Back Up Now";
+"profile.walletBackup.failed" = "Backup unsuccessful";
+"profile.walletBackup.failedMessage" = "You must enter a password to create a backup file.";
+"profile.footer" = "You can send a backup copy of your Wallet data to another location.\n\nAfter backup, you can use the app to restore the information to a new iOS device. Doing this avoids data loss, and save you from adding cards and connections again.";
+"profile.wallet.open" = "Open Wallet";
+"profile.pin.change" = "Change PIN";
+"profile.pin.create" = "Create PIN";
+"profile.pin.touchID" = "Touch ID";
+"profile.pin.faceID" = "Face ID";
+"profile.pin" = "PIN";
+"profile.pin.deleteMessage" = "Your four-digit PIN will be deleted.";
+"profile.pin.delete" = "Delete PIN";
+"profile.keygen.title" = "Generate Security Key";
+"profile.keygen.message" = "An asymmetric cryptographic key pair includes a public key and a private key, generated together. You distribute the public key freely, but keep the private key secret. For safe storage, a key pair is saved in a keychain.";
+"profile.keygen.placeholder" = "Item's private tag - optional";
+"profile.keygen.generate" = "Generate";
+"profile.cards.deleteAll" = "Are you sure want to delete the cards in your Wallet?";
+"profile.cards.eraseAll" = "Delete all cards";
+"profile.cache.reset" = "Are you sure want to reset the cached data?\nThis will not delete your cards.";
+"profile.cache.resetCache" = "Reset cache data";
+"profile.resetFrequency" = "Reset frequency";
+"profile.reset.footer0Formant" = "You currently have %@ card%@ in your Wallet.";
+"profile.reset.footer1Formant" = "This app saves selected data in the background, to improve performance.\n\nCache size: %@";
+"profile.reset.footer2Formant" = "Automatically reset the app cache periodically, to optimize device storage. The data in your Wallet is retained.\n\nLast automatic cache reset: %@";
+"profile.untitled" = "Untitled";
+"profile.createdFormat" = "CREATED %@";
+
+// Registration
+"reg.editCode" = "Edit code";
+"reg.exit" = "Exit";
+"reg.decline" = "Decline to state";
+"reg.confirmation" = "Please select a maximum of three options from the list.";
+"reg.select" = "Select a value";
+"reg.enterValue" = "Enter a value";
+"reg.failed.title" = "Registration Error";
+"reg.failed.org.message" = "Organization code entered is not available for registration.\nPlease try again.";
+"reg.failed.rcode.message" = "The registration code you entered is invalid.\nPlease try again.";
+"reg.failed.vcode.message" = "The verification code you entered is invalid.\nPlease try again.";
+"reg.failed.message" = "There was a problem with the registration.\nPlease try again.";
+"reg.retry" = "Try again";
+
+// Reset
+"reset.cache.footer1" = "App caches some data in the background to improve the user experience and the application performance.\n\nCache Size: %@";
+
+// Restore
+"restore.buttonTitle" = "Restore";
+"restore.backup.title" = "Restore Backup";
+"restore.backup.messageFormat" = "File Name: %@\n\nA Wallet backup file was received. Do you want to restore data from this backup file? \n\nDoing this overwrites any existing cards, connections, and keys.";
+"restore.wallet.title" = "Wallet Restore";
+"restore.wallet.messageFormat" = "File name: %@\n\n This Wallet backup file is encrypted. \n\nTap the password for this file.";
+"restore.wallet.message" = "This Wallet backup file is encrypted. Tap the password for this file.";
+"restore.complete.title" = "Restore Complete";
+"restore.complete.message" = "The backup file is successfully restored.";
+"restore.failed.title" = "Restore Unsuccessful";
+"restore.failed.messageUnknown" = "The Wallet backup file could not be restored. An unknown error occurred.";
+"restore.failed.messageFormat" = "The Wallet backup file could not be restored. %@.";
+
+// Result
+"result.loading" = "Loading...";
+"result.expiredDate" = "EXPIRED";
+"result.expiresDate" = "EXPIRES";
+"result.issuedDate" = "ISSUED";
+"result.issuedFormat" = "ISSUED %@";
+
+"result.Verifying" = "Verifying...";
+
+"result.notVerified" = "Not Verified";
+"result.Verified" = "Verified";
+
+"result.credentialSpec" = "Credential Spec";
+"result.credentialType" = "Credential Type";
+"result.issuer" = "Issuer";
+"result.credentialDetails" = "Credential Details";
+"result.checkingIssuer" = "Checking Issuer...";
+"result.notProvided" = "Unknown";
+"result.issuerRecognized" = "Issuer recognized";
+"result.issuerNotRecognized" = "Issuer not recognized";
+
+// Scan
+"scan.scan.buttonTitle" = "Scan";
+"scan.settings.buttonTitle" = "Settings";
+"scan.invalid.title" = "Invalid";
+"scan.invalid.message" = "To verify, scan a valid QR code.";
+"scan.invalid.message.wallet" = "To add a card or pass to the Wallet, scan a valid QR code.";
+"scan.add" = "Add To Wallet";
+"scan.replace" = "Replace card";
+"scan.verification.errorMessage" = "Cannot validate the card or pass.\nPlease try again.";
+"scan.verification.success" = "Success: Card or pass added to the Wallet.";
+
+"import.verification.success" = "Success: Card added to Wallet.";
+"import.verification.footer" = "Verified records have not been changed since originally created.";
+
+// Terms and Conditions
+"t_c.title" = "Are you sure?";
+"t_c.message" = "The use of this app requires agreement to the Terms and Conditions.";
+"t_c.disagree" = "Disagree";
+"t_c.continue" = "Continue";
+
+// Verification Utils
+"verification.credentialExpired" = "The card or pass expiration date has passed the validity date.";
+"verification.invalidSignature.notFound" = "The card or pass properties are not detected.";
+"verification.invalidSignature.keysNotFound" = "The card or pass issuer's keys are not detected.";
+"verification.invalidSignature.invalidSignatureData" = "The card or pass signature data is invalid.";
+"verification.invalidSignature.invalidData" = "Invalid card or pass data";
+"verification.invalidSignature.unsupportedKeys" = "The card or pass issuer's keys are not supported for verification.";
+"verification.invalidSignature.unavailableKeys" = "The card or pass issuer's keys are not available for verification.";
+"verification.invalidSignature.ecSignatureNoMatch" = "EC signature verification unsuccessful. There is no match.";
+"verification.credentialRevoke.propertiesNotFound" = "The card or pass properties are not detected.";
+"verification.credentialRevoke.issuerRevoked" = "The issuer revoked the card or pass.";
+"verification.credentialExpired.missingDate" = "The expiration date is missing. Validating expiry is skipped.";
+"verification.credentialRevoke.skipped" = "Verifying revocation is skipped, based on preferences.";
+"verification.successful" = "Verification successful";
+"verification.validSignature" = "Card or pass signature valid";
+"verification.jsonDecodeFailed" = "JSON decode unsuccessful";
+"verification.invalidKey" = "Invalid key";
+
+// Wallet
+"wallet.section.cards" = "Cards";
+"wallet.section.connections" = "Connections";
+"wallet.decodeError.title" = "Decode error";
+"wallet.discard.title" = "Discard contact";
+"wallet.discard.message" = "Are you sure want to discard this contact?";
+"wallet.discard.yes" = "Yes, Discard";
+"wallet.discard.no" = "No";
+"wallet.verification.title" = "Verification Error";
+"wallet.verification.message" = "There was a problem with the registration. Contact validation failed.\nPlease try again.";
+"wallet.verification.retry" = "Retry";
+"wallet.verification.discard.title" = "Discard contact";
+"wallet.verification.discard.message" = "Are you sure want to cancel validation and discard this contact?";
+"wallet.success" = "Successfully added to Wallet";
+"wallet.cameraAccess.title" = "\"Wallet\" wants to access your photos.";
+"wallet.cameraAccess.message" = "You can add health passes and cards using QR code images in this device’s photo library.";
+
+"wallet.unsupported.title" = "Unsupported Credential";
+"wallet.unsupported.message" = "Digital Health Pass Wallet currently supports \nEU Digital COVID Certificate,\nSMART® Health Card,\nGOOD HEALTH PASS and\nDigital Health Pass\ncredentials.";
+
+"wallet.share.ibmrto.title" = "Return to Workplace";
+"wallet.share.ibmrto.message1" = "Do you want to share your vaccination card with IBM, for the Return to Workplace process?";
+"wallet.share.ibmrto.message2" = "It looks like you haven't shared your vaccination card yet with IBM, for the Return to Workplace process.\n\Do you want to share your vaccination card now?";
+"wallet.share.ibmrto.action.yes.share" = "Yes, Share";
+"wallet.share.ibmrto.action.later" = "Remind Me Later";
+"wallet.share.ibmrto.action.no" = "No, Thanks";
+
+"wallet.HealthKitError.title" = "Apple Health error";
+"wallet.HealthKitError.message" = "There was a problem with importing one or more records.\nPlease try again.";
+
+// Credential Details
+"credential.details.cardInfo" = "Card Info";
+"credential.details.recordVerification" = "Record Verification";
+"credential.details.status.revoked" = "Revoked";
+"credential.details.status.notRevoked" = "Not Revoked";
+"credential.details.signature.valid" = "Valid Signature";
+"credential.details.signature.invalid" = "Invalid Signature";
+"credential.details.signature.unknownIssuer" = "Unknown Issuer";
+
+//Verifier - ScanViewController
+"ScanView.result.expiredDate" = "EXPIRED";
+"ScanView.result.expiresDate" = "EXPIRES";
+
+"ScanView.select.organization.title" = "Select Organization?";
+"ScanView.select.organization.message" = "No organization selected to verify Health Passes. Do you want to choose from your list?";
+"ScanView.select.organization.button" = "Show List";
+
+"ScanView.organization.expired.title" = "Organization Expired";
+"ScanView.organization.expired.message1" = "The selected organization code has expired and is not suitable for verifying Health Passes.\nPlease scan a new QR code provided by your administration to continue";
+"ScanView.organization.expired.message2" = "The selected organization code has expired and is not suitable for verifying Health Passes.\nPlease scan a new QR code provided by your administration to continue or choose from your list";
+"ScanView.organization.expired.button1" = "Scan";
+"ScanView.organization.expired.button2" = "Show List";
+
+"ScanView.no.organization.title" = "No Organization";
+"ScanView.no.organization.message" = "You don't have a valid organization to start verifying Health Passes.\nPlease scan a QR code provided by your administration";
+
+//Verifier - CameraAccessViewController
+"CameraAccess.cameraAccess.message1" = "Digital Health Pass is not authorized to access the device camera. Please update Digital Health Pass App settings.";
+"CameraAccess.cameraAccess.message2" = "Digital Health Pass Verify needs permission to access your camera to scan and verify QR codes.";
+"CameraAccess.cameraAccess.button1" = "Settings";
+"CameraAccess.cameraAccess.button2" = "Ok, I Understand";
+
+//Verifier - OrganizationDetailsTableViewController
+"OrganizationDetails.organization.error.title" = "Invalid Organization";
+"OrganizationDetails.organization.error.message" = "The QR code you scanned is not suitable for verifying Health Passes.\nPlease contact your administrator";
+
+"OrganizationDetails.organization.error.title3" = "Authentication Failed";
+"OrganizationDetails.organization.error.message3" = "The Organization you selected cannot be used for authentication.\nPlease try again later or contact your administrator";
+
+"OrganizationDetails.tableView.section.title" = "Contact Information";
+"OrganizationDetails.organization.selection.helper" = "Optional placeholder helper text explaining how this organization uses scans.";
+"OrganizationDetails.organization.selection.button1" = "Begin Scanning";
+"OrganizationDetails.organization.selection.button2" = "Continue Scanning";
+
+"OrganizationDetails.discard.organization.title" = "Discard Organization";
+"OrganizationDetails.discard.organization.message" = "Are you sure want to discard this organization?";
+
+
+//Verifier - ProfileTableViewController
+"Profile.currentOrganization.title" = "My Organizations";
+
+//Verifier - OrganizationListTableViewController
+"OrganizationList.header.title1" = "Available Organization";
+"OrganizationList.header.title2" = "Expired Organization";
+
+"OrganizationList.selected.label" = "Selected";
+
+// Privacy Statement
+"privacy.policy.wallet" = "Add your privacy statement here";
+"privacy.policy.verifier" = "Add your privacy statement here";
+
+"terms.conditions.wallet" = "Add your terms and conditions here";
+"terms.conditions.verifier" = "Add your terms and conditions here";
+
+// SectionPlaceholder
+
+"sectionPlaceholder.cards.title" = "You do not have any health cards";
+"sectionPlaceholder.connections.title" = "You do not have any connections";
+"sectionPlaceholder.cards.description" = "Add a health card to your wallet.";
+"sectionPlaceholder.connections.description" = "Add a company connection to share access to one or more of your cards.";

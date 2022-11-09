@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  Verifier
+
+  Created by John Martino on 2021-04-19.
+  (c) Copyright Merative US L.P. and others 2020-2022. All rights reserved.
+*/
+
+"NSCameraUsageDescription" = "You can use the camera to scan QR codes in health passes and cards.";

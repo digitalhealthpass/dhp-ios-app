@@ -1,0 +1,95 @@
+
+/* Class = "UILabel"; text = "Build"; ObjectID = "2fh-CN-eO4"; */
+"2fh-CN-eO4.text" = "Build";
+
+/* Class = "UITableViewSection"; footerTitle = "iPad devices supports Kiosk Mode. This mode would default front-facing camera for QR code scanning. "; ObjectID = "6Pa-vH-ADj"; */
+"6Pa-vH-ADj.footerTitle" = "iPad devices supports Kiosk Mode. This mode would default front-facing camera for QR code scanning. ";
+
+/* Class = "UITableViewSection"; footerTitle = "Optional placeholder helper text explaining how you can switch between different organization."; ObjectID = "9cw-m6-zss"; */
+"9cw-m6-zss.footerTitle" = "Optional placeholder helper text explaining how you can switch between different organization.";
+
+/* Class = "UITableViewSection"; footerTitle = "Pass Verify will check for signature verification with the issuer and validate the revocation status of the credential if enabled "; ObjectID = "Aby-t5-zEa"; */
+"Aby-t5-zEa.footerTitle" = "Pass Verify will check for signature verification with the issuer and validate the revocation status of the credential if enabled ";
+
+/* Class = "UITableViewSection"; headerTitle = "Verification Rules"; ObjectID = "Aby-t5-zEa"; */
+"Aby-t5-zEa.headerTitle" = "Verification Rules";
+
+/* Class = "UINavigationItem"; title = "Reset"; ObjectID = "DdB-TM-6lr"; */
+"DdB-TM-6lr.title" = "Reset";
+
+/* Class = "UITableViewSection"; headerTitle = "cache storage"; ObjectID = "F4K-zJ-SUW"; */
+"F4K-zJ-SUW.headerTitle" = "cache storage";
+
+/* Class = "UILabel"; text = "Region"; ObjectID = "Hyf-vL-cNh"; */
+"Hyf-vL-cNh.text" = "Region";
+
+/* Class = "UILabel"; text = "DEV"; ObjectID = "J2p-Br-rt4"; */
+"J2p-Br-rt4.text" = "DEV";
+
+/* Class = "UILabel"; text = "Reset"; ObjectID = "K7c-OI-Dox"; */
+"K7c-OI-Dox.text" = "Reset";
+
+/* Class = "UILabel"; text = "Terms and Conditions"; ObjectID = "Lxt-Dq-VSh"; */
+"Lxt-Dq-VSh.text" = "Terms and Conditions";
+
+/* Class = "UINavigationItem"; title = "My Organizations"; ObjectID = "MfB-aR-4bN"; */
+"MfB-aR-4bN.title" = "My Organizations";
+
+/* Class = "UILabel"; text = "Reset Frequency"; ObjectID = "Ng9-uM-S60"; */
+"Ng9-uM-S60.text" = "Reset Frequency";
+
+/* Class = "UILabel"; text = "No Organization available. Scan Organization QR Code to get started."; ObjectID = "OVK-Ia-Fw4"; */
+"OVK-Ia-Fw4.text" = "No Organization available. Scan Organization QR Code to get started.";
+
+/* Class = "UILabel"; text = "Selected Oraganization"; ObjectID = "PMQ-QP-jM2"; */
+"PMQ-QP-jM2.text" = "Selected Oraganization";
+
+/* Class = "UILabel"; text = "Expires 4/24/2021"; ObjectID = "Pl9-iW-ZGd"; */
+"Pl9-iW-ZGd.text" = "Expires 4/24/2021";
+
+/* Class = "UILabel"; text = "Reset metadata"; ObjectID = "VXI-dk-jbx"; */
+"VXI-dk-jbx.text" = "Reset metadata";
+
+/* Class = "UILabel"; text = "Citi Field"; ObjectID = "Wdm-sy-IZ9"; */
+"Wdm-sy-IZ9.text" = "Citi Field";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "dVM-a8-NKj"; */
+"dVM-a8-NKj.title" = "Profile";
+
+/* Class = "UITableViewController"; title = "Reset"; ObjectID = "e0X-9Q-W9D"; */
+"e0X-9Q-W9D.title" = "Reset";
+
+/* Class = "UILabel"; text = "Revoke "; ObjectID = "j7S-zG-bJ2"; */
+"j7S-zG-bJ2.text" = "Revoke ";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "lPK-Rg-T56"; */
+"lPK-Rg-T56.title" = "Settings";
+
+/* Class = "UILabel"; text = "v1.0.0(01)"; ObjectID = "m1u-Yj-apI"; */
+"m1u-Yj-apI.text" = "v1.0.0(01)";
+
+/* Class = "UILabel"; text = "Automatic Cache Reset"; ObjectID = "mu8-0i-kJd"; */
+"mu8-0i-kJd.text" = "Automatic Cache Reset";
+
+/* Class = "UILabel"; text = "Reset Schemas"; ObjectID = "nl5-L9-tmT"; */
+"nl5-L9-tmT.text" = "Reset Schemas";
+
+/* Class = "UILabel"; text = "New York, NY"; ObjectID = "oYl-gl-gxh"; */
+"oYl-gl-gxh.text" = "New York, NY";
+
+/* Class = "UILabel"; text = "Monthly"; ObjectID = "qRe-8d-Ts2"; */
+"qRe-8d-Ts2.text" = "Monthly";
+
+/* Class = "UILabel"; text = "Citi Field"; ObjectID = "rvU-kq-2vu"; */
+"rvU-kq-2vu.text" = "Citi Field";
+
+/* Class = "UILabel"; text = "Reset Issuer"; ObjectID = "snW-Jo-jgi"; */
+"snW-Jo-jgi.text" = "Reset Issuer";
+
+/* Class = "UILabel"; text = "Privacy Policy"; ObjectID = "tqE-Be-Off"; */
+"tqE-Be-Off.text" = "Privacy Policy";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "ubz-S4-7Rt"; */
+"ubz-S4-7Rt.title" = "Profile";
+
+"VXI-dk-jbx.text" = "Reset Metadata";

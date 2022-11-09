@@ -1,0 +1,38 @@
+{
+    "@context": {
+        "cred": "https://www.w3.org/2018/credentials/v1"
+    },
+    "id": "did:hpass:barcelona:483922049834213232485727110170736478066884981228#vc-bb5d690f-5352-4b9a-8a02-58979a44cc8a",
+    "type": [
+        "VerifiableCredential"
+    ],
+    "issuer": "did:hpass:barcelona:483922049834213232485727110170736478066884981228",
+    "issuanceDate": "2020-08-27T14:29:20Z",
+    "credentialSchema": {
+        "id": "did:hpass:barcelona:483922049834213232485727110170736478066884981228;id=survey-results;version=1.1",
+        "type": "JsonSchemaValidator2018"
+    },
+    "credentialSubject": {
+        "expiryDate": "2021-01-01T19:73:24Z",
+        "labresult": {
+            "issueDate": "2020-03-06T23:54:34-05:00",
+            "loinc": "94531-1",
+            "result": "Positive",
+            "type": "Observation"
+        },
+        "person": {
+            "mrn": "4f929187-35d9-4b52-8aa7-2aa2796d827d",
+            "name": {
+                "familyName": "Hauck852",
+                "givenName": "Richie600"
+            }
+        }
+    },
+    "proof": {
+        "created": "2020-08-27T14:29:20Z",
+        "creator": "did:hpass:barcelona:483922049834213232485727110170736478066884981228#key-1",
+        "nonce": "6717f5ac-cb43-474f-9186-6db6627415c3",
+        "signatureValue": "MEYCIQCZVlEilGNFjPtDR0aUnMkJzdb-eP5t8bMlaxbsIMca0QIhAJxI7SLxMgo2SuNISJseFefR3AYkuAq2klP2usHHQRuq",
+        "type": "EcdsaSecp256r1Signature2019"
+    }
+}

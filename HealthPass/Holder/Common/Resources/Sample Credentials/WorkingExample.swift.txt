@@ -1,0 +1,356 @@
+//: [Previous](@previous)
+
+import Foundation
+import JOSESwift
+
+//: [Next](@next)
+
+struct Credential: Codable {
+    enum CodingKeys: String, CodingKey {
+        case type, id, issuer, issuanceDate, expirationDate, credentialSchema, credentialSubject, proof
+        case context = "@context"
+    }
+    
+    var context: Context?
+    var type: [String]?
+    var id: String?
+    var issuer: String?
+    var issuanceDate: String?
+    var expirationDate: String?
+    
+    var credentialSchema: CredentialSchema?
+    
+    var credentialSubject: CredentialSubject?
+    
+    var proof: Proof?
+}
+
+struct Context: Codable {
+    var cred: String?
+}
+
+struct CredentialSchema: Codable {
+    var id: String?
+    var type: String?
+}
+
+struct CredentialSubject: Codable {
+    var label: String?
+    var issuerName: String?
+    
+    var person: Person?
+    var labresult: Labresult?
+
+    var issueDate: String?
+    var expiryDate: String?
+    var loinc: String?
+    var result: String?
+    
+    var status: String?
+    var input: Input?
+}
+
+struct Person: Codable {
+    var mrn: String?
+    var identifier: String?
+   
+    var name: Name?
+}
+
+struct Name: Codable {
+    var givenName: String?
+    var familyName: String?
+}
+
+struct Labresult: Codable {
+    var type: String?
+    var issueDate: String?
+    var loinc: String?
+    var result: String?
+}
+
+struct Input: Codable {
+    var covid: String?
+    var exposure: String?
+    var temperature: String?
+    var healthcheck: String?
+}
+
+struct Proof: Codable {
+    var created: String?
+    var creator: String?
+    var nonce: String?
+    var signatureValue: String?
+    var type: String?
+}
+
+struct DIDPublicKeyJwk: Codable {
+    var kty: String;
+    var crv: String;
+    var x: String;
+    var y: String;
+}
+
+struct DIDPublicKey: Codable {
+    var id: String;
+    var type: String;
+    var controller: String;
+    var publicKeyJwk: DIDPublicKeyJwk;
+}
+
+struct DIDInfo: Codable {
+    var publicKey: [DIDPublicKey];
+    var id: String;
+    var name: String;
+}
+
+struct RevokedCredential: Codable {
+    var exists: Bool;
+    var id: String?;
+    var reason: String?;
+    var createdAt: Int?;
+    var updatedAt: Int?;
+    var createdBy: String?;
+}
+
+let revokeddata = """
+{
+  "exists": true,
+  "id": "did:hpass:barcelona:724288032405576777861091792196189998155480769838#vc-e1ec859b-ca5b-41cc-9dbf-f2515c5b9141",
+  "reason": "Wrong supplies",
+  "created_at": 152323424,
+  "updated_at": 152323424
+}
+"""
+
+class VerificationResult {
+    var result: Bool
+    var message: String
+    
+    init(result: Bool, message: String) {
+        self.result = result
+        self.message = message
+    }
+}
+
+let reVjsonData = revokeddata.data(using: .utf8)!
+
+let decoder = JSONDecoder()
+decoder.keyDecodingStrategy = .convertFromSnakeCase
+
+let revokedCredential = try! decoder.decode(RevokedCredential.self, from: reVjsonData)
+//
+//print(revcr)
+
+
+class DIDUtils {
+    public func getPublicKey(did: String, keyID: String) -> DIDPublicKeyJwk? {
+        let didInfo = self.getDIDInfo(did: did)
+        for key in didInfo.publicKey {
+            if key.id == keyID {
+                print("Key found!" + keyID)
+                return key.publicKeyJwk
+            }
+        }
+        
+        return nil
+    }
+    
+    private func getDIDInfo(did: String) -> DIDInfo {
+        let testdata = """
+            {
+                "id": "did:hpass:barcelona:483922049834213232485727110170736478066884981228",
+                "name": "Barcelona hospital",
+                "created": "123",
+                "updated": "456",
+                "@context": {
+                    "did": "cschema",
+                    "name": "cname"
+                },
+                "publicKey": [
+                    {
+                        "id": "did:hpass:barcelona:483922049834213232485727110170736478066884981228#key-1",
+                        "type": "secp256r1",
+                        "controller": "did:hpass:barcelona:483922049834213232485727110170736478066884981228",
+                        "publicKeyJwk": {
+                            "crv": "P-256",
+                            "kty": "EC",
+                            "x": "UcHRiNIyRkzYchFFurD9Vdp-HEHIbi1TUwYhZqJ1RPQ",
+                            "y": "-gNtc3_9Ye8LJu4Tvpt60-s2GY47vMkZm5ijoAe4m08"
+                        }
+                    }
+                ]
+            }
+        """
+
+        let jsonData = testdata.data(using: .utf8)!
+
+        return try! JSONDecoder().decode(DIDInfo.self, from: jsonData)
+    }
+}
+
+class CredentialPKIUtils {
+    public func verifySignature(credential: Credential, pubKey: DIDPublicKeyJwk) -> Bool {
+        let signature = credential.proof!.signatureValue!
+        
+        var unsignedCredential = credential
+        unsignedCredential.proof?.signatureValue = nil
+        
+        let encoder = JSONEncoder()
+        encoder.outputFormatting = [.sortedKeys, .withoutEscapingSlashes]
+        let unsignedRawData = try! encoder.encode(unsignedCredential)
+        print(String(data: unsignedRawData, encoding: .utf8)!)
+
+        let rawSignature = Data(base64URLEncoded: signature)!
+        
+        var error: Unmanaged<CFError>?
+        var nativePubKey = self.convertJwkToSecKey(pubKey: pubKey)
+        
+        let result =  SecKeyVerifySignature(nativePubKey, SecKeyAlgorithm.ecdsaSignatureMessageX962SHA256, unsignedRawData as CFData, rawSignature as CFData, &error)
+        
+        print(error)
+        
+        return result
+    }
+    
+    private func convertJwkToSecKey(pubKey: DIDPublicKeyJwk) -> SecKey {
+        let encoder = JSONEncoder()
+        let jwkJson = try! encoder.encode(pubKey)
+        let ecpubkey = try! ECPublicKey(data: jwkJson)
+        return try! ecpubkey.converted(to: SecKey.self)
+    }
+}
+
+class HPassVerifier {
+    
+    let didUtils: DIDUtils;
+    let pkiUtils: CredentialPKIUtils;
+    
+    init(didUtils: DIDUtils, pkiUtils: CredentialPKIUtils) {
+        self.didUtils = didUtils
+        self.pkiUtils = pkiUtils
+    }
+    
+    public func verify(credential: Credential) -> VerificationResult {
+        var checkResult: Bool
+        var checkMessage: String
+        
+        (checkResult, checkMessage) = self.checkValidSignature(credential: credential)
+        if !checkResult {
+            return VerificationResult(result: checkResult, message: checkMessage);
+        }
+        
+        (checkResult, checkMessage) = self.checkNotExpired(credential: credential)
+        if !checkResult {
+            return VerificationResult(result: checkResult, message: checkMessage);
+        }
+        
+        (checkResult, checkMessage) = self.checkNotRevoked(credential: credential)
+        if !checkResult {
+            return VerificationResult(result: checkResult, message: checkMessage);
+        }
+        
+        return VerificationResult(result: true, message: "Verification is successful");
+    }
+    
+    private func checkNotExpired(credential: Credential) -> (Bool, String) {
+        if (credential.expirationDate == nil) {
+            return (true, "ok")
+        }
+        
+        let currentDate = Date()
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.timeZone = TimeZone(identifier: "UTC")
+        dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss'Z'"
+        let expirationDate = dateFormatter.date(from: credential.expirationDate!)!
+        
+        let result = currentDate.compare(expirationDate)
+        
+        if result.rawValue < 1 {
+            return (true, "ok")
+        }
+        
+        return (false, "Credential expired")
+    }
+    
+    private func checkValidSignature(credential: Credential) -> (Bool, String) {
+        let publicKey = self.didUtils.getPublicKey(did: credential.issuer!, keyID: credential.proof!.creator!)
+        if (publicKey == nil) {
+            return (false, "Issuer's public key was not found")
+        }
+        
+        if self.pkiUtils.verifySignature(credential: credential, pubKey: publicKey!) {
+            return (true, "ok")
+        }
+        
+        return (false, "Signature verification failed")
+    }
+    
+    private func checkNotRevoked(credential: Credential) -> (Bool, String) {
+//        var optionalRevokedCredential = getOptionalRevokedCredential(credential.id);
+//        let optionalRevokedCredential = RevokedCredential.init(id: credential.id, exists: false, reason: nil, created_at: nil, updated_at: nil, created_by: nil)
+        return (true, "ok")
+    }
+}
+
+let didutils = DIDUtils()
+let pkiUtils = CredentialPKIUtils()
+
+let hpassVerifier = HPassVerifier(didUtils: didutils, pkiUtils: pkiUtils)
+
+print("HPass verification: ")
+
+
+var credentialExample = """
+{
+    "@context": {
+        "cred": "https://www.w3.org/2018/credentials/v1"
+    },
+    "id": "did:hpass:barcelona:483922049834213232485727110170736478066884981228#vc-bb5d690f-5352-4b9a-8a02-58979a44cc8a",
+    "type": [
+        "VerifiableCredential"
+    ],
+    "issuer": "did:hpass:barcelona:483922049834213232485727110170736478066884981228",
+    "issuanceDate": "2020-08-27T14:29:20Z",
+    "credentialSchema": {
+        "id": "did:hpass:barcelona:483922049834213232485727110170736478066884981228;id=survey-results;version=1.1",
+        "type": "JsonSchemaValidator2018"
+    },
+    "credentialSubject": {
+        "expiryDate": "2021-01-01T19:73:24Z",
+        "labresult": {
+            "issueDate": "2020-03-06T23:54:34-05:00",
+            "loinc": "94531-1",
+            "result": "Positive",
+            "type": "Observation"
+        },
+        "person": {
+            "mrn": "4f929187-35d9-4b52-8aa7-2aa2796d827d",
+            "name": {
+                "familyName": "Hauck852",
+                "givenName": "Richie600"
+            }
+        }
+    },
+    "proof": {
+        "created": "2020-08-27T14:29:20Z",
+        "creator": "did:hpass:barcelona:483922049834213232485727110170736478066884981228#key-1",
+        "nonce": "6717f5ac-cb43-474f-9186-6db6627415c3",
+        "signatureValue": "MEYCIQCZVlEilGNFjPtDR0aUnMkJzdb-eP5t8bMlaxbsIMca0QIhAJxI7SLxMgo2SuNISJseFefR3AYkuAq2klP2usHHQRuq",
+        "type": "EcdsaSecp256r1Signature2019"
+    }
+}
+"""
+
+
+var base64Credential = "eyJAY29udGV4dCI6eyJjcmVkIjoiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEifSwiY3JlZGVudGlhbFNjaGVtYSI6eyJpZCI6ImRpZDpocGFzczpiYXJjZWxvbmE6NDgzOTIyMDQ5ODM0MjEzMjMyNDg1NzI3MTEwMTcwNzM2NDc4MDY2ODg0OTgxMjI4O2lkPXN1cnZleS1yZXN1bHRzO3ZlcnNpb249MS4xIiwidHlwZSI6Ikpzb25TY2hlbWFWYWxpZGF0b3IyMDE4In0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImV4cGlyeURhdGUiOiIyMDIxLTAxLTAxVDE5OjczOjI0WiIsImxhYnJlc3VsdCI6eyJpc3N1ZURhdGUiOiIyMDIwLTAzLTA2VDIzOjU0OjM0LTA1OjAwIiwibG9pbmMiOiI5NDUzMS0xIiwicmVzdWx0IjoiUG9zaXRpdmUiLCJ0eXBlIjoiT2JzZXJ2YXRpb24ifSwicGVyc29uIjp7Im1ybiI6IjRmOTI5MTg3LTM1ZDktNGI1Mi04YWE3LTJhYTI3OTZkODI3ZCIsIm5hbWUiOnsiZmFtaWx5TmFtZSI6IkhhdWNrODUyIiwiZ2l2ZW5OYW1lIjoiUmljaGllNjAwIn19fSwiaWQiOiJkaWQ6aHBhc3M6YmFyY2Vsb25hOjQ4MzkyMjA0OTgzNDIxMzIzMjQ4NTcyNzExMDE3MDczNjQ3ODA2Njg4NDk4MTIyOCN2Yy1iNTkxZjkwNS1jZWQyLTQ1OGMtOTkwOC04N2U5NTk1YTg4ZTgiLCJpc3N1YW5jZURhdGUiOiIyMDIwLTA4LTI3VDE0OjMwOjEwWiIsImlzc3VlciI6ImRpZDpocGFzczpiYXJjZWxvbmE6NDgzOTIyMDQ5ODM0MjEzMjMyNDg1NzI3MTEwMTcwNzM2NDc4MDY2ODg0OTgxMjI4IiwicHJvb2YiOnsiY3JlYXRlZCI6IjIwMjAtMDgtMjdUMTQ6MzA6MTBaIiwiY3JlYXRvciI6ImRpZDpocGFzczpiYXJjZWxvbmE6NDgzOTIyMDQ5ODM0MjEzMjMyNDg1NzI3MTEwMTcwNzM2NDc4MDY2ODg0OTgxMjI4I2tleS0xIiwibm9uY2UiOiI0YTJiNDljOS1mMTVlLTQ5N2YtOTE1MS05NTE3YzJmYjZhZDQiLCJzaWduYXR1cmVWYWx1ZSI6Ik1FWUNJUUREYUdSc3ZIUHJqN2o2cnlLWFdWLU82LW5wZ1dSYjNnUFNLdUd0QTk1MVRnSWhBTkpURzdZck1oTHpuUEFybW0yenJCaG1ucmE4NmxFOU9SRHgxWGp1U2RTRCIsInR5cGUiOiJFY2RzYVNlY3AyNTZyMVNpZ25hdHVyZTIwMTkifSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCJdfQ=="
+
+
+
+var credentialInstance = try! JSONDecoder().decode(Credential.self, from: credentialExample.data(using: .utf8)!)
+//var credentialInstance = try! JSONDecoder().decode(Credential.self, from: Data(base64Encoded: base64Credential)!)
+
+//print(credentialInstance)
+
+print(hpassVerifier.verify(credential: credentialInstance).message)

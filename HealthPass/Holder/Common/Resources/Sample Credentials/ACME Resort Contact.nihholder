@@ -1,0 +1,116 @@
+[
+  {
+    "@context": {
+      "cred": "https://www.w3.org/2018/credentials/v1"
+    },
+    "id": "did:hpass:hpassmsp:326154139805929658112786998782875574410195742971#vc-331c4588-1d2c-4b73-8bf5-7ad13ac6b440",
+    "type": [
+      "VerifiableCredential"
+    ],
+    "issuer": "did:hpass:hpassmsp:326154139805929658112786998782875574410195742971",
+    "issuanceDate": "2020-09-09T17:58:06Z",
+    "credentialSchema": {
+      "id": "did:hpass:hpassmsp:326154139805929658112786998782875574410195742971;id=covidtest;version=0.1",
+      "type": "JsonSchemaValidator2018"
+    },
+    "credentialSubject": {
+      "type": "profile",
+      "consentInfo": {
+        "version": "ISO/IEC 29184:2020",
+        "jurisdiction": "US",
+        "language": "en",
+        "piiPrincipalId": "MIIBCgKCAQEAvt4aeRV3rBBAP2jBlbevaYzD7qFVe4K1YnwTsBlBuM99AyyWt+7ABtBG49ZX2RxO1f9hNzezWGBlVzuNysYEHfcKf8vL3ct75rFHdfli3X/sIXWjR4UeczPwXcl2lyy0mnKbXApazTBUWYwd/PZwyBFC6NybGFQ+eO3TaBjZmIQGlY1wLy/8seOMfE8RhLpKkmDeVh5+V74zpqe42kVH4YNh93ATW6UujKYXuFX9XM9yMqBwzMahpjAPHV6K7jHTWDJqEebh6v88Rw5eL3vqvnt2Z8+edzRXnCE2W+7VQ7yPr+cX1xmtrkrJfX65JbGejB0o59L/BWHNt3r5pdnFTQIDAQAB",
+        "piiControllers": [
+          {
+            "piiController": "Acme Resort",
+            "onbehalf": true,
+            "contact": "John Smith, Acme Resort, Chief Data Privacy Officer",
+            "address": {
+              "line": "1 Main St",
+              "city": "New York",
+              "state": "NY",
+              "postalCode": "12345",
+              "country": "United States"
+            },
+            "email": "support@acmeresort.com",
+            "phone": "+353563405577",
+            "piiControllerUrl": "https://acmeresort.com"
+          }
+        ],
+        "policyUrl": "https://acmeresort.com/privacypolicy",
+        "services": [
+          {
+            "service": "Acme Resort Research",
+            "purposes": [
+              {
+                "purpose": "Acme Resort performs medical and behavioral research for the United States of America, and will use this data as part of that function.",
+                "consentType": "EXPLICIT",
+                "purposeCategory": "Medical Research",
+                "piiCategory": [
+                  "Personal Data"
+                ],
+                "termination": "Owner-mediated via Digital Wallet",
+                "thirdPartyDisclosure": false
+              }
+            ]
+          }
+        ],
+        "sensitive": false,
+        "spiCat": [
+          ""
+        ]
+      },
+      "technical": {
+        "poBox": {
+          "id": "",
+          "url": "",
+          "passcode": "",
+          "symmetricKey": ""
+        },
+        "termination": {
+          "url": "acmeresort.com/terminate"
+        }
+      }
+    },
+    "proof": {
+      "created": "2020-09-09T17:58:06Z",
+      "creator": "did:hpass:hpassmsp:326154139805929658112786998782875574410195742971#key-3",
+      "nonce": "8e3db40d-b551-49a1-b147-22092e3fe2b7",
+      "signatureValue": "MEQCIDZVdUp1lSi4w0rLSqGXSReA34r0idcezRIXjGM2hh3XAiAFYlotiYylTsPXgxGNPcTF5klKoNj51XnLFmbdjpCG0Q",
+      "type": "EcdsaSecp256r1Signature2019"
+    }
+  },
+  {
+    "@context": {
+      "cred": "https://www.w3.org/2018/credentials/v1"
+    },
+    "id": "did:hpass:hpassmsp:326154139805929658112786998782875574410195742971#vc-331c4588-1d2c-4b73-8bf5-7ad13ac6b440",
+    "type": [
+      "VerifiableCredential"
+    ],
+    "issuer": "did:hpass:hpassmsp:326154139805929658112786998782875574410195742971",
+    "issuanceDate": "2020-09-09T17:58:06Z",
+    "credentialSchema": {
+        "id": "did:hpass:hpassmsp:326154139805929658112786998782875574410195742971;id=covidtest;version=0.1",
+        "type": "JsonSchemaValidator2018"
+    },
+    "credentialSubject": {
+        "type": "id",
+        "id": "MIIBCgKCAQEAvt4aeRV3rBBAP2jBlbevaYzD7qFVe4K1YnwTsBlBuM99AyyWt+7ABtBG49ZX2RxO1f9hNzezWGBlVzuNysYEHfcKf8vL3ct75rFHdfli3X/sIXWjR4UeczPwXcl2lyy0mnKbXApazTBUWYwd/PZwyBFC6NybGFQ+eO3TaBjZmIQGlY1wLy/8seOMfE8RhLpKkmDeVh5+V74zpqe42kVH4YNh93ATW6UujKYXuFX9XM9yMqBwzMahpjAPHV6K7jHTWDJqEebh6v88Rw5eL3vqvnt2Z8+edzRXnCE2W+7VQ7yPr+cX1xmtrkrJfX65JbGejB0o59L/BWHNt3r5pdnFTQIDAQAB",
+        "gender": "female",
+        "ageRange": "45-54",
+        "race": "R5",
+        "location": "US-TX",
+        "issuer": {
+            "name": "Acme Resort"
+        }
+    },
+    "proof": {
+      "created": "2020-09-09T17:58:06Z",
+      "creator": "did:hpass:hpassmsp:326154139805929658112786998782875574410195742971#key-3",
+      "nonce": "8e3db40d-b551-49a1-b147-22092e3fe2b7",
+      "signatureValue": "MEQCIDZVdUp1lSi4w0rLSqGXSReA34r0idcezRIXjGM2hh3XAiAFYlotiYylTsPXgxGNPcTF5klKoNj51XnLFmbdjpCG0Q",
+      "type": "EcdsaSecp256r1Signature2019"
+    }
+  }
+]

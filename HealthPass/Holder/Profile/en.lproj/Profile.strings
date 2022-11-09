@@ -1,0 +1,150 @@
+
+/* Class = "UITableViewSection"; headerTitle = "wallet storage"; ObjectID = "2Td-ej-ckc"; */
+"2Td-ej-ckc.headerTitle" = "wallet storage";
+
+/* Class = "UILabel"; text = "Login & PIN"; ObjectID = "4qR-WM-oaU"; */
+"4qR-WM-oaU.text" = "Login & PIN";
+
+/* Class = "UILabel"; text = "Reset Issuer"; ObjectID = "5Sg-oC-fU5"; */
+"5Sg-oC-fU5.text" = "Reset issuer";
+
+/* Class = "UILabel"; text = "Change Passcode"; ObjectID = "5il-LG-joo"; */
+"5il-LG-joo.text" = "Change passcode";
+
+/* Class = "UILabel"; text = "Privacy Policy"; ObjectID = "794-na-JZr"; */
+"794-na-JZr.text" = "Privacy Policy";
+
+/* Class = "UILabel"; text = "About your privacy"; ObjectID = "Nfb-2e-YuW"; */
+"Nfb-2e-YuW.text" = "About your Privacy";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "7qN-ll-bsZ"; */
+"7qN-ll-bsZ.text" = "-";
+
+/* Class = "UILabel"; text = "Security Key"; ObjectID = "9dV-2f-Kdk"; */
+"9dV-2f-Kdk.text" = "Security key";
+
+/* Class = "UILabel"; text = "Automatic Cache Reset"; ObjectID = "AcN-Jk-Rmw"; */
+"AcN-Jk-Rmw.text" = "Automatic cache reset";
+
+/* Class = "UILabel"; text = "Monthly"; ObjectID = "Ccq-lo-rEt"; */
+"Ccq-lo-rEt.text" = "Monthly";
+
+/* Class = "UINavigationItem"; title = "Reset"; ObjectID = "DE2-td-VA4"; */
+"DE2-td-VA4.title" = "Reset";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "DaL-iw-Nho"; */
+"DaL-iw-Nho.title" = "Settings";
+
+/* Class = "UITableViewSection"; headerTitle = "Biometric Option"; ObjectID = "GRP-nn-Brg"; */
+"GRP-nn-Brg.headerTitle" = "Biometric option";
+
+/* Class = "UITableViewSection"; footerTitle = "Wallet backs up your wallet data and can save or send it to your desired location. After backup, you can also use the app to recover your information on a new iOS device, potentially avoiding loosing data or having to add again your cards and connections manually. "; ObjectID = "HKb-uF-uXA"; */
+"HKb-uF-uXA.footerTitle" = "You can send a backup copy of your Wallet data to another location.\n\nAfter backup, you can use the app to restore the information to a new iOS device. Doing this avoids data loss, and saves you from adding cards and connections again. ";
+
+/* Class = "UITableViewSection"; headerTitle = "Backup & Restore"; ObjectID = "HKb-uF-uXA"; */
+"HKb-uF-uXA.headerTitle" = "Backup & restore";
+
+/* Class = "UILabel"; text = "John Smith, Data Privacy Officer"; ObjectID = "Hel-F7-06q"; */
+"Hel-F7-06q.text" = "John Smith, Data Privacy Officer";
+
+/* Class = "UILabel"; text = "Oct 20, 2020 15:06"; ObjectID = "HrL-wr-MKI"; */
+"HrL-wr-MKI.text" = "Oct 20, 2020 15:06";
+
+/* Class = "UITableViewSection"; headerTitle = "Security"; ObjectID = "IUe-3t-QVZ"; */
+"IUe-3t-QVZ.headerTitle" = "Security";
+
+/* Class = "UILabel"; text = "Reset Cache"; ObjectID = "JOg-xd-hs4"; */
+"JOg-xd-hs4.text" = "Reset Cache";
+
+/* Class = "UILabel"; text = "Erase All Cards"; ObjectID = "KCq-As-pzy"; */
+"KCq-As-pzy.text" = "Delete all cards";
+
+/* Class = "UILabel"; text = "Reset Metadata"; ObjectID = "Kve-WI-Upf"; */
+"Kve-WI-Upf.text" = "Reset metadata";
+
+/* Class = "UILabel"; text = "Reset"; ObjectID = "LgL-g4-hGJ"; */
+"LgL-g4-hGJ.text" = "Reset";
+
+/* Class = "UITableViewController"; title = "Profile"; ObjectID = "LjD-hJ-bew"; */
+"LjD-hJ-bew.title" = "Profile";
+
+/* Class = "UITableViewSection"; headerTitle = "App Details"; ObjectID = "NLZ-bO-LL1"; */
+"NLZ-bO-LL1.headerTitle" = "App details";
+
+/* Class = "UILabel"; text = "Delete PIN"; ObjectID = "R4Q-KN-slB"; */
+"R4Q-KN-slB.text" = "Delete PIN";
+
+/* Class = "UILabel"; text = "DEV"; ObjectID = "S2T-SH-JB3"; */
+"S2T-SH-JB3.text" = "DEV";
+
+/* Class = "UILabel"; text = "My Keys"; ObjectID = "SM4-LW-Asn"; */
+"SM4-LW-Asn.text" = "My Keys";
+
+/* Class = "UIButton"; normalTitle = "Generate"; ObjectID = "Szn-JA-bgC"; */
+"Szn-JA-bgC.normalTitle" = "Generate";
+
+/* Class = "UILabel"; text = "Reset Frequency"; ObjectID = "VFK-vd-nDu"; */
+"VFK-vd-nDu.text" = "Reset Frequency";
+
+/* Class = "UILabel"; text = "Public Key"; ObjectID = "XFq-x5-NIk"; */
+"XFq-x5-NIk.text" = "Public key";
+
+/* Class = "UILabel"; text = "Back Up Now"; ObjectID = "YcP-8K-Gtt"; */
+"YcP-8K-Gtt.text" = "Back up now";
+
+/* Class = "UILabel"; text = "Supported Login"; ObjectID = "ZTj-Gb-gDQ"; */
+"ZTj-Gb-gDQ.text" = "Supported login";
+
+/* Class = "UILabel"; text = "National Institutes of Health"; ObjectID = "a7i-Xn-XQe"; */
+"a7i-Xn-XQe.text" = "National Institutes of Health";
+
+/* Class = "UILabel"; text = "Tag"; ObjectID = "b2X-rA-jtr"; */
+"b2X-rA-jtr.text" = "Tag";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "bJG-RD-XGG"; */
+"bJG-RD-XGG.text" = "1";
+
+/* Class = "UILabel"; text = "Version"; ObjectID = "dkK-CE-X2i"; */
+"dkK-CE-X2i.text" = "Version";
+
+/* Class = "UILabel"; text = "PIN"; ObjectID = "gGe-jB-1Hx"; */
+"gGe-jB-1Hx.text" = "PIN";
+
+/* Class = "UIBarButtonItem"; title = "Add To Wallet"; ObjectID = "jRn-Vt-hNn"; */
+"jRn-Vt-hNn.title" = "Add To Wallet";
+
+/* Class = "UINavigationItem"; title = "Login & PIN"; ObjectID = "lxp-Q0-ugt"; */
+"lxp-Q0-ugt.title" = "Login & PIN";
+
+/* Class = "UILabel"; text = "Terms and Conditions"; ObjectID = "n7Y-u7-h1N"; */
+"n7Y-u7-h1N.text" = "Terms and Conditions";
+
+/* Class = "UILabel"; text = "Restore Backup..."; ObjectID = "npj-nd-2N6"; */
+"npj-nd-2N6.text" = "Restore backup data...";
+
+/* Class = "UILabel"; text = "Region"; ObjectID = "oxN-DA-dhC"; */
+"oxN-DA-dhC.text" = "Region";
+
+/* Class = "UITableViewController"; title = "Reset"; ObjectID = "qnx-Ba-xDR"; */
+"qnx-Ba-xDR.title" = "Reset";
+
+/* Class = "UILabel"; text = "v1.0.0(01)"; ObjectID = "rUd-nc-pxc"; */
+"rUd-nc-pxc.text" = "v1.0.0(01)";
+
+/* Class = "UILabel"; text = "Saving Key Pair. Please Wait..."; ObjectID = "rhD-X6-Tzu"; */
+"rhD-X6-Tzu.text" = "Saving key pair. Please wait...";
+
+/* Class = "UITableViewSection"; headerTitle = "4-digit PIN"; ObjectID = "sQr-VK-cQ8"; */
+"sQr-VK-cQ8.headerTitle" = "Four-digit PIN";
+
+/* Class = "UINavigationItem"; title = "Security Keys"; ObjectID = "tTs-aI-nDc"; */
+"tTs-aI-nDc.title" = "Security Keys";
+
+/* Class = "UITableViewSection"; footerTitle = "Automatically reset cache evey few days to reduce application size. This won't delete and credential data from your wallet."; ObjectID = "uRc-sA-Anj"; */
+"uRc-sA-Anj.footerTitle" = "Automatically reset the app cache every few days, to optimize device storage. The data in your Wallet is retained.";
+
+/* Class = "UITableViewSection"; headerTitle = "cache storage"; ObjectID = "wz8-z9-FZX"; */
+"wz8-z9-FZX.headerTitle" = "Cache storage";
+
+/* Class = "UILabel"; text = "No Security Keys found in profile"; ObjectID = "xsH-Nu-TeI"; */
+"xsH-Nu-TeI.text" = "There are no security keys in the profile.";

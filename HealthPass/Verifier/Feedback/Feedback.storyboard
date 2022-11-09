@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qBW-qY-dwx">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sound & Vibration-->
+        <scene sceneID="UuF-Pd-Gv9">
+            <objects>
+                <tableViewController title="Sound &amp; Vibration" id="qBW-qY-dwx" customClass="FeedbackTableViewController" customModule="IBM_Pass_Verify" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="insetGrouped" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" id="2yC-vo-MYy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                        <sections>
+                            <tableViewSection footerTitle="Play sound when you scan a QR code. Sound will be affected by device settings. " id="SwI-Vh-hLA">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="a4q-cA-JAG">
+                                        <rect key="frame" x="20" y="18" width="374" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="a4q-cA-JAG" id="dI2-YV-Ysv">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sound when scanning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OzO-Jo-SFn">
+                                                    <rect key="frame" x="20" y="11.5" width="167.5" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mxn-MM-9S4">
+                                                    <rect key="frame" x="303" y="6.5" width="51" height="31"/>
+                                                    <connections>
+                                                        <action selector="onSoundFeedbackSwitch:" destination="qBW-qY-dwx" eventType="valueChanged" id="q3e-q2-xaa"/>
+                                                    </connections>
+                                                </switch>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="OzO-Jo-SFn" firstAttribute="centerY" secondItem="dI2-YV-Ysv" secondAttribute="centerY" id="3U6-cM-iAs"/>
+                                                <constraint firstAttribute="trailing" secondItem="Mxn-MM-9S4" secondAttribute="trailing" constant="22" id="72w-Gs-omh"/>
+                                                <constraint firstItem="Mxn-MM-9S4" firstAttribute="centerY" secondItem="dI2-YV-Ysv" secondAttribute="centerY" id="Fzs-Sx-gDO"/>
+                                                <constraint firstItem="Mxn-MM-9S4" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="OzO-Jo-SFn" secondAttribute="trailing" constant="20" id="KjJ-RS-sFB"/>
+                                                <constraint firstItem="OzO-Jo-SFn" firstAttribute="leading" secondItem="dI2-YV-Ysv" secondAttribute="leading" constant="20" id="weV-HO-D97"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection footerTitle="Vibrate when you scan a QR code." id="qTe-04-OGY">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="bLl-hS-5sm">
+                                        <rect key="frame" x="20" y="120" width="374" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bLl-hS-5sm" id="aqX-M6-63z">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vibrate when scanning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ccf-zF-I5r">
+                                                    <rect key="frame" x="20" y="11.5" width="173.5" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Laz-kA-n6v">
+                                                    <rect key="frame" x="303" y="6.5" width="51" height="31"/>
+                                                    <connections>
+                                                        <action selector="onHapticFeedbackSwitch:" destination="qBW-qY-dwx" eventType="valueChanged" id="rIt-Ia-CMI"/>
+                                                    </connections>
+                                                </switch>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="ccf-zF-I5r" firstAttribute="leading" secondItem="aqX-M6-63z" secondAttribute="leading" constant="20" id="11b-p1-SZf"/>
+                                                <constraint firstAttribute="trailing" secondItem="Laz-kA-n6v" secondAttribute="trailing" constant="22" id="Cxl-2m-Nwj"/>
+                                                <constraint firstItem="Laz-kA-n6v" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ccf-zF-I5r" secondAttribute="trailing" constant="20" id="ZVZ-an-sg6"/>
+                                                <constraint firstItem="ccf-zF-I5r" firstAttribute="centerY" secondItem="aqX-M6-63z" secondAttribute="centerY" id="gCz-lA-hvF"/>
+                                                <constraint firstItem="Laz-kA-n6v" firstAttribute="centerY" secondItem="aqX-M6-63z" secondAttribute="centerY" id="tav-GF-bic"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="qBW-qY-dwx" id="oj2-dU-heI"/>
+                            <outlet property="delegate" destination="qBW-qY-dwx" id="er7-jd-G2n"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <outlet property="hapticFeedbackSwitch" destination="Laz-kA-n6v" id="ikM-zP-JKU"/>
+                        <outlet property="hapticFeedbackTitleLabel" destination="ccf-zF-I5r" id="H9P-vt-Saq"/>
+                        <outlet property="soundFeedbackSwitch" destination="Mxn-MM-9S4" id="0Pl-RM-UBw"/>
+                        <outlet property="soundFeedbackTitleLabel" destination="OzO-Jo-SFn" id="hJV-Ov-fLa"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AhN-wb-mup" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131" y="9"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

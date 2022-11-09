@@ -1,0 +1,40 @@
+
+/* Class = "UILabel"; text = "This card already exists in the wallet. Replacing it will overwrite its current contents."; ObjectID = "1Lr-Aa-xYB"; */
+"1Lr-Aa-xYB.text" = "Dieses Zertifikat existiert bereits im Wallet. Ersetzen des Zertifikats überschreibt den existierenden Zertifikat.";
+
+/* Class = "UILabel"; text = "Verifing Credential. Please Wait..."; ObjectID = "7bu-Hu-r9I"; */
+"7bu-Hu-r9I.text" = "Prüfe Zertifikat. Bitte warten...";
+
+/* Class = "UILabel"; text = "ISSUED 10/17/2020"; ObjectID = "80u-df-cJA"; */
+"80u-df-cJA.text" = "Ausstelldatum 17.10.2020";
+
+/* Class = "UILabel"; text = "Org Healthpass 1"; ObjectID = "8Rr-f5-6C4"; */
+"8Rr-f5-6C4.text" = "Org Zertifikat 1";
+
+/* Class = "UILabel"; text = "Org Healthpass 1"; ObjectID = "8mF-7f-66g"; */
+"8mF-7f-66g.text" = "Org Zertifikat 1";
+
+/* Class = "UIBarButtonItem"; title = "Add To Wallet"; ObjectID = "MuE-Uq-aGQ"; */
+"MuE-Uq-aGQ.title" = "Zum Wallet hinzufügen";
+
+/* Class = "UILabel"; text = "Covid-19 Test Result "; ObjectID = "Qik-4Q-7rd"; */
+"Qik-4Q-7rd.text" = "Covid-19 Test Resultat ";
+
+/* Class = "UILabel"; text = "Covid-19 Test Result "; ObjectID = "RXh-dR-rf2"; */
+"RXh-dR-rf2.text" = "Covid-19 Test Resultat ";
+
+/* Class = "UILabel"; text = "ISSUED 10/17/2020"; ObjectID = "X6q-Pp-ZdF"; */
+"X6q-Pp-ZdF.text" = "Ausgestellt am 17.10.2020";
+
+/* Class = "UILabel"; text = "Health Pass"; ObjectID = "Yiy-h3-iyJ"; */
+"Yiy-h3-iyJ.text" = "Zertifikat";
+
+/* Class = "UILabel"; text = "EXP 10/17/2020"; ObjectID = "eEU-NP-uau"; */
+"eEU-NP-uau.text" = "Ablaufdatum 17.10.2020";
+
+/* Class = "UILabel"; text = "EXP 10/17/2020"; ObjectID = "lpW-mn-Kau"; */
+"lpW-mn-Kau.text" = "Ablaufdatum 17.10.2020";
+
+/* Class = "UILabel"; text = "Health Pass"; ObjectID = "nMr-AU-kSg"; */
+"nMr-AU-kSg.text" = "Zertifikat";
+

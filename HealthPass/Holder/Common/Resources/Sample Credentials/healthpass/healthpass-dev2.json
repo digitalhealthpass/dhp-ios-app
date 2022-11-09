@@ -1,0 +1,34 @@
+{
+   "type": [
+      "VerifiableCredential"
+   ],
+   "issuanceDate": "2021-03-02T02:16:01Z",
+   "credentialSchema": {
+      "id": "did:hpass:5c3caed09426bda7eb7ea51973b7d1eb87c3ec5b472163935ee05e757ecf10fe:f2fff85d420e498de8faa5ca567472c42e522a13f1c18e875a54ef0abdb76c9f;id=bts-id;version=0.1",
+      "type": "JsonSchemaValidator2018"
+   },
+   "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+   ],
+   "proof": {
+      "created": "2021-03-02T02:16:01Z",
+      "nonce": "25490cfa-a3d4-4b65-9d49-a871fbf575d5",
+      "creator": "did:hpass:5c3caed09426bda7eb7ea51973b7d1eb87c3ec5b472163935ee05e757ecf10fe:f2fff85d420e498de8faa5ca567472c42e522a13f1c18e875a54ef0abdb76c9f#key-1",
+      "signatureValue": "MEYCIQD_-oyu45RTHPfwymY-zK4C59zZKXR55zi_VEQ1tC01RwIhALhMPHX351fP0Fbllb433HyFA5JQEixoN7ds67lzqdLz",
+      "type": "EcdsaSecp256r1Signature2019"
+   },
+   "issuer": "did:hpass:5c3caed09426bda7eb7ea51973b7d1eb87c3ec5b472163935ee05e757ecf10fe:f2fff85d420e498de8faa5ca567472c42e522a13f1c18e875a54ef0abdb76c9f",
+   "credentialSubject": {
+      "clientName": "BTS Client",
+      "id": "10e660d0a3c89a9dda34e93e649028d7",
+      "organization": "bts",
+      "name": {
+         "familyName": "swift11",
+         "givenName": "ios11"
+      },
+      "location": "US-MA",
+      "type": "id"
+   },
+   "expirationDate": "2022-03-02T02:16:00Z",
+   "id": "did:hpass:5c3caed09426bda7eb7ea51973b7d1eb87c3ec5b472163935ee05e757ecf10fe:f2fff85d420e498de8faa5ca567472c42e522a13f1c18e875a54ef0abdb76c9f#vc-a80104af-1e3d-4c93-ad73-ea15c67a0f6a"
+}

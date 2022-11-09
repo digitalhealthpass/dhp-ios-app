@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "Need Help?"; ObjectID = "Cyy-dE-U7X"; */
+"Cyy-dE-U7X.text" = "Hilfe?";
+
+/* Class = "UILabel"; text = "Version"; ObjectID = "GtH-En-ZVg"; */
+"GtH-En-ZVg.text" = "Version";
+
+/* Class = "UILabel"; text = "Login to Pass Verify"; ObjectID = "MuR-0p-C7U"; */
+"MuR-0p-C7U.text" = "Anmelden bei Digitales Zertifikat Prüf-App";
+
+/* Class = "UIButton"; normalTitle = "Privacy Policy"; ObjectID = "RYz-rq-JUX"; */
+"RYz-rq-JUX.normalTitle" = "Datenschutzerklärung";
+
+/* Class = "UITextField"; placeholder = "Required"; ObjectID = "SjL-fK-bdg"; */
+"SjL-fK-bdg.placeholder" = "Notwendig";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "XVD-s1-PtY"; */
+"XVD-s1-PtY.normalTitle" = "Weiter";
+
+/* Class = "UILabel"; text = "ID"; ObjectID = "YMJ-QU-JPF"; */
+"YMJ-QU-JPF.text" = "ID";
+
+/* Class = "UIButton"; normalTitle = "Visit FAQs"; ObjectID = "bjY-kc-JrD"; */
+"bjY-kc-JrD.normalTitle" = "FAQs";
+
+/* Class = "UITextField"; placeholder = "Required"; ObjectID = "cgA-Gk-FWK"; */
+"cgA-Gk-FWK.placeholder" = "Benötigt";
+
+/* Class = "UILabel"; text = "Copyright © 2020 IBM"; ObjectID = "jZv-8Q-z7T"; */
+"jZv-8Q-z7T.text" = "(c) Copyright Merative US L.P. and others 2020-2022";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "rLB-C1-sSS"; */
+"rLB-C1-sSS.text" = "Passwort";
+
+/* Class = "UIButton"; normalTitle = " Remember Me"; ObjectID = "vlV-M8-4Sa"; */
+"vlV-M8-4Sa.normalTitle" = " Login merken";

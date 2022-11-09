@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "cred": "https://www.w3.org/2018/credentials/v1"
+    },
+    "id": "did:hpass:hpassmsp:326154139805929658112786998782875574410195742971#vc-2bb43a79-3573-4222-bd13-099e37c1972f",
+    "type": [
+        "VerifiableCredential"
+    ],
+    "issuer": "did:hpass:hpassmsp:326154139805929658112786998782875574410195742971",
+    "issuanceDate": "2020-09-14T01:40:15Z",
+    "credentialSchema": {
+        "id": "did:hpass:hpassmsp:326154139805929658112786998782875574410195742971;id=covidtest;version=0.1",
+        "type": "JsonSchemaValidator2018"
+    },
+    "credentialSubject": {
+        "expiryDate": "2021-01-01T19:73:24Z",
+        "labresult": {
+            "issueDate": "2020-03-06T23:54:34-05:00",
+            "loinc": "94531-1",
+            "result": "Positive",
+            "type": "Observation"
+        },
+        "person": {
+            "mrn": "4f929187-35d9-4b52-8aa7-2aa2796d827d",
+            "name": {
+                "familyName": "NpF8venE6Jvu7FeQ5cDqxjO2GXpUg4RFH55xyXb0udk",
+                "givenName": "zXgI9tqemQdYGZX6I9U80Z8VRq91s5EAc18pPo7QoR0"
+            }
+        }
+    },
+    "proof": {
+        "created": "2020-09-14T01:40:15Z",
+        "creator": "did:hpass:hpassmsp:326154139805929658112786998782875574410195742971#key-4",
+        "nonce": "5a3f81e4-f355-421e-b799-0dd4160840cd",
+        "signatureValue": "MEUCIFHA5DAjgs5RINP305BZFFnxyUQ44Gi30mqQGX59unSRAiEA2SNCi4iyuf1z8Yf84IZ4e2CMGy5YSvFA7v37e5rzg44",
+        "type": "EcdsaSecp256r1Signature2019"
+    },
+    "obfuscation": [
+        {
+            "val": "Richie600",
+            "alg": "HS256",
+            "nonce": "exSEPFKAxnSjKSBB7Z_Pgda8ZNT3I5MWJbLaex0uv3s",
+            "path": "person.name.givenName"
+        },
+        {
+            "val": "Hauck852",
+            "alg": "HS256",
+            "nonce": "cRCWyt4w8WLOJefOeMnsREMyqXE6pAF01brEdcrtotQ",
+            "path": "person.name.familyName"
+        }
+    ]
+}

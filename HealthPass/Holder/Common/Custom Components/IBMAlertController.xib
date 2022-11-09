@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="IBMPlexSans-Regular.ttf">
+            <string>IBMPlexSans</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IBMAlertController" customModule="IBM_Pass_Verify" customModuleProvider="target">
+            <connections>
+                <outlet property="alertActionStackView" destination="Yhr-yW-pBQ" id="Zm2-Ni-Q6b"/>
+                <outlet property="alertActionStackViewHeightConstraint" destination="cIH-jN-KlJ" id="EEd-T0-wdZ"/>
+                <outlet property="alertActionStackViewLeadingConstraint" destination="JYO-6q-iTq" id="UTe-ZS-1YU"/>
+                <outlet property="alertActionStackViewTopConstraint" destination="SRQ-kk-1x1" id="Vil-Kx-uZo"/>
+                <outlet property="alertActionStackViewTrailingConstraint" destination="gVz-mn-sYL" id="D4I-KS-3yG"/>
+                <outlet property="alertContentStackView" destination="B4b-Xx-eHm" id="LEK-AV-gBg"/>
+                <outlet property="alertContentStackViewLeadingConstraint" destination="cgr-S4-N4J" id="r5l-5D-QgF"/>
+                <outlet property="alertContentStackViewTrailingConstraint" destination="K4o-Px-oYh" id="Ug6-fz-2n0"/>
+                <outlet property="alertDescription" destination="Du6-AN-gNT" id="Ym1-1V-bhQ"/>
+                <outlet property="alertMaskBackground" destination="pxN-Ri-ZCR" id="SBq-Pq-jNB"/>
+                <outlet property="alertTitle" destination="eUR-Ad-LJu" id="LYJ-X2-gom"/>
+                <outlet property="alertView" destination="UQq-jF-HEJ" id="hmo-y2-LrN"/>
+                <outlet property="alertViewBottomConstraint" destination="QOk-Yx-V52" id="JHu-8S-4IW"/>
+                <outlet property="alertViewCenterYConstraint" destination="Wrf-1O-NZ8" id="ROV-T1-Pev"/>
+                <outlet property="alertViewWidthConstraint" destination="SAM-m5-Kf6" id="0HY-sG-9UD"/>
+                <outlet property="cancelActionStackView" destination="vM2-EX-2Bb" id="rGd-L3-3kX"/>
+                <outlet property="cancelActionStackViewHeightConstraint" destination="RZ2-wf-QGO" id="qC7-Ew-vwm"/>
+                <outlet property="view" destination="9V6-O6-Kl0" id="X5E-RD-AGX"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="9V6-O6-Kl0">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pxN-Ri-ZCR">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" red="0.33333334329999997" green="0.33333334329999997" blue="0.33333334329999997" alpha="0.14999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UQq-jF-HEJ">
+                    <rect key="frame" x="31" y="360.5" width="352" height="175"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="B4b-Xx-eHm" userLabel="Alert Content Stack View">
+                            <rect key="frame" x="0.0" y="0.0" width="352" height="47"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Modal title" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eUR-Ad-LJu" customClass="PaddingLabel" customModule="IBM_Pass_Verify" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="352" height="26"/>
+                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="JTq-F6-Egw"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="IBMPlexSans" family="IBM Plex Sans" pointSize="20"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="topInset">
+                                            <real key="value" value="16"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="bottomInset">
+                                            <real key="value" value="8"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="leftInset">
+                                            <real key="value" value="16"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="rightInset">
+                                            <real key="value" value="16"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Modal description" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Du6-AN-gNT" customClass="PaddingLabel" customModule="IBM_Pass_Verify" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="26" width="352" height="21"/>
+                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="F95-DZ-6N9"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="IBMPlexSans" family="IBM Plex Sans" pointSize="16"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="topInset">
+                                            <real key="value" value="8"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="bottomInset">
+                                            <real key="value" value="24"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="leftInset">
+                                            <real key="value" value="16"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="rightInset">
+                                            <real key="value" value="16"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" priority="750" id="a7p-uC-dQe"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Yhr-yW-pBQ">
+                            <rect key="frame" x="0.0" y="47" width="352" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="cIH-jN-KlJ"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="vM2-EX-2Bb">
+                            <rect key="frame" x="0.0" y="115" width="352" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="RZ2-wf-QGO"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="B4b-Xx-eHm" firstAttribute="top" secondItem="UQq-jF-HEJ" secondAttribute="top" id="8Sl-sd-fIE"/>
+                        <constraint firstItem="Yhr-yW-pBQ" firstAttribute="leading" secondItem="UQq-jF-HEJ" secondAttribute="leading" id="JYO-6q-iTq"/>
+                        <constraint firstAttribute="trailing" secondItem="B4b-Xx-eHm" secondAttribute="trailing" id="K4o-Px-oYh"/>
+                        <constraint firstAttribute="bottom" secondItem="vM2-EX-2Bb" secondAttribute="bottom" id="Lqt-33-7N4"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="LrG-xT-jaU"/>
+                        <constraint firstItem="vM2-EX-2Bb" firstAttribute="top" secondItem="Yhr-yW-pBQ" secondAttribute="bottom" constant="8" id="Noa-er-6Hs"/>
+                        <constraint firstAttribute="width" constant="352" id="SAM-m5-Kf6"/>
+                        <constraint firstItem="Yhr-yW-pBQ" firstAttribute="top" secondItem="B4b-Xx-eHm" secondAttribute="bottom" id="SRQ-kk-1x1"/>
+                        <constraint firstItem="B4b-Xx-eHm" firstAttribute="leading" secondItem="UQq-jF-HEJ" secondAttribute="leading" id="cgr-S4-N4J"/>
+                        <constraint firstAttribute="trailing" secondItem="Yhr-yW-pBQ" secondAttribute="trailing" id="gVz-mn-sYL"/>
+                        <constraint firstItem="vM2-EX-2Bb" firstAttribute="leading" secondItem="UQq-jF-HEJ" secondAttribute="leading" id="lY3-W6-pKg"/>
+                        <constraint firstAttribute="trailing" secondItem="vM2-EX-2Bb" secondAttribute="trailing" id="uTn-Rf-X35"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="bRu-Lk-HSK"/>
+            <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="pxN-Ri-ZCR" secondAttribute="bottom" id="6wW-Na-YMs"/>
+                <constraint firstItem="bRu-Lk-HSK" firstAttribute="bottom" secondItem="UQq-jF-HEJ" secondAttribute="bottom" priority="250" constant="16" id="QOk-Yx-V52"/>
+                <constraint firstItem="UQq-jF-HEJ" firstAttribute="centerY" secondItem="9V6-O6-Kl0" secondAttribute="centerY" id="Wrf-1O-NZ8"/>
+                <constraint firstAttribute="trailing" secondItem="pxN-Ri-ZCR" secondAttribute="trailing" id="gnU-km-pwU"/>
+                <constraint firstItem="pxN-Ri-ZCR" firstAttribute="top" secondItem="9V6-O6-Kl0" secondAttribute="top" id="i6b-C0-aVi"/>
+                <constraint firstItem="UQq-jF-HEJ" firstAttribute="centerX" secondItem="9V6-O6-Kl0" secondAttribute="centerX" id="ngX-Pv-cRA"/>
+                <constraint firstItem="pxN-Ri-ZCR" firstAttribute="leading" secondItem="9V6-O6-Kl0" secondAttribute="leading" id="qFL-zu-JC8"/>
+            </constraints>
+            <point key="canvasLocation" x="33.333333333333336" y="54.241071428571423"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="Du6-AN-gNT">
+            <size key="intrinsicContentSize" width="132.5" height="21"/>
+        </designable>
+        <designable name="eUR-Ad-LJu">
+            <size key="intrinsicContentSize" width="100.5" height="26"/>
+        </designable>
+    </designables>
+    <resources>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

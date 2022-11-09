@@ -1,0 +1,40 @@
+{
+    "@context": {
+        "cred": "https://www.w3.org/2018/credentials/v1"
+    },
+    "id": "did:hpass:hpassmsp:326154139805929658112786998782875574410195742971#vc-baecc9b4-21e8-47a7-89bb-6e14bdd6a193",
+    "type": [
+        "VerifiableCredential"
+    ],
+    "issuer": "did:hpass:hpassmsp:326154139805929658112786998782875574410195742971",
+    "issuanceDate": "2020-10-12T02:16:52Z",
+    "expirationDate": "2021-06-17T08:30:00Z",
+    "credentialSchema": {
+        "id": "did:hpass:hpassmsp:326154139805929658112786998782875574410195742971;id=covidtest;version=0.1",
+        "type": "JsonSchemaValidator2018"
+    },
+    "credentialSubject": {
+        "type": "healthpass",
+        "expiryDate": "2021-01-01T19:73:24Z",
+        "labresult": {
+            "issueDate": "2020-03-06T23:54:34-05:00",
+            "loinc": "94531-1",
+            "result": "Positive",
+            "type": "Observation"
+        },
+        "person": {
+            "mrn": "4f929187-35d9-4b52-8aa7-2aa2796d827d",
+            "name": {
+                "familyName": "Steve",
+                "givenName": "Rogers"
+            }
+        }
+    },
+    "proof": {
+        "created": "2020-10-12T02:16:52Z",
+        "creator": "did:hpass:hpassmsp:326154139805929658112786998782875574410195742971#key-5",
+        "nonce": "de0497f0-32a0-4a9e-b367-34664c33f1c5",
+        "signatureValue": "MEYCIQD39jb3OpZT9w1TAMcuf8yBWswmmzPDUp3NvzNia2DAagIhALJE_3I6ckv_REtCIyX8TAl01WXyv8Hyg2pQH5PA1JJL",
+        "type": "EcdsaSecp256r1Signature2019"
+    }
+}

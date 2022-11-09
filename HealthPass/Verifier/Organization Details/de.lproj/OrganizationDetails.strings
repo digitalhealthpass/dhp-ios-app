@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "Loading Organization. Please Wait..."; ObjectID = "GvU-Hc-yn7"; */
+"GvU-Hc-yn7.text" = "Lade Organisation. Bitte warten ...";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "NwV-qM-iUh"; */
+"NwV-qM-iUh.text" = "Title";
+
+/* Class = "UILabel"; text = "Atlanta, Georgia"; ObjectID = "RWC-wW-RHN"; */
+"RWC-wW-RHN.text" = "Atlanta, Georgia";
+
+/* Class = "UILabel"; text = "The QR code you scanned has expired and it is not suitable for verifying Health Passes. Please contact your administrator"; ObjectID = "WGs-vD-B4a"; */
+"WGs-vD-B4a.text" = "Der gescannte QR Code ist abgelaufen und nicht geeignet um Zertifikate zu überprüfen. Bitte wenden Sie sich an den Administrator";
+
+/* Class = "UILabel"; text = "MBI Stadium"; ObjectID = "dLu-Zw-maE"; */
+"dLu-Zw-maE.text" = "MBI Stadium";
+
+/* Class = "UILabel"; text = "Optional placeholder helper text explaining how this organization uses scans."; ObjectID = "gmB-vo-rQR"; */
+"gmB-vo-rQR.text" = "Optional placeholder helper text explaining how this organization uses scans.";
+
+/* Class = "UILabel"; text = "Issued 4/24/2021"; ObjectID = "h6w-8s-gg3"; */
+"h6w-8s-gg3.text" = "Issued 4/24/2021";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "j3b-Vt-3U4"; */
+"j3b-Vt-3U4.text" = "Subtitle";
+
+/* Class = "UIButton"; normalTitle = "Begin Scanning"; ObjectID = "uQ7-3X-Vvl"; */
+"uQ7-3X-Vvl.normalTitle" = "Mit Scannen beginnen";
+
+/* Class = "UILabel"; text = "Expires 4/24/2021"; ObjectID = "vvw-Rc-3ur"; */
+"vvw-Rc-3ur.text" = "Expires 4/24/2021";
+
+/* Class = "UIButton"; normalTitle = "Discard Organization"; ObjectID = "yHU-MH-hgr"; */
+"yHU-MH-hgr.normalTitle" = "Organisation entfernen";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "z2R-1w-c3C"; */
+"z2R-1w-c3C.title" = "Item";

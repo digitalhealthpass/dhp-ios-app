@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rb8-lq-dvt">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="IRg-Wj-hHG">
+            <objects>
+                <navigationController modalPresentationStyle="pageSheet" toolbarHidden="NO" id="rb8-lq-dvt" sceneMemberID="viewController">
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <modalPageSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="3Lr-65-Syo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cF7-Xs-FMU">
+                        <rect key="frame" x="0.0" y="504" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="Ixd-PB-agJ" kind="relationship" relationship="rootViewController" id="ogL-Ou-cQH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jKm-W4-wDK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-719" y="156"/>
+        </scene>
+        <!--Terms and Conditions-->
+        <scene sceneID="YSa-zT-29B">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="Ixd-PB-agJ" customClass="TermsConditionsViewController" customModule="IBM_Pass_Verify" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2ng-fI-DgM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YpD-bV-6Zj">
+                                <rect key="frame" x="0.0" y="56" width="320" height="492"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="aMe-dK-SWb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="YpD-bV-6Zj" firstAttribute="top" secondItem="aMe-dK-SWb" secondAttribute="top" id="C7H-qO-53O"/>
+                            <constraint firstAttribute="bottom" secondItem="YpD-bV-6Zj" secondAttribute="bottom" id="R3z-hb-7Bc"/>
+                            <constraint firstItem="aMe-dK-SWb" firstAttribute="trailing" secondItem="YpD-bV-6Zj" secondAttribute="trailing" id="oqm-4R-07M"/>
+                            <constraint firstItem="YpD-bV-6Zj" firstAttribute="leading" secondItem="aMe-dK-SWb" secondAttribute="leading" id="zqW-U4-oDa"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="Disagree" style="plain" id="gPr-j3-lby">
+                            <connections>
+                                <action selector="onDisagree:" destination="Ixd-PB-agJ" id="7ln-b4-KYC"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="LtK-Nh-eYK"/>
+                        <barButtonItem title="Agree" style="done" id="oqE-oW-KJf">
+                            <connections>
+                                <action selector="onAgree:" destination="Ixd-PB-agJ" id="05N-hm-f2d"/>
+                            </connections>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" title="Terms and Conditions" largeTitleDisplayMode="never" id="q9h-6X-zIC">
+                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="done" id="pzs-w2-9cp">
+                            <connections>
+                                <action selector="onDone:" destination="Ixd-PB-agJ" id="ECJ-Qx-NUQ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="agreeBarButtonItem" destination="oqE-oW-KJf" id="c4H-IM-YYx"/>
+                        <outlet property="disagreeBarButtonItem" destination="gPr-j3-lby" id="rXh-MK-baf"/>
+                        <outlet property="doneBarButtonItem" destination="pzs-w2-9cp" id="tO4-yh-gak"/>
+                        <outlet property="termsConditionsTextView" destination="YpD-bV-6Zj" id="cZ9-tX-e3c"/>
+                        <segue destination="qum-uD-hoM" kind="unwind" identifier="unwindToLaunch" unwindAction="unwindToLaunchWithSegue:" id="huR-vS-FVi"/>
+                        <segue destination="qum-uD-hoM" kind="unwind" identifier="unwindToProfile" unwindAction="unwindToProfileWithSegue:" id="NYu-PC-L2n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M3y-qG-clI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="qum-uD-hoM" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="112.5" y="154.22535211267606"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

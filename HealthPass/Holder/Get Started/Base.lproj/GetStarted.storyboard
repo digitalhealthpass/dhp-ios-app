@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zGS-XG-Xh3">
+    <device id="retina6_0" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Custom Navigation Controller-->
+        <scene sceneID="WRI-Zq-7LR">
+            <objects>
+                <navigationController modalPresentationStyle="pageSheet" navigationBarHidden="YES" id="zGS-XG-Xh3" customClass="CustomNavigationController" customModule="IBM_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <modalPageSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zn9-MD-e6Q">
+                        <rect key="frame" x="0.0" y="-54" width="0.0" height="0.0"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="s9F-GK-4FV" kind="relationship" relationship="rootViewController" id="GAF-V3-4Rs"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Ln-0i-aQL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="45" y="128"/>
+        </scene>
+        <!--Get Started Collection View Controller-->
+        <scene sceneID="0sz-4p-Bf8">
+            <objects>
+                <collectionViewController modalPresentationStyle="fullScreen" id="s9F-GK-4FV" customClass="GetStartedCollectionViewController" customModule="IBM_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsVerticalScrollIndicator="NO" dataMode="prototypes" id="6Pa-3G-Cmo">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="sls-99-J2F">
+                            <size key="itemSize" width="375" height="731"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="Cell" reuseIdentifier="GetStartedCollectionViewCell" id="FPM-sQ-lpC" customClass="GetStartedCollectionViewCell" customModule="IBM_Wallet" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="12.666666666666666" width="375" height="731"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="TXU-AT-nHG">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="731"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Step 0" translatesAutoresizingMaskIntoConstraints="NO" id="82A-rA-trj">
+                                            <rect key="frame" x="0.0" y="7" width="375" height="310"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="310" id="6rX-Aq-SoC"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Digital Health Pass Wallet" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.90000000000000002" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XUt-YI-16w">
+                                            <rect key="frame" x="16" y="339" width="272.66666666666669" height="30"/>
+                                            <accessibility key="accessibilityConfiguration">
+                                                <accessibilityTraits key="traits" header="YES"/>
+                                            </accessibility>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A smart way for organizations to bring people back to a physical location, such as a workplace, school, stadium, or airport." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.90000000000000002" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wKp-Aa-3h0">
+                                            <rect key="frame" x="16" y="377" width="332.33333333333331" height="55"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U9c-4Z-fxW" customClass="Button" customModule="IBM_Wallet" customModuleProvider="target">
+                                            <rect key="frame" x="16" y="572" width="343" height="60"/>
+                                            <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="60" id="w2O-KB-zKk"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                            <state key="normal" title="Get Started">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isProminent" value="NO"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="6"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="onFinished:" destination="FPM-sQ-lpC" eventType="touchUpInside" id="gqS-0a-lwp"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="U9c-4Z-fxW" firstAttribute="leading" secondItem="TXU-AT-nHG" secondAttribute="leading" constant="16" id="0jD-2W-zDV"/>
+                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="wKp-Aa-3h0" secondAttribute="trailing" constant="20" symbolic="YES" id="1bz-Sp-pNy"/>
+                                        <constraint firstAttribute="trailing" secondItem="U9c-4Z-fxW" secondAttribute="trailing" constant="16" id="52d-Cu-fpt"/>
+                                        <constraint firstItem="82A-rA-trj" firstAttribute="leading" secondItem="TXU-AT-nHG" secondAttribute="leading" id="D9H-bD-vTp"/>
+                                        <constraint firstItem="wKp-Aa-3h0" firstAttribute="top" secondItem="XUt-YI-16w" secondAttribute="bottom" constant="8" symbolic="YES" id="N6n-lv-pr9"/>
+                                        <constraint firstItem="82A-rA-trj" firstAttribute="top" secondItem="TXU-AT-nHG" secondAttribute="top" constant="7" id="UTX-dY-rgL"/>
+                                        <constraint firstAttribute="trailing" secondItem="82A-rA-trj" secondAttribute="trailing" id="Wx2-WK-rOv"/>
+                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="XUt-YI-16w" secondAttribute="trailing" constant="20" symbolic="YES" id="XiY-fi-iV9"/>
+                                        <constraint firstItem="XUt-YI-16w" firstAttribute="leading" secondItem="TXU-AT-nHG" secondAttribute="leading" constant="16" id="YgJ-8K-KWF"/>
+                                        <constraint firstItem="wKp-Aa-3h0" firstAttribute="leading" secondItem="XUt-YI-16w" secondAttribute="leading" id="cZa-n8-7ZO"/>
+                                        <constraint firstItem="XUt-YI-16w" firstAttribute="top" secondItem="82A-rA-trj" secondAttribute="bottom" constant="22" id="nB9-5S-gFx"/>
+                                        <constraint firstAttribute="bottom" secondItem="U9c-4Z-fxW" secondAttribute="bottom" constant="99" id="uW1-i4-cB2"/>
+                                        <constraint firstItem="U9c-4Z-fxW" firstAttribute="top" relation="greaterThanOrEqual" secondItem="wKp-Aa-3h0" secondAttribute="bottom" id="yOq-Ag-7lf"/>
+                                    </constraints>
+                                </collectionViewCellContentView>
+                                <size key="customSize" width="375" height="731"/>
+                                <connections>
+                                    <outlet property="detailLabel" destination="wKp-Aa-3h0" id="ST9-E6-5ZE"/>
+                                    <outlet property="finishButton" destination="U9c-4Z-fxW" id="eTj-6n-hKL"/>
+                                    <outlet property="imageView" destination="82A-rA-trj" id="fIQ-v3-1bD"/>
+                                    <outlet property="titleLabel" destination="XUt-YI-16w" id="ox6-P9-2VZ"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="s9F-GK-4FV" id="qKe-59-iw2"/>
+                            <outlet property="delegate" destination="s9F-GK-4FV" id="Pvu-fn-mSA"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" id="3kX-BM-ROM"/>
+                    <connections>
+                        <segue destination="z3T-2Q-YO4" kind="unwind" identifier="unwindToLaunch" unwindAction="unwindToLaunchWithSegue:" id="Z1G-7u-dev"/>
+                    </connections>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ywD-Ll-lcZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="z3T-2Q-YO4" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="941.53846153846155" y="127.25118483412322"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Step 0" width="530" height="310"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

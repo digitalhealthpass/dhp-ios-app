@@ -1,0 +1,38 @@
+{
+  "type": "metrics",
+  "payload": [
+    {
+      "id": "00b31c4a-7c04-4251-9137-49cb5761d534",
+      "version": "1.0.0",
+      "metrics": {
+        "extract": [
+          {
+            "type": "ghp",
+            "schema": "*",
+            "field": [
+              "issuer",
+              "type"
+            ]
+          },
+          {
+            "type": "shc",
+            "schema": "*",
+            "field": [
+              "iss"
+            ]
+          },
+          {
+            "type": "hc1",
+            "schema": "*",
+            "field": []
+          }
+        ],
+        "countBy": {
+          "include": ["field", "type"],
+		  "scan": true,
+          "scanResult": true
+        }
+      }
+    }
+  ]
+}

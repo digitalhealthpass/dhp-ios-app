@@ -1,0 +1,77 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire",
+      "state" : {
+        "revision" : "747c8db8d57b68d5e35275f10c92d55f982adbd4",
+        "version" : "4.9.1"
+      }
+    },
+    {
+      "identity" : "gzipswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/1024jp/GzipSwift",
+      "state" : {
+        "revision" : "ba0b6cb51cc6202f896e469b87d2889a46b10d1b",
+        "version" : "5.1.1"
+      }
+    },
+    {
+      "identity" : "joseswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airsidemobile/JOSESwift",
+      "state" : {
+        "revision" : "10ed3b6736def7c26eb87135466b1cb46ea7e37f",
+        "version" : "2.4.0"
+      }
+    },
+    {
+      "identity" : "json-logic-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/eu-digital-green-certificates/json-logic-swift",
+      "state" : {
+        "revision" : "6c04fa0ccfcd8424986aaf2fc61ea458b3979cf1",
+        "version" : "1.1.6"
+      }
+    },
+    {
+      "identity" : "promisekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mxcl/PromiseKit",
+      "state" : {
+        "revision" : "aea48ea1855f5d82e2dffa6027afce3aab8f3dd7",
+        "version" : "6.13.3"
+      }
+    },
+    {
+      "identity" : "swift-fhir",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/smart-on-fhir/Swift-FHIR",
+      "state" : {
+        "revision" : "b68fb5d6c8137de4a06894e683dc1a726a832907",
+        "version" : "4.2.1"
+      }
+    },
+    {
+      "identity" : "swiftcbor",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/unrelentingtech/SwiftCBOR",
+      "state" : {
+        "revision" : "668c26fc3373d5f1bccbaad7665ca6048797e324",
+        "version" : "0.4.3"
+      }
+    },
+    {
+      "identity" : "zip",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/marmelroy/Zip",
+      "state" : {
+        "revision" : "bd19d974e8a38cc8d3a88c90c8a107386c3b8ccf",
+        "version" : "2.1.1"
+      }
+    }
+  ],
+  "version" : 2
+}

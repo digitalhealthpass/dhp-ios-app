@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "Test Result "; ObjectID = "ABM-ht-Nbl"; */
+"ABM-ht-Nbl.text" = "Test Result ";
+
+/* Class = "UILabel"; text = "EXP 10/17/2020"; ObjectID = "HhV-nA-peB"; */
+"HhV-nA-peB.text" = "EXP 10/17/2020";
+
+/* Class = "UILabel"; text = "Test Result"; ObjectID = "Kve-4R-L5D"; */
+"Kve-4R-L5D.text" = "Test Result";
+
+/* Class = "UILabel"; text = "Credential signature valid"; ObjectID = "L4m-AC-ChX"; */
+"L4m-AC-ChX.text" = "Credential signature valid";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "Nh0-zg-GDt"; */
+"Nh0-zg-GDt.text" = "Detail";
+
+/* Class = "UILabel"; text = "Health Pass"; ObjectID = "WUN-FG-iBr"; */
+"WUN-FG-iBr.text" = "Health Pass";
+
+/* Class = "UILabel"; text = "Invalid Credential"; ObjectID = "Z0p-eo-Ttg"; */
+"Z0p-eo-Ttg.text" = "Invalid Credential";
+
+/* Class = "UILabel"; text = "Valid Signature"; ObjectID = "czb-We-ORl"; */
+"czb-We-ORl.text" = "Valid Signature";
+
+/* Class = "UILabel"; text = "ISSUED 10/17/2020"; ObjectID = "eOq-eB-cyN"; */
+"eOq-eB-cyN.text" = "ISSUED 10/17/2020";
+
+/* Class = "UILabel"; text = "Org Healthpass 1"; ObjectID = "knu-iB-yG2"; */
+"knu-iB-yG2.text" = "Org Healthpass 1";
+
+/* Class = "UILabel"; text = "Credential expiration date has passed the validity date"; ObjectID = "n81-Ao-Xra"; */
+"n81-Ao-Xra.text" = "Credential expiration date has passed the validity date";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "vZM-cl-arO"; */
+"vZM-cl-arO.text" = "Title";
+
+/* Class = "UILabel"; text = "Org Healthpass 1"; ObjectID = "wkc-Sf-Vom"; */
+"wkc-Sf-Vom.text" = "Org Healthpass 1";
+
+/* Class = "UILabel"; text = "Health Pass"; ObjectID = "zWL-AM-Zzp"; */
+"zWL-AM-Zzp.text" = "Health Pass";

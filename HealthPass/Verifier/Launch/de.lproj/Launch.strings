@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "Privacy Policy"; ObjectID = "Cbx-PL-OVg"; */
+"zXk-o6-Cd0.normalTitle" = "Datenschutzerklärung";
+
+/* Class = "UILabel"; text = "Pass Verify"; ObjectID = "IpR-3R-lus"; */
+"WHy-Ca-BFB.text" = "Digital Health Pass Prüf-App";
+
+/* Class = "UILabel"; text = "Version"; ObjectID = "PEj-DZ-ad8"; */
+"PEj-DZ-ad8.text" = "Version";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "lNg-lx-3fj"; */
+"tRa-Db-jlt.normalTitle" = "Weiter";
+
+/* Class = "UILabel"; text = "(c) Copyright Merative US L.P. and others 2020-2022 "; ObjectID = "wfs-AC-9yp"; */
+"7e0-FP-IWU.text" = "(c) Copyright Merative US L.P. and others 2020-2022 ";
+
+/* Class = "UILabel"; text = "Loading"; ObjectID = "G9C-ov-3bQ"; */
+"G9C-ov-3bQ.text" = "Lade";

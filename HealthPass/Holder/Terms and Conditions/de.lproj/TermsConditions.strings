@@ -1,0 +1,9 @@
+
+/* Class = "UIBarButtonItem"; title = "Disagree"; ObjectID = "2OL-UD-ReB"; */
+"2OL-UD-ReB.title" = "Ablehnen";
+
+/* Class = "UINavigationItem"; title = "Terms and Conditions"; ObjectID = "Ok2-8h-vaY"; */
+"Ok2-8h-vaY.title" = "Nutzungsbedingungen";
+
+/* Class = "UIBarButtonItem"; title = "Agree"; ObjectID = "grL-7c-T3y"; */
+"grL-7c-T3y.title" = "Zustimmen";

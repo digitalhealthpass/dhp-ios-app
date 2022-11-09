@@ -1,0 +1,810 @@
+{
+    "name": "Default wallet configuration",
+    "configuration": {
+        "SHC": {
+            "details": [
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[0].resource.name[0].given",
+                    "sectionIndex": 0,
+                    "sectionTitle": {
+                        "en": "Personal Info",
+                    },
+                    "displayValue": {
+                        "en": "First Name",
+                        "de": "Vorname"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[0].resource.name[0].family",
+                    "sectionIndex": 0,
+                    "sectionTitle": {
+                        "en": "Personal Info",
+                    },
+                    "displayValue": {
+                        "en": "Surname",
+                        "de": "Nachname"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[0].resource.birthDate",
+                    "sectionIndex": 0,
+                    "sectionTitle": {
+                        "en": "Personal Info",
+                    },
+                    "displayValue": {
+                        "en": "Date of Birth",
+                        "de": "Geburtsdatum"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[1].resource.targetDisease[0].coding[0].display",
+                    "sectionIndex": 11,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 1"
+                    },
+                    "displayValue": {
+                        "en": "Target Disease",
+                        "de": "Zielkrankheit"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[1].resource.vaccineCode.text",
+                    "sectionIndex": 11,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 1"
+                    },
+                    "displayValue": {
+                        "en": "Vaccine",
+                        "de": "Impfstoff"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[1].resource.vaccineCode.coding[0].display",
+                    "sectionIndex": 11,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 1"
+                    },
+                    "displayValue": {
+                        "en": "Vaccine",
+                        "de": "Impfstoff"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[1].resource.vaccineCode.coding[0].code",
+                    "sectionIndex": 11,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 1"
+                    },
+                    "displayValue": {
+                        "en": "Vaccine Name"
+                    },
+                    "valueMapper": "vaccine.cvx.covid19"
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[1].resource.vaccineCode.coding[0].code",
+                    "sectionIndex": 11,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 1"
+                    },
+                    "displayValue": {
+                        "en": "Vaccine Code",
+                        "de": "Impfcode"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[1].resource.manufacturer.name",
+                    "sectionIndex": 11,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 1"
+                    },
+                    "displayValue": {
+                        "en": "Manufacturer",
+                        "de": "Hersteller"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[1].resource.occurrenceDateTime",
+                    "sectionIndex": 11,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 1"
+                    },
+                    "displayValue": {
+                        "en": "Vaccination Date",
+                        "de": "Impfdatum"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[1].resource.performer[0].actor.display",
+                    "sectionIndex": 12,
+                    "displayValue": {
+                        "en": "Performer",
+                        "de": "Ausführend"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[1].resource.status",
+                    "sectionIndex": 12,
+                    "displayValue": {
+                        "en": "Status"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[1].resource.lotNumber",
+                    "sectionIndex": 12,
+                    "displayValue": {
+                        "en": "Lot Number",
+                        "de": "Lot-Nr."
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[1].resource.location.address.state",
+                    "sectionIndex": 12,
+                    "displayValue": {
+                        "en": "State/Province of Vaccination",
+                        "de": "Staat/Bundesland der Impfung"
+                    },
+                    "valueMapper": "us-state"
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[1].resource.location.address.country",
+                    "sectionIndex": 12,
+                    "displayValue": {
+                        "en": "Country of Vaccination",
+                        "de": "Impfland"
+                    },
+                    "valueMapper": "country"
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[2].resource.targetDisease[0].coding[0].display",
+                    "sectionIndex": 9,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 2"
+                    },
+                    "displayValue": {
+                        "en": "Target Disease",
+                        "de": "Zielkrankheit"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[2].resource.vaccineCode.text",
+                    "sectionIndex": 9,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 2"
+                    },
+                    "displayValue": {
+                        "en": "Vaccine",
+                        "de": "Impfstoff"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[2].resource.vaccineCode.coding[0].display",
+                    "sectionIndex": 9,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 2"
+                    },
+                    "displayValue": {
+                        "en": "Vaccine",
+                        "de": "Impfstoff"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[2].resource.vaccineCode.coding[0].code",
+                    "sectionIndex": 9,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 2"
+                    },
+                    "displayValue": {
+                        "en": "Vaccine Name"
+                    },
+                    "valueMapper": "vaccine.cvx.covid19"
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[2].resource.vaccineCode.coding[0].code",
+                    "sectionIndex": 9,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 2"
+                    },
+                    "displayValue": {
+                        "en": "Vaccine Code",
+                        "de": "Impfcode"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[2].resource.manufacturer.name",
+                    "sectionIndex": 9,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 2"
+                    },
+                    "displayValue": {
+                        "en": "Manufacturer",
+                        "de": "Hersteller"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[2].resource.occurrenceDateTime",
+                    "sectionIndex": 9,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 2"
+                    },
+                    "displayValue": {
+                        "en": "Vaccination Date",
+                        "de": "Impfdatum"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[2].resource.performer[0].actor.display",
+                    "sectionIndex": 10,
+                    "displayValue": {
+                        "en": "Performer",
+                        "de": "Ausführend"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[2].resource.status",
+                    "sectionIndex": 10,
+                    "displayValue": {
+                        "en": "Status"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[2].resource.lotNumber",
+                    "sectionIndex": 10,
+                    "displayValue": {
+                        "en": "Lot Number",
+                        "de": "Lot-Nr."
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[2].resource.location.address.state",
+                    "sectionIndex": 10,
+                    "displayValue": {
+                        "en": "State/Province of Vaccination",
+                        "de": "Staat/Bundesland der Impfung"
+                    },
+                    "valueMapper": "us-state"
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[2].resource.location.address.country",
+                    "sectionIndex": 10,
+                    "displayValue": {
+                        "en": "Country of Vaccination",
+                        "de": "Impfland"
+                    },
+                    "valueMapper": "country"
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[3].resource.targetDisease[0].coding[0].display",
+                    "sectionIndex": 7,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 3"
+                    },
+                    "displayValue": {
+                        "en": "Target Disease",
+                        "de": "Zielkrankheit"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[3].resource.vaccineCode.text",
+                    "sectionIndex": 7,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 3"
+                    },
+                    "displayValue": {
+                        "en": "Vaccine",
+                        "de": "Impfstoff"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[3].resource.vaccineCode.coding[0].display",
+                    "sectionIndex": 7,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 3"
+                    },
+                    "displayValue": {
+                        "en": "Vaccine",
+                        "de": "Impfstoff"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[3].resource.vaccineCode.coding[0].code",
+                    "sectionIndex": 7,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 3"
+                    },
+                    "displayValue": {
+                        "en": "Vaccine Name"
+                    },
+                    "valueMapper": "vaccine.cvx.covid19"
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[3].resource.vaccineCode.coding[0].code",
+                    "sectionIndex": 7,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 3"
+                    },
+                    "displayValue": {
+                        "en": "Vaccine Code",
+                        "de": "Impfcode"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[3].resource.manufacturer.name",
+                    "sectionIndex": 7,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 3"
+                    },
+                    "displayValue": {
+                        "en": "Manufacturer",
+                        "de": "Hersteller"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[3].resource.occurrenceDateTime",
+                    "sectionIndex": 7,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 3"
+                    },
+                    "displayValue": {
+                        "en": "Vaccination Date",
+                        "de": "Impfdatum"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[3].resource.performer[0].actor.display",
+                    "sectionIndex": 8,
+                    "displayValue": {
+                        "en": "Performer",
+                        "de": "Ausführend"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[3].resource.status",
+                    "sectionIndex": 8,
+                    "displayValue": {
+                        "en": "Status"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[3].resource.lotNumber",
+                    "sectionIndex": 8,
+                    "displayValue": {
+                        "en": "Lot Number",
+                        "de": "Lot-Nr."
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[3].resource.location.address.state",
+                    "sectionIndex": 8,
+                    "displayValue": {
+                        "en": "State/Province of Vaccination",
+                        "de": "Staat/Bundesland der Impfung"
+                    },
+                    "valueMapper": "us-state"
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[3].resource.location.address.country",
+                    "sectionIndex": 8,
+                    "displayValue": {
+                        "en": "Country of Vaccination",
+                        "de": "Impfland"
+                    },
+                    "valueMapper": "country"
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[4].resource.targetDisease[0].coding[0].display",
+                    "sectionIndex": 5,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 4"
+                    },
+                    "displayValue": {
+                        "en": "Target Disease",
+                        "de": "Zielkrankheit"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[4].resource.vaccineCode.text",
+                    "sectionIndex": 5,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 4"
+                    },
+                    "displayValue": {
+                        "en": "Vaccine",
+                        "de": "Impfstoff"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[4].resource.vaccineCode.coding[0].display",
+                    "sectionIndex": 5,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 4"
+                    },
+                    "displayValue": {
+                        "en": "Vaccine",
+                        "de": "Impfstoff"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[4].resource.vaccineCode.coding[0].code",
+                    "sectionIndex": 5,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 4"
+                    },
+                    "displayValue": {
+                        "en": "Vaccine Name"
+                    },
+                    "valueMapper": "vaccine.cvx.covid19"
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[4].resource.vaccineCode.coding[0].code",
+                    "sectionIndex": 5,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 4"
+                    },
+                    "displayValue": {
+                        "en": "Vaccine Code",
+                        "de": "Impfcode"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[4].resource.manufacturer.name",
+                    "sectionIndex": 5,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 4"
+                    },
+                    "displayValue": {
+                        "en": "Manufacturer",
+                        "de": "Hersteller"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[4].resource.occurrenceDateTime",
+                    "sectionIndex": 5,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 4"
+                    },
+                    "displayValue": {
+                        "en": "Vaccination Date",
+                        "de": "Impfdatum"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[4].resource.performer[0].actor.display",
+                    "sectionIndex": 6,
+                    "displayValue": {
+                        "en": "Performer",
+                        "de": "Ausführend"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[4].resource.status",
+                    "sectionIndex": 6,
+                    "displayValue": {
+                        "en": "Status"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[4].resource.lotNumber",
+                    "sectionIndex": 6,
+                    "displayValue": {
+                        "en": "Lot Number",
+                        "de": "Lot-Nr."
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[4].resource.location.address.state",
+                    "sectionIndex": 6,
+                    "displayValue": {
+                        "en": "State/Province of Vaccination",
+                        "de": "Staat/Bundesland der Impfung"
+                    },
+                    "valueMapper": "us-state"
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[4].resource.location.address.country",
+                    "sectionIndex": 6,
+                    "displayValue": {
+                        "en": "Country of Vaccination",
+                        "de": "Impfland"
+                    },
+                    "valueMapper": "country"
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[5].resource.targetDisease[0].coding[0].display",
+                    "sectionIndex": 3,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 5"
+                    },
+                    "displayValue": {
+                        "en": "Target Disease",
+                        "de": "Zielkrankheit"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[5].resource.vaccineCode.text",
+                    "sectionIndex": 3,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 5"
+                    },
+                    "displayValue": {
+                        "en": "Vaccine",
+                        "de": "Impfstoff"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[5].resource.vaccineCode.coding[0].display",
+                    "sectionIndex": 3,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 5"
+                    },
+                    "displayValue": {
+                        "en": "Vaccine",
+                        "de": "Impfstoff"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[5].resource.vaccineCode.coding[0].code",
+                    "sectionIndex": 3,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 5"
+                    },
+                    "displayValue": {
+                        "en": "Vaccine Name"
+                    },
+                    "valueMapper": "vaccine.cvx.covid19"
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[5].resource.vaccineCode.coding[0].code",
+                    "sectionIndex": 3,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 5"
+                    },
+                    "displayValue": {
+                        "en": "Vaccine Code",
+                        "de": "Impfcode"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[5].resource.manufacturer.name",
+                    "sectionIndex": 3,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 5"
+                    },
+                    "displayValue": {
+                        "en": "Manufacturer",
+                        "de": "Hersteller"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[5].resource.occurrenceDateTime",
+                    "sectionIndex": 3,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 5"
+                    },
+                    "displayValue": {
+                        "en": "Vaccination Date",
+                        "de": "Impfdatum"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[5].resource.performer[0].actor.display",
+                    "sectionIndex": 4,
+                    "displayValue": {
+                        "en": "Performer",
+                        "de": "Ausführend"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[5].resource.status",
+                    "sectionIndex": 4,
+                    "displayValue": {
+                        "en": "Status"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[5].resource.lotNumber",
+                    "sectionIndex": 4,
+                    "displayValue": {
+                        "en": "Lot Number",
+                        "de": "Lot-Nr."
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[5].resource.location.address.state",
+                    "sectionIndex": 4,
+                    "displayValue": {
+                        "en": "State/Province of Vaccination",
+                        "de": "Staat/Bundesland der Impfung"
+                    },
+                    "valueMapper": "us-state"
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[5].resource.location.address.country",
+                    "sectionIndex": 4,
+                    "displayValue": {
+                        "en": "Country of Vaccination",
+                        "de": "Impfland"
+                    },
+                    "valueMapper": "country"
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[6].resource.targetDisease[0].coding[0].display",
+                    "sectionIndex": 1,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 6"
+                    },
+                    "displayValue": {
+                        "en": "Target Disease",
+                        "de": "Zielkrankheit"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[6].resource.vaccineCode.text",
+                    "sectionIndex": 1,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 6"
+                    },
+                    "displayValue": {
+                        "en": "Vaccine",
+                        "de": "Impfstoff"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[6].resource.vaccineCode.coding[0].display",
+                    "sectionIndex": 1,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 6"
+                    },
+                    "displayValue": {
+                        "en": "Vaccine",
+                        "de": "Impfstoff"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[6].resource.vaccineCode.coding[0].code",
+                    "sectionIndex": 1,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 6"
+                    },
+                    "displayValue": {
+                        "en": "Vaccine Name"
+                    },
+                    "valueMapper": "vaccine.cvx.covid19"
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[6].resource.vaccineCode.coding[0].code",
+                    "sectionIndex": 1,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 6"
+                    },
+                    "displayValue": {
+                        "en": "Vaccine Code",
+                        "de": "Impfcode"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[6].resource.manufacturer.name",
+                    "sectionIndex": 1,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 6"
+                    },
+                    "displayValue": {
+                        "en": "Manufacturer",
+                        "de": "Hersteller"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[6].resource.occurrenceDateTime",
+                    "sectionIndex": 1,
+                    "sectionTitle": {
+                        "en": "Vaccination Record 6"
+                    },
+                    "displayValue": {
+                        "en": "Vaccination Date",
+                        "de": "Impfdatum"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[6].resource.performer[0].actor.display",
+                    "sectionIndex": 2,
+                    "displayValue": {
+                        "en": "Performer",
+                        "de": "Ausführend"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[6].resource.status",
+                    "sectionIndex": 2,
+                    "displayValue": {
+                        "en": "Status"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[6].resource.lotNumber",
+                    "sectionIndex": 2,
+                    "displayValue": {
+                        "en": "Lot Number",
+                        "de": "Lot-Nr."
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[6].resource.location.address.state",
+                    "sectionIndex": 2,
+                    "displayValue": {
+                        "en": "State/Province of Vaccination",
+                        "de": "Staat/Bundesland der Impfung"
+                    },
+                    "valueMapper": "us-state"
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[6].resource.location.address.country",
+                    "sectionIndex": 2,
+                    "displayValue": {
+                        "en": "Country of Vaccination",
+                        "de": "Impfland"
+                    },
+                    "valueMapper": "country"
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[1].resource.code.coding[0].code",
+                    "sectionIndex": 1,
+                    "sectionTitle": {
+                        "en": "Observation"
+                    },
+                    "displayValue": {
+                        "en": "Test Code",
+                        "de": "Testcode"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[1].resource.valueCodeableConcept.coding[0].code",
+                    "sectionIndex": 1,
+                    "sectionTitle": {
+                        "en": "Observation"
+                    },
+                    "displayValue": {
+                        "en": "Result",
+                        "de": "Ergebnis"
+                    },
+                    "valueMapper": "test-result-dcc"
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[1].resource.effectiveDateTime",
+                    "sectionIndex": 1,
+                    "sectionTitle": {
+                        "en": "Observation"
+                    },
+                    "displayValue": {
+                        "en": "Date of Test",
+                        "de": "Datum des Test"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[1].resource.performer[0].display",
+                    "sectionIndex": 2,
+                    "displayValue": {
+                        "en": "Performer",
+                        "de": "Ausführend"
+                    }
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[1].resource.location.address.state",
+                    "sectionIndex": 2,
+                    "displayValue": {
+                        "en": "State/Province of Test",
+                        "de": "Staat/Bundesland Test"
+                    },
+                    "valueMapper": "us-state"
+                },
+                {
+                    "field": "vc.credentialSubject.fhirBundle.entry[1].resource.location.address.country",
+                    "sectionIndex": 2,
+                    "displayValue": {
+                        "en": "Country of Test",
+                        "de": "Testland"
+                    },
+                    "valueMapper": "country"
+                }
+            ]
+        }
+    }
+}

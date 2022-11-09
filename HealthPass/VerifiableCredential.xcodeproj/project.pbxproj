@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26374E742680D883002B2B29 /* JWS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26374E732680D883002B2B29 /* JWS.swift */; };
+		26374E762680D8B8002B2B29 /* JWSPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26374E752680D8B8002B2B29 /* JWSPayload.swift */; };
+		26374E782680D8EB002B2B29 /* Credential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26374E772680D8EB002B2B29 /* Credential.swift */; };
+		26374E7C2680D941002B2B29 /* CredentialSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26374E7B2680D941002B2B29 /* CredentialSchema.swift */; };
+		26374E892680DBE8002B2B29 /* Proof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26374E882680DBE8002B2B29 /* Proof.swift */; };
+		26374E8B2680DC07002B2B29 /* Obfuscation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26374E8A2680DC07002B2B29 /* Obfuscation.swift */; };
+		400CC71126825DCE00ECDD51 /* JWSHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400CC71026825DCE00ECDD51 /* JWSHeader.swift */; };
+		400EBAC0269FBA3C00A6A92E /* CWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406586C02698CEDB007B0B27 /* CWT.swift */; };
+		40698FDD268CD25B0096DA1A /* VCType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40698FDC268CD25B0096DA1A /* VCType.swift */; };
+		407111B3268952E900653AFA /* VerifiableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407111B2268952E900653AFA /* VerifiableObject.swift */; };
+		407111B5268A553300653AFA /* Base45.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407111B4268A553300653AFA /* Base45.swift */; };
+		40C3D76D28400B61002AD9FA /* FHIR in Frameworks */ = {isa = PBXBuildFile; productRef = 40C3D76C28400B61002AD9FA /* FHIR */; };
+		40D58E9A268F668200853190 /* VerifiableObject+SHC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D58E99268F668200853190 /* VerifiableObject+SHC.swift */; };
+		40D58E9C268F66B500853190 /* VerifiableObject+HC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D58E9B268F66B500853190 /* VerifiableObject+HC1.swift */; };
+		40D58E9E268F66E900853190 /* VerifiableObject+JWS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D58E9D268F66E900853190 /* VerifiableObject+JWS.swift */; };
+		40D58EA0268F66F200853190 /* VerifiableObject+Credential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D58E9F268F66F200853190 /* VerifiableObject+Credential.swift */; };
+		40D58EB02694AB7E00853190 /* Gzip in Frameworks */ = {isa = PBXBuildFile; productRef = 40D58EAF2694AB7E00853190 /* Gzip */; };
+		40D58EB32694ABA200853190 /* SwiftCBOR in Frameworks */ = {isa = PBXBuildFile; productRef = 40D58EB22694ABA200853190 /* SwiftCBOR */; };
+		89012AE0268E14E3003890B3 /* Cose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89012ADF268E14E3003890B3 /* Cose.swift */; };
+		89012AE3268E1533003890B3 /* CBOR+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89012AE2268E1532003890B3 /* CBOR+Extensions.swift */; };
+		89012AE9268E1667003890B3 /* Asn1Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89012AE8268E1667003890B3 /* Asn1Encoder.swift */; };
+		89AFCE5626B00E18007D182E /* Evidence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AFCE5526B00E18007D182E /* Evidence.swift */; };
+		A21D01C026C13A8E001FA742 /* VerifiableObject+DIVOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21D01BF26C13A8E001FA742 /* VerifiableObject+DIVOC.swift */; };
+		A21D01C326C13AC4001FA742 /* Zip in Frameworks */ = {isa = PBXBuildFile; productRef = A21D01C226C13AC4001FA742 /* Zip */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		26374E612680D39C002B2B29 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		26374E632680D39C002B2B29 /* libVerifiableCredential.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVerifiableCredential.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		26374E732680D883002B2B29 /* JWS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWS.swift; sourceTree = "<group>"; };
+		26374E752680D8B8002B2B29 /* JWSPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWSPayload.swift; sourceTree = "<group>"; };
+		26374E772680D8EB002B2B29 /* Credential.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credential.swift; sourceTree = "<group>"; };
+		26374E7B2680D941002B2B29 /* CredentialSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialSchema.swift; sourceTree = "<group>"; };
+		26374E882680DBE8002B2B29 /* Proof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proof.swift; sourceTree = "<group>"; };
+		26374E8A2680DC07002B2B29 /* Obfuscation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obfuscation.swift; sourceTree = "<group>"; };
+		400CC71026825DCE00ECDD51 /* JWSHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWSHeader.swift; sourceTree = "<group>"; };
+		406586C02698CEDB007B0B27 /* CWT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWT.swift; sourceTree = "<group>"; };
+		40698FDC268CD25B0096DA1A /* VCType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCType.swift; sourceTree = "<group>"; };
+		407111B2268952E900653AFA /* VerifiableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifiableObject.swift; sourceTree = "<group>"; };
+		407111B4268A553300653AFA /* Base45.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base45.swift; sourceTree = "<group>"; };
+		40D58E99268F668200853190 /* VerifiableObject+SHC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VerifiableObject+SHC.swift"; sourceTree = "<group>"; };
+		40D58E9B268F66B500853190 /* VerifiableObject+HC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VerifiableObject+HC1.swift"; sourceTree = "<group>"; };
+		40D58E9D268F66E900853190 /* VerifiableObject+JWS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VerifiableObject+JWS.swift"; sourceTree = "<group>"; };
+		40D58E9F268F66F200853190 /* VerifiableObject+Credential.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VerifiableObject+Credential.swift"; sourceTree = "<group>"; };
+		89012ADF268E14E3003890B3 /* Cose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cose.swift; sourceTree = "<group>"; };
+		89012AE2268E1532003890B3 /* CBOR+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CBOR+Extensions.swift"; sourceTree = "<group>"; };
+		89012AE8268E1667003890B3 /* Asn1Encoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asn1Encoder.swift; sourceTree = "<group>"; };
+		89AFCE5526B00E18007D182E /* Evidence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evidence.swift; sourceTree = "<group>"; };
+		A21D01BF26C13A8E001FA742 /* VerifiableObject+DIVOC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VerifiableObject+DIVOC.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26374E602680D39C002B2B29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21D01C326C13AC4001FA742 /* Zip in Frameworks */,
+				40C3D76D28400B61002AD9FA /* FHIR in Frameworks */,
+				40D58EB32694ABA200853190 /* SwiftCBOR in Frameworks */,
+				40D58EB02694AB7E00853190 /* Gzip in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26374E5A2680D39C002B2B29 = {
+			isa = PBXGroup;
+			children = (
+				26374E652680D39C002B2B29 /* VerifiableCredential */,
+				26374E642680D39C002B2B29 /* Products */,
+				26374E8E2681253F002B2B29 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		26374E642680D39C002B2B29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26374E632680D39C002B2B29 /* libVerifiableCredential.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26374E652680D39C002B2B29 /* VerifiableCredential */ = {
+			isa = PBXGroup;
+			children = (
+				40698FE5268CF1260096DA1A /* Data Model */,
+				40698FE6268CF1300096DA1A /* Utils */,
+			);
+			path = VerifiableCredential;
+			sourceTree = "<group>";
+		};
+		26374E8E2681253F002B2B29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		400CC71226825EBE00ECDD51 /* Credential */ = {
+			isa = PBXGroup;
+			children = (
+				26374E772680D8EB002B2B29 /* Credential.swift */,
+				26374E7B2680D941002B2B29 /* CredentialSchema.swift */,
+				26374E882680DBE8002B2B29 /* Proof.swift */,
+				26374E8A2680DC07002B2B29 /* Obfuscation.swift */,
+				89AFCE5526B00E18007D182E /* Evidence.swift */,
+			);
+			path = Credential;
+			sourceTree = "<group>";
+		};
+		400CC71326825ED100ECDD51 /* JWS */ = {
+			isa = PBXGroup;
+			children = (
+				26374E732680D883002B2B29 /* JWS.swift */,
+				400CC71026825DCE00ECDD51 /* JWSHeader.swift */,
+				26374E752680D8B8002B2B29 /* JWSPayload.swift */,
+			);
+			path = JWS;
+			sourceTree = "<group>";
+		};
+		40698FE5268CF1260096DA1A /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				40D58EA1268F680A00853190 /* VerifiableObject */,
+				40698FDC268CD25B0096DA1A /* VCType.swift */,
+				400CC71326825ED100ECDD51 /* JWS */,
+				40D58E96268E40FA00853190 /* Cose */,
+				400CC71226825EBE00ECDD51 /* Credential */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		40698FE6268CF1300096DA1A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				407111B4268A553300653AFA /* Base45.swift */,
+				89012AE2268E1532003890B3 /* CBOR+Extensions.swift */,
+				89012AE8268E1667003890B3 /* Asn1Encoder.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		40D58E96268E40FA00853190 /* Cose */ = {
+			isa = PBXGroup;
+			children = (
+				89012ADF268E14E3003890B3 /* Cose.swift */,
+				406586C02698CEDB007B0B27 /* CWT.swift */,
+			);
+			path = Cose;
+			sourceTree = "<group>";
+		};
+		40D58EA1268F680A00853190 /* VerifiableObject */ = {
+			isa = PBXGroup;
+			children = (
+				407111B2268952E900653AFA /* VerifiableObject.swift */,
+				40D58E99268F668200853190 /* VerifiableObject+SHC.swift */,
+				40D58E9B268F66B500853190 /* VerifiableObject+HC1.swift */,
+				40D58E9D268F66E900853190 /* VerifiableObject+JWS.swift */,
+				40D58E9F268F66F200853190 /* VerifiableObject+Credential.swift */,
+				A21D01BF26C13A8E001FA742 /* VerifiableObject+DIVOC.swift */,
+			);
+			path = VerifiableObject;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26374E622680D39C002B2B29 /* VerifiableCredential */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26374E6A2680D39C002B2B29 /* Build configuration list for PBXNativeTarget "VerifiableCredential" */;
+			buildPhases = (
+				26374E5F2680D39C002B2B29 /* Sources */,
+				26374E602680D39C002B2B29 /* Frameworks */,
+				26374E612680D39C002B2B29 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerifiableCredential;
+			packageProductDependencies = (
+				40D58EAF2694AB7E00853190 /* Gzip */,
+				40D58EB22694ABA200853190 /* SwiftCBOR */,
+				A21D01C226C13AC4001FA742 /* Zip */,
+				40C3D76C28400B61002AD9FA /* FHIR */,
+			);
+			productName = VerifiableCredential;
+			productReference = 26374E632680D39C002B2B29 /* libVerifiableCredential.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26374E5B2680D39C002B2B29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					26374E622680D39C002B2B29 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 26374E5E2680D39C002B2B29 /* Build configuration list for PBXProject "VerifiableCredential" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26374E5A2680D39C002B2B29;
+			packageReferences = (
+				40D58EAE2694AB7E00853190 /* XCRemoteSwiftPackageReference "GzipSwift" */,
+				40D58EB12694ABA200853190 /* XCRemoteSwiftPackageReference "SwiftCBOR" */,
+				A21D01C126C13AC4001FA742 /* XCRemoteSwiftPackageReference "Zip" */,
+				40C3D76B28400B61002AD9FA /* XCRemoteSwiftPackageReference "Swift-FHIR" */,
+			);
+			productRefGroup = 26374E642680D39C002B2B29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26374E622680D39C002B2B29 /* VerifiableCredential */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26374E5F2680D39C002B2B29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26374E7C2680D941002B2B29 /* CredentialSchema.swift in Sources */,
+				89012AE9268E1667003890B3 /* Asn1Encoder.swift in Sources */,
+				89AFCE5626B00E18007D182E /* Evidence.swift in Sources */,
+				A21D01C026C13A8E001FA742 /* VerifiableObject+DIVOC.swift in Sources */,
+				89012AE3268E1533003890B3 /* CBOR+Extensions.swift in Sources */,
+				407111B3268952E900653AFA /* VerifiableObject.swift in Sources */,
+				26374E762680D8B8002B2B29 /* JWSPayload.swift in Sources */,
+				26374E782680D8EB002B2B29 /* Credential.swift in Sources */,
+				407111B5268A553300653AFA /* Base45.swift in Sources */,
+				400CC71126825DCE00ECDD51 /* JWSHeader.swift in Sources */,
+				40698FDD268CD25B0096DA1A /* VCType.swift in Sources */,
+				89012AE0268E14E3003890B3 /* Cose.swift in Sources */,
+				40D58E9E268F66E900853190 /* VerifiableObject+JWS.swift in Sources */,
+				26374E8B2680DC07002B2B29 /* Obfuscation.swift in Sources */,
+				40D58E9C268F66B500853190 /* VerifiableObject+HC1.swift in Sources */,
+				40D58EA0268F66F200853190 /* VerifiableObject+Credential.swift in Sources */,
+				400EBAC0269FBA3C00A6A92E /* CWT.swift in Sources */,
+				26374E892680DBE8002B2B29 /* Proof.swift in Sources */,
+				26374E742680D883002B2B29 /* JWS.swift in Sources */,
+				40D58E9A268F668200853190 /* VerifiableObject+SHC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		26374E682680D39C002B2B29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26374E692680D39C002B2B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26374E6B2680D39C002B2B29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PP64RT7P8Z;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26374E6C2680D39C002B2B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PP64RT7P8Z;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26374E5E2680D39C002B2B29 /* Build configuration list for PBXProject "VerifiableCredential" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26374E682680D39C002B2B29 /* Debug */,
+				26374E692680D39C002B2B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26374E6A2680D39C002B2B29 /* Build configuration list for PBXNativeTarget "VerifiableCredential" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26374E6B2680D39C002B2B29 /* Debug */,
+				26374E6C2680D39C002B2B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		40C3D76B28400B61002AD9FA /* XCRemoteSwiftPackageReference "Swift-FHIR" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/smart-on-fhir/Swift-FHIR";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		40D58EAE2694AB7E00853190 /* XCRemoteSwiftPackageReference "GzipSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/1024jp/GzipSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
+		40D58EB12694ABA200853190 /* XCRemoteSwiftPackageReference "SwiftCBOR" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/unrelentingtech/SwiftCBOR";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.3;
+			};
+		};
+		A21D01C126C13AC4001FA742 /* XCRemoteSwiftPackageReference "Zip" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marmelroy/Zip";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		40C3D76C28400B61002AD9FA /* FHIR */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 40C3D76B28400B61002AD9FA /* XCRemoteSwiftPackageReference "Swift-FHIR" */;
+			productName = FHIR;
+		};
+		40D58EAF2694AB7E00853190 /* Gzip */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 40D58EAE2694AB7E00853190 /* XCRemoteSwiftPackageReference "GzipSwift" */;
+			productName = Gzip;
+		};
+		40D58EB22694ABA200853190 /* SwiftCBOR */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 40D58EB12694ABA200853190 /* XCRemoteSwiftPackageReference "SwiftCBOR" */;
+			productName = SwiftCBOR;
+		};
+		A21D01C226C13AC4001FA742 /* Zip */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A21D01C126C13AC4001FA742 /* XCRemoteSwiftPackageReference "Zip" */;
+			productName = Zip;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 26374E5B2680D39C002B2B29 /* Project object */;
+}

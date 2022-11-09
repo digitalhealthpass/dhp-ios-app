@@ -1,0 +1,60 @@
+
+/* Class = "UIButton"; normalTitle = "I accept the Terms and Conditions"; ObjectID = "1n6-dc-fgO"; */
+"1n6-dc-fgO.normalTitle" = "Ich stimme den Nutzungsbedingungen zu";
+
+/* Class = "UILabel"; text = "Loading"; ObjectID = "42A-yQ-g8P"; */
+"42A-yQ-g8P.text" = "Lade";
+
+/* Class = "UILabel"; text = "Loading"; ObjectID = "69m-Bk-50E"; */
+"69m-Bk-50E.text" = "Lade";
+
+/* Class = "UITextField"; placeholder = "Select a value"; ObjectID = "9VQ-6x-pJq"; */
+"9VQ-6x-pJq.placeholder" = "Bitte wählen";
+
+/* Class = "UITextView"; text = "Terms and Conditions (\"Terms\")\n\nPlease read these Terms and Conditions (\"Terms\", \"Terms and Conditions\") carefully before using the http://www.mywebsite.com (change this) website and the My Mobile App (change this) mobile application (the \"Service\") operated by My Company (change this) (\"us\", \"we\", or \"our\").\n\nYour access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.\n\nBy accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service.\n\nPurchases\n\nIf you wish to purchase any product or service made available through the Service (\"Purchase\"), you may be asked to supply certain information relevant to your Purchase including, without limitation, your …\n\nThe Purchases section is for businesses that sell online (physical or digital). For the full disclosure section, create your own Terms and Conditions.\n\nSubscriptions\n\nSome parts of the Service are billed on a subscription basis (\"Subscription(s)\"). You will be billed in advance on a recurring ...\n\nThe Subscriptions section is for SaaS businesses. For the full disclosure section, create your own Terms and Conditions.\n\n\n\n\nContent\n\nOur Service allows you to post, link, store, share and otherwise make available certain information, text, graphics, videos, or other material (\"Content\"). You are responsible for the …\n\nThe Content section is for businesses that allow users to create, edit, share, make content on their websites or apps. For the full disclosure section, create your own Terms and Conditions.\n\nLinks To Other Web Sites\n\nOur Service may contain links to third-party web sites or services that are not owned or controlled by My Company (change this).\n\nMy Company (change this) has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that My Company (change this) shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.\n\nChanges\n\nWe reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 (change this) days' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.\n\nContact Us\n\nIf you have any questions about these Terms, please contact us.\n"; ObjectID = "E9M-2O-3xe"; */
+"E9M-2O-3xe.text" = "Nutzungsbedingungen\n\nBitte lesen Sie die Nutzungsbedingungen (\"Terms\", \"Terms and Conditions\") aufmerksam durch.\n";
+
+/* Class = "UIButton"; normalTitle = "Finish"; ObjectID = "O06-xa-Jt7"; */
+"O06-xa-Jt7.normalTitle" = "Abschliessen";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "RCv-pe-LMc"; */
+"RCv-pe-LMc.normalTitle" = "Weiter";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "RW9-3W-nFJ"; */
+"RW9-3W-nFJ.text" = "Titel";
+
+/* Class = "UINavigationItem"; title = "User Agreement"; ObjectID = "Rpi-9y-6Tb"; */
+"Rpi-9y-6Tb.title" = "Benutzervereinbarung";
+
+/* Class = "UITextField"; placeholder = "Registration Code"; ObjectID = "Ur8-tk-s4Z"; */
+"Ur8-tk-s4Z.placeholder" = "Registrierungscode";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "WE3-Ey-C25"; */
+"WE3-Ey-C25.text" = "Beschreibung";
+
+/* Class = "UILabel"; text = "Gender"; ObjectID = "aEr-G0-Cnp"; */
+"aEr-G0-Cnp.text" = "Geschlecht";
+
+/* Class = "UINavigationItem"; title = "Registration Code"; ObjectID = "b2U-ab-ukv"; */
+"b2U-ab-ukv.title" = "Registrierungscode";
+
+/* Class = "UINavigationItem"; title = "Registration Details"; ObjectID = "cBa-03-aJe"; */
+"cBa-03-aJe.title" = "Registrierungsdetails";
+
+/* Class = "UITextField"; placeholder = "Organization Code"; ObjectID = "dFX-pc-GDJ"; */
+"dFX-pc-GDJ.placeholder" = "Organisationscode";
+
+/* Class = "UILabel"; text = "Loading"; ObjectID = "j5K-pg-5Vz"; */
+"j5K-pg-5Vz.text" = "Lade";
+
+/* Class = "UILabel"; text = "Loading"; ObjectID = "mIt-SH-VCd"; */
+"mIt-SH-VCd.text" = "Lade";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "oI0-1E-eAb"; */
+"oI0-1E-eAb.normalTitle" = "Weiter";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "qqa-4a-miU"; */
+"qqa-4a-miU.normalTitle" = "Weiter";
+
+/* Class = "UINavigationItem"; title = "Organization Code"; ObjectID = "wBk-4a-axZ"; */
+"wBk-4a-axZ.title" = "Organisationscode";

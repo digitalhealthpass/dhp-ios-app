@@ -1,0 +1,121 @@
+[{
+    "@context": {
+        "cred": "https://www.w3.org/2018/credentials/v1"
+    },
+    "id": "did:hpass:hpassmsp:501295294274424247313065441009017198304461176255#vc-a36715d7-e71a-4d32-b94b-43270f5ea07a",
+    "type": [
+        "VerifiableCredential"
+    ],
+    "issuer": "did:hpass:hpassmsp:501295294274424247313065441009017198304461176255",
+    "issuanceDate": "2020-10-19T18:00:27Z",
+    "credentialSchema": {
+        "id": "did:hpass:nihmsp:252272630476853545807630427014456004900541050334;id=issuer;version=0.2",
+        "type": "JsonSchemaValidator2018"
+    },
+    "credentialSubject": {
+        "consentInfo": {
+            "jurisdiction": "US",
+            "language": "en",
+            "piiControllers": [
+                {
+                    "address": {
+                        "city": "San Francisco",
+                        "country": "United States",
+                        "line": "415 Mission Street",
+                        "postalCode": "94105",
+                        "state": "CA"
+                    },
+                    "contact": "John Smith, Chief Data Privacy Officer",
+                    "email": "support@salesforce.com",
+                    "onbehalf": true,
+                    "phone": "+18008866389",
+                    "piiController": "Salesforce",
+                    "piiControllerUrl": "https://www.salesforce.com/"
+                }
+            ],
+            "piiPrincipalId": "MIIBCgKCAQEAov/ZoW2Vo1KzuNLfkvrJh5hHrCfTVzf3jR3zVsjv5ASOTdrh+utBoB0GN0oQhkrFGv8hvbeUCMPzxVj3xBKqvALf33UImHCw3hgg1Pl9dQnjxZSCGBd9l2PdxcTQOu1yHuJUl2bbmUB+B78H0BC2QcC4/+TsluulGvH9mOuKUCw+Mij8zrbEin9h8oDzATzbqbO3+OTejx1BmY1Onrs5Rgy2UPWvFzQvdUvaQbtH+GLWpeTX8NjZvb9PJDLZMmJl/bR17puCozHdSzdpoVyBkzo/TrQ+hKdr6AVJlJzlZgmImC0TcpaosOBdf739W0vs1BQQ2MYSC13CnpIWKwayywIDAQAB",
+            "policyUrl": "https://www.salesforce.com/company/privacy/",
+            "sensitive": false,
+            "services": [
+                {
+                    "purposes": [
+                        {
+                            "consentType": "EXPLICIT",
+                            "piiCategory": [
+                                "Personal Data"
+                            ],
+                            "purpose": "Salesforce performs medical and behavioral research for the United States of America, and will use this data as part of that function.",
+                            "purposeCategory": "Medical Research",
+                            "termination": "Owner-mediated via Digital Wallet",
+                            "thirdPartyDisclosure": false
+                        }
+                    ],
+                    "service": "Salesforce Research"
+                }
+            ],
+            "spiCat": [
+                ""
+            ],
+            "version": "ISO/IEC 29184:2020"
+        },
+        "technical": {
+            "poBox": {
+                "id": "usfghqibwergfn98rorgby9bvqbd8o9egu8owbgnt",
+                "linkId": "a7ae3766-f8f0-406c-9d9d-df077c686b18",
+                "passcode": "158298bc-4931-4720-b74a-f268a01389b4",
+                "symmetricKey": {
+                    "algorithm": "aes-256-cbc",
+                    "iv": "+4iDypzBL21j5FYfuguvNQ==",
+                    "value": "ZJJbTfmZapKDudmrgDlyQIQywC+FUjrL83ULpVJSHhE="
+                },
+                "url": "https://sandbox1.wh-hpass.dev.acme.com/api/v1/postbox/api/v1/documents"
+            }
+        },
+        "termination": {
+            "url": "www.salesforce.com/terminate"
+        },
+        "type": "profile"
+    },
+    "proof": {
+        "created": "2020-10-19T18:00:27Z",
+        "creator": "did:hpass:hpassmsp:501295294274424247313065441009017198304461176255#key-1",
+        "nonce": "96ef3359-1435-4e9f-8140-283aad8150c3",
+        "signatureValue": "MEUCIGg9Et6bhekBaeDqTR3Pug27NfFZRujkSoB78cKNGAlcAiEAifAdSRqZveq6GY6zdWtBraNMOWhWkHDiykxWXsXwB80",
+        "type": "EcdsaSecp256r1Signature2019"
+    }
+},
+{
+    "@context": {
+        "cred": "https://www.w3.org/2018/credentials/v1"
+    },
+    "id": "did:hpass:hpassmsp:501295294274424247313065441009017198304461176255#vc-167125ac-e3cb-412f-a9dd-00ac5ec021bb",
+    "type": [
+        "VerifiableCredential"
+    ],
+    "issuer": "did:hpass:hpassmsp:501295294274424247313065441009017198304461176255",
+    "issuanceDate": "2020-10-19T18:00:27Z",
+    "credentialSchema": {
+        "id": "did:hpass:nihmsp:252272630476853545807630427014456004900541050334;id=holder;version=0.0",
+        "type": "JsonSchemaValidator2018"
+    },
+    "credentialSubject": {
+        "issuer": {
+            "name": "Salesforce"
+        },
+        "subject": {
+            "ageRange": "45-54",
+            "gender": "female",
+            "id": "MIIBCgKCAQEAov/ZoW2Vo1KzuNLfkvrJh5hHrCfTVzf3jR3zVsjv5ASOTdrh+utBoB0GN0oQhkrFGv8hvbeUCMPzxVj3xBKqvALf33UImHCw3hgg1Pl9dQnjxZSCGBd9l2PdxcTQOu1yHuJUl2bbmUB+B78H0BC2QcC4/+TsluulGvH9mOuKUCw+Mij8zrbEin9h8oDzATzbqbO3+OTejx1BmY1Onrs5Rgy2UPWvFzQvdUvaQbtH+GLWpeTX8NjZvb9PJDLZMmJl/bR17puCozHdSzdpoVyBkzo/TrQ+hKdr6AVJlJzlZgmImC0TcpaosOBdf739W0vs1BQQ2MYSC13CnpIWKwayywIDAQAB",
+            "location": "US-TX",
+            "race": "R5"
+        },
+        "type": "id"
+    },
+    "proof": {
+        "created": "2020-10-19T18:00:27Z",
+        "creator": "did:hpass:hpassmsp:501295294274424247313065441009017198304461176255#key-1",
+        "nonce": "3fed783e-942e-4fd1-a91d-7767cd5da4e1",
+        "signatureValue": "MEYCIQD1S3eAU_X98SYaiH8oj0KFjMatU81xcuNy3NtorEXK9wIhAO_jAqyb9jxiSkqN42xgQOZTZUK2yqg6au2FbTXCN0Qh",
+        "type": "EcdsaSecp256r1Signature2019"
+    }
+}]

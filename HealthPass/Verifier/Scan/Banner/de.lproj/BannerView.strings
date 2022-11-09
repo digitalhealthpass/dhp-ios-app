@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "Company Name"; ObjectID = "HFk-kT-y2f"; */
+"HFk-kT-y2f.text" = "Name der Organisation";
+
+/* Class = "UILabel"; text = "Credential Valid"; ObjectID = "HWH-7s-cNS"; */
+"HWH-7s-cNS.text" = "Zertifikat gültig";
+
+/* Class = "UILabel"; text = "Card Type"; ObjectID = "lGH-mG-4iK"; */
+"lGH-mG-4iK.text" = "Kartentyp";
+
+/* Class = "UILabel"; text = "Verification Successful"; ObjectID = "mpd-ue-uga"; */
+"mpd-ue-uga.text" = "Prüfung erfolgreich";

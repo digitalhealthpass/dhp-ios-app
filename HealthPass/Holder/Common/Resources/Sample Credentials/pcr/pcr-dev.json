@@ -1,0 +1,27 @@
+{
+    "@context": {
+        "cred": "https://www.w3.org/2018/credentials/v1"
+    },
+    "id": "did:hpass:hpassmsp:326154139805929658112786998782875574410195742971#vc-b0d100ab-b3b8-424c-9018-f95ff85140f0",
+    "type": [
+        "VerifiableCredential"
+    ],
+    "issuer": "did:hpass:hpassmsp:326154139805929658112786998782875574410195742971",
+    "issuanceDate": "2020-10-19T15:14:11Z",
+    "credentialSchema": {
+        "id": "did:hpass:hpassmsp:326154139805929658112786998782875574410195742971;id=new-schema;version=0.1",
+        "type": "JsonSchemaValidator2018"
+    },
+    "credentialSubject": {
+        "type": "medicalpass",
+        "id": "12123121231231231",
+        "state": "1"
+    },
+    "proof": {
+        "created": "2020-10-19T15:14:11Z",
+        "creator": "did:hpass:hpassmsp:326154139805929658112786998782875574410195742971#key-5",
+        "nonce": "f8a0ca69-2586-4d16-aae1-c24f89da2af7",
+        "signatureValue": "MEUCIEwqVXHt9IR2QK3FxUwk3M6Cw5ewBNQx7ehAdbYyUEvUAiEA_lt7MzaHEHlgDjZ8IB5jrtfnFFi_66_laeYlSpVNnrs",
+        "type": "EcdsaSecp256r1Signature2019"
+    }
+}

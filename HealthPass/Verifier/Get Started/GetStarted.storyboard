@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VSI-mz-B28">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Custom Navigation Controller-->
+        <scene sceneID="9dC-Zr-JPh">
+            <objects>
+                <navigationController modalPresentationStyle="pageSheet" navigationBarHidden="YES" id="VSI-mz-B28" customClass="CustomNavigationController" customModule="IBM_Pass_Verify" customModuleProvider="target" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <modalPageSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pDg-ve-lhk">
+                        <rect key="frame" x="0.0" y="-54" width="0.0" height="0.0"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Jll-97-qFO" kind="relationship" relationship="rootViewController" id="Y6V-hC-zT4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4AY-zs-ypR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="45" y="128"/>
+        </scene>
+        <!--Get Started Collection View Controller-->
+        <scene sceneID="Js8-1V-KaQ">
+            <objects>
+                <collectionViewController modalPresentationStyle="fullScreen" id="Jll-97-qFO" customClass="GetStartedCollectionViewController" customModule="IBM_Pass_Verify" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsVerticalScrollIndicator="NO" dataMode="prototypes" id="yBk-WP-anz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Qty-Xp-Hc9">
+                            <size key="itemSize" width="375" height="731"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="Cell" reuseIdentifier="GetStartedCollectionViewCell" id="skp-qN-s4K" customClass="GetStartedCollectionViewCell" customModule="IBM_Pass_Verify" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="38.5" width="375" height="731"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Yv6-0r-ft2">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="731"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Step 0" translatesAutoresizingMaskIntoConstraints="NO" id="hDY-0s-9cv">
+                                            <rect key="frame" x="0.0" y="7" width="375" height="310"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="310" id="vi0-OP-8wX"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Digital Health Pass Wallet" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.90000000000000002" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9iI-sF-V0y">
+                                            <rect key="frame" x="16" y="339" width="272.5" height="30"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A smart way for organizations to bring people back to a physical location, such as a workplace, school, stadium, or airport." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.90000000000000002" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QbY-LL-2Qp">
+                                            <rect key="frame" x="16" y="377" width="332.5" height="55"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abM-44-vTx" customClass="Button" customModule="IBM_Pass_Verify" customModuleProvider="target">
+                                            <rect key="frame" x="16" y="572" width="343" height="60"/>
+                                            <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="60" id="wez-6c-wNN"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                            <state key="normal" title="Get Started">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isProminent" value="NO"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="6"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="onFinished:" destination="skp-qN-s4K" eventType="touchUpInside" id="CpP-HW-YfT"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="abM-44-vTx" firstAttribute="leading" secondItem="Yv6-0r-ft2" secondAttribute="leading" constant="16" id="053-Uw-iSG"/>
+                                        <constraint firstItem="9iI-sF-V0y" firstAttribute="leading" secondItem="Yv6-0r-ft2" secondAttribute="leading" constant="16" id="0a8-dY-8wE"/>
+                                        <constraint firstItem="abM-44-vTx" firstAttribute="top" relation="greaterThanOrEqual" secondItem="QbY-LL-2Qp" secondAttribute="bottom" constant="8" symbolic="YES" id="Be3-yM-8Rl"/>
+                                        <constraint firstAttribute="bottom" secondItem="abM-44-vTx" secondAttribute="bottom" constant="99" id="E2l-XG-CID"/>
+                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="QbY-LL-2Qp" secondAttribute="trailing" constant="20" symbolic="YES" id="EBQ-Nu-BXk"/>
+                                        <constraint firstItem="QbY-LL-2Qp" firstAttribute="top" secondItem="9iI-sF-V0y" secondAttribute="bottom" constant="8" symbolic="YES" id="LIA-IM-bVv"/>
+                                        <constraint firstAttribute="trailing" secondItem="hDY-0s-9cv" secondAttribute="trailing" id="Rnk-6l-Bcv"/>
+                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9iI-sF-V0y" secondAttribute="trailing" constant="20" symbolic="YES" id="UIV-xV-jub"/>
+                                        <constraint firstItem="QbY-LL-2Qp" firstAttribute="leading" secondItem="9iI-sF-V0y" secondAttribute="leading" id="aYw-WW-peG"/>
+                                        <constraint firstItem="9iI-sF-V0y" firstAttribute="top" secondItem="hDY-0s-9cv" secondAttribute="bottom" constant="22" id="cLJ-LU-0cr"/>
+                                        <constraint firstItem="hDY-0s-9cv" firstAttribute="top" secondItem="Yv6-0r-ft2" secondAttribute="top" constant="7" id="dNc-9x-6Jo"/>
+                                        <constraint firstItem="hDY-0s-9cv" firstAttribute="leading" secondItem="Yv6-0r-ft2" secondAttribute="leading" id="vbS-J2-Mue"/>
+                                        <constraint firstAttribute="trailing" secondItem="abM-44-vTx" secondAttribute="trailing" constant="16" id="yTq-oT-4Xw"/>
+                                    </constraints>
+                                </collectionViewCellContentView>
+                                <size key="customSize" width="375" height="731"/>
+                                <connections>
+                                    <outlet property="detailLabel" destination="QbY-LL-2Qp" id="ELW-mj-tIc"/>
+                                    <outlet property="finishButton" destination="abM-44-vTx" id="iyL-D5-Yta"/>
+                                    <outlet property="imageView" destination="hDY-0s-9cv" id="woZ-29-aca"/>
+                                    <outlet property="titleLabel" destination="9iI-sF-V0y" id="0kl-tX-ju3"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="Jll-97-qFO" id="ZGg-WA-uDA"/>
+                            <outlet property="delegate" destination="Jll-97-qFO" id="R04-xN-WH8"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" id="cM0-Zj-02X"/>
+                    <connections>
+                        <segue destination="JXn-qF-5cW" kind="unwind" identifier="unwindToLaunch" unwindAction="unwindToLaunchWithSegue:" id="ceM-G6-I23"/>
+                    </connections>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hxe-d2-lUD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="JXn-qF-5cW" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1329" y="128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Step 0" width="530" height="310"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

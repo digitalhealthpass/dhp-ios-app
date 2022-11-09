@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "-"; ObjectID = "0Wp-Yp-eGn"; */
+"0Wp-Yp-eGn.text" = "-";
+
+/* Class = "UIButton"; normalTitle = "Copy Key"; ObjectID = "2kQ-ce-JPI"; */
+"2kQ-ce-JPI.normalTitle" = "Copy Key";
+
+/* Class = "UILabel"; text = "MIIBCgKCAQEA8DIXawT9Scjwj0O5BaNGXfnWOxU1eJe4d4Ekljgnm340849ut+ih4t4dsFDCWqijrJHFdsMIIEPAaIBBAkCAQEADxawTKLJVKJWEjkf3209ujtk42049ut4jiofkm4309ou23ioj324kjJKLSJFKLMFj+4jknkjakfmjfnef55z8kzCYj0OQIDAQAB8693jkelrty9uhDFi4hr534e4d4Ekljgnm340849ut+ih4t4dsFDCWqijrJHFdsMIIEPAaIBBAkCAQEADxawTKLJVKJWEjkf3209ujtk42049ut4jiofkm4309ou23ioj324kjJKLSJFKLMFj+4jknkjakfmjfnef55z8kzt4dsFDCWqijrJHFdst4dsFDCWqijrJHFdst4dsFDCWqijrJHFdsfwef32"; ObjectID = "53f-fv-HAN"; */
+"53f-fv-HAN.text" = "MIIBCgKCAQEA8DIXawT9Scjwj0O5BaNGXfnWOxU1eJe4d4Ekljgnm340849ut+ih4t4dsFDCWqijrJHFdsMIIEPAaIBBAkCAQEADxawTKLJVKJWEjkf3209ujtk42049ut4jiofkm4309ou23ioj324kjJKLSJFKLMFj+4jknkjakfmjfnef55z8kzCYj0OQIDAQAB8693jkelrty9uhDFi4hr534e4d4Ekljgnm340849ut+ih4t4dsFDCWqijrJHFdsMIIEPAaIBBAkCAQEADxawTKLJVKJWEjkf3209ujtk42049ut4jiofkm4309ou23ioj324kjJKLSJFKLMFj+4jknkjakfmjfnef55z8kzt4dsFDCWqijrJHFdst4dsFDCWqijrJHFdst4dsFDCWqijrJHFdsfwef32";
+
+/* Class = "UILabel"; text = "Created"; ObjectID = "JDU-bT-yXM"; */
+"JDU-bT-yXM.text" = "Created";
+
+/* Class = "UINavigationItem"; title = "Key Management"; ObjectID = "O9P-ka-jd6"; */
+"O9P-ka-jd6.title" = "Key management";
+
+/* Class = "UILabel"; text = "Created Date"; ObjectID = "PV5-EG-XWg"; */
+"PV5-EG-XWg.text" = "Created date";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "X2T-ow-m7q"; */
+"X2T-ow-m7q.text" = "-";
+
+/* Class = "UINavigationItem"; title = "Public Key Copied at 10:53:00 PM"; ObjectID = "iYi-vQ-Btd"; */
+"iYi-vQ-Btd.title" = "Public Key Copied at 10:53:00 PM";
+
+/* Class = "UILabel"; text = "Tag"; ObjectID = "sNB-ue-ali"; */
+"sNB-ue-ali.text" = "Tag";
+
+/* Class = "UILabel"; text = "Key-Pair Tag"; ObjectID = "sQi-LR-j6p"; */
+"sQi-LR-j6p.text" = "Key-pair tag";
+
+/* Class = "UILabel"; text = "Public Key"; ObjectID = "tW2-ed-f29"; */
+"tW2-ed-f29.text" = "Public key";
+
+/* Class = "UIButton"; normalTitle = "Generate New Key Pair"; ObjectID = "xnK-Fv-M4D"; */
+"xnK-Fv-M4D.normalTitle" = "Generate new key pair";

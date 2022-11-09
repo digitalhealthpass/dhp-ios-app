@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "Privacy Policy"; ObjectID = "Cbx-PL-OVg"; */
+"zXk-o6-Cd0.normalTitle" = "Privacy Policy";
+
+/* Class = "UILabel"; text = "DHP Verify"; ObjectID = "IpR-3R-lus"; */
+"IpR-3R-lus.text" = "Verify";
+
+/* Class = "UILabel"; text = "Version"; ObjectID = "PEj-DZ-ad8"; */
+"PEj-DZ-ad8.text" = "Version";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "lNg-lx-3fj"; */
+"tRa-Db-jlt.normalTitle" = "Continue";
+
+/* Class = "UILabel"; text = "Copyright © 2021, 2022 IBM "; ObjectID = "wfs-AC-9yp"; */
+"7e0-FP-IWU.text" = "Copyright © [YEAR] [COMPANY] ";

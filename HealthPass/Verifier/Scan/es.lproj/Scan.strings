@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "Grant Access"; ObjectID = "14e-DM-BE6"; */
+"14e-DM-BE6.text" = "Grant Access";
+
+/* Class = "UILabel"; text = "Scan Organization QR Code to get started"; ObjectID = "9N5-ZE-Ox1"; */
+"9N5-ZE-Ox1.text" = "Scan Organization QR Code to get started";
+
+/* Class = "UINavigationItem"; title = "Pass Verify"; ObjectID = "Fan-HP-1Na"; */
+"Fan-HP-1Na.title" = "Pass Verify";
+
+/* Class = "UILabel"; text = "New York, NY"; ObjectID = "Gge-FG-jSR"; */
+"Gge-FG-jSR.text" = "New York, NY";
+
+/* Class = "UIButton"; normalTitle = "Settings"; ObjectID = "MRy-l9-ZDM"; */
+"MRy-l9-ZDM.normalTitle" = "Settings";
+
+/* Class = "UILabel"; text = "Expires 4/24/2021"; ObjectID = "WNE-ar-dUj"; */
+"WNE-ar-dUj.text" = "Expires 4/24/2021";
+
+/* Class = "UITabBarItem"; title = "Scan"; ObjectID = "Wtk-1p-T7f"; */
+"Wtk-1p-T7f.title" = "Scan";
+
+/* Class = "UILabel"; text = "Citi Field"; ObjectID = "cer-BJ-P6t"; */
+"cer-BJ-P6t.text" = "Citi Field";
+
+/* Class = "UILabel"; text = "Health Pass is not authorized to access the device camera.\n\nPlease update Health Pass App settings."; ObjectID = "dLw-C7-aQ3"; */
+"dLw-C7-aQ3.text" = "Health Pass is not authorized to access the device camera.\n\nPlease update Health Pass App settings.";

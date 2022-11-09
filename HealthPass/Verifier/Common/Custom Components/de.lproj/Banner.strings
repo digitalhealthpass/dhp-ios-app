@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "Thomas J. Watson"; ObjectID = "FTF-NK-AlY"; */
+"FTF-NK-AlY.text" = "Thomas J. Watson";
+
+/* Class = "UILabel"; text = "Holder Name"; ObjectID = "FYt-xh-8Dt"; */
+"FYt-xh-8Dt.text" = "Name des Halters";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "IJB-gU-CyQ"; */
+"IJB-gU-CyQ.text" = "Datum";
+
+/* Class = "UILabel"; text = "Tap to cancel"; ObjectID = "Kh9-sI-7Oa"; */
+"Kh9-sI-7Oa.text" = "Antippen um abzubrechen";
+
+/* Class = "UILabel"; text = "4:00 PM"; ObjectID = "KxF-K2-KWa"; */
+"KxF-K2-KWa.text" = "16:00 Uhr";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "NAI-h5-IYx"; */
+"NAI-h5-IYx.text" = "Zeit";
+
+/* Class = "UILabel"; text = "#"; ObjectID = "Ntd-nP-t58"; */
+"Ntd-nP-t58.text" = "#";
+
+/* Class = "UILabel"; text = "123456789"; ObjectID = "cPl-o1-Gbn"; */
+"cPl-o1-Gbn.text" = "123456789";
+
+/* Class = "UILabel"; text = "01/11/2020"; ObjectID = "zXx-OE-L5a"; */
+"zXx-OE-L5a.text" = "11.01.2020";

@@ -1,0 +1,102 @@
+{
+    "Description": "These are the fields that should be displayed for each credential we support.",
+    "IDHP": [
+        {
+            "field": "credentialSubject.subject.name.given",
+            "displayValue": {
+                "en": "First Name",
+                "de": "Vorname"
+            }
+        },
+        {
+            "field": "credentialSubject.subject.name.family",
+            "displayValue": {
+                "en": "Surname",
+                "de": "Nachname"
+            }
+        },
+        {
+            "field": "credentialSubject.subject.birthDate",
+            "displayValue": {
+                "en": "Date of Birth",
+                "de": "Geburtsdatum"
+            }
+        }
+    ],
+    "GHP": [
+        {
+            "field": "credentialSubject.recipient.givenName",
+            "displayValue": {
+                "en": "First Name",
+                "de": "Vorname"
+            }
+        },
+        {
+            "field": "credentialSubject.recipient.familyName",
+            "displayValue": {
+                "en": "Surname",
+                "de": "Nachname"
+            }
+        },
+        {
+            "field": "credentialSubject.recipient.birthDate",
+            "displayValue": {
+                "en": "Date of Birth",
+                "de": "Geburtsdatum"
+            }
+        }
+    ],
+    "SHC": [
+        {
+            "field": "vc.type.0",
+            "displayValue": {
+                "en": "Type",
+                "de": "Type"
+            }
+        },
+        {
+            "field": "vc.credentialSubject.fhirBundle.entry.0.resource.name.0.given.0",
+            "displayValue": {
+                "en": "First Name",
+                "de": "Vorname"
+            }
+        },
+        {
+            "field": "vc.credentialSubject.fhirBundle.entry.0.resource.name.0.family",
+            "displayValue": {
+                "en": "Surname",
+                "de": "Nachname"
+            }
+        },
+        {
+            "field": "vc.credentialSubject.fhirBundle.entry.0.resource.birthDate",
+            "displayValue": {
+                "en": "Date of Birth",
+                "de": "Geburtsdatum"
+            }
+        }
+    ],
+    "DCC": [
+        {
+            "field": "nam.gn",
+            "displayValue": {
+                "en": "First Name",
+                "de": "Vorname"
+            }
+        },
+        {
+            "field": "nam.fn",
+            "displayValue": {
+                "en": "Surname",
+                "de": "Nachname"
+            }
+        },
+        {
+            "field": "dob",
+            "displayValue": {
+                "en": "Date of Birth",
+                "de": "Geburtsdatum"
+            }
+        }
+    ]
+}

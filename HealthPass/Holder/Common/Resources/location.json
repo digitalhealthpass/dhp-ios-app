@@ -1,0 +1,257 @@
+[
+  {
+    "State": "Alabama",
+    "Abbrev": "Ala.",
+    "Code": "US-AL"
+  },
+  {
+    "State": "Alaska",
+    "Abbrev": "Alaska",
+    "Code": "US-AK"
+  },
+  {
+    "State": "Arizona",
+    "Abbrev": "Ariz.",
+    "Code": "US-AZ"
+  },
+  {
+    "State": "Arkansas",
+    "Abbrev": "Ark.",
+    "Code": "US-AR"
+  },
+  {
+    "State": "California",
+    "Abbrev": "Calif.",
+    "Code": "US-CA"
+  },
+  {
+    "State": "Colorado",
+    "Abbrev": "Colo.",
+    "Code": "US-CO"
+  },
+  {
+    "State": "Connecticut",
+    "Abbrev": "Conn.",
+    "Code": "US-CT"
+  },
+  {
+    "State": "Delaware",
+    "Abbrev": "Del.",
+    "Code": "US-DE"
+  },
+  {
+    "State": "District of Columbia",
+    "Abbrev": "D.C.",
+    "Code": "US-DC"
+  },
+  {
+    "State": "Florida",
+    "Abbrev": "Fla.",
+    "Code": "US-FL"
+  },
+  {
+    "State": "Georgia",
+    "Abbrev": "Ga.",
+    "Code": "US-GA"
+  },
+  {
+    "State": "Hawaii",
+    "Abbrev": "Hawaii",
+    "Code": "US-HI"
+  },
+  {
+    "State": "Idaho",
+    "Abbrev": "Idaho",
+    "Code": "US-ID"
+  },
+  {
+    "State": "Illinois",
+    "Abbrev": "Ill.",
+    "Code": "US-IL"
+  },
+  {
+    "State": "Indiana",
+    "Abbrev": "Ind.",
+    "Code": "US-IN"
+  },
+  {
+    "State": "Iowa",
+    "Abbrev": "Iowa",
+    "Code": "US-IA"
+  },
+  {
+    "State": "Kansas",
+    "Abbrev": "Kans.",
+    "Code": "US-KS"
+  },
+  {
+    "State": "Kentucky",
+    "Abbrev": "Ky.",
+    "Code": "US-KY"
+  },
+  {
+    "State": "Louisiana",
+    "Abbrev": "La.",
+    "Code": "US-LA"
+  },
+  {
+    "State": "Maine",
+    "Abbrev": "Maine",
+    "Code": "US-ME"
+  },
+  {
+    "State": "Maryland",
+    "Abbrev": "Md.",
+    "Code": "US-MD"
+  },
+  {
+    "State": "Massachusetts",
+    "Abbrev": "Mass.",
+    "Code": "US-MA"
+  },
+  {
+    "State": "Michigan",
+    "Abbrev": "Mich.",
+    "Code": "US-MI"
+  },
+  {
+    "State": "Minnesota",
+    "Abbrev": "Minn.",
+    "Code": "US-MN"
+  },
+  {
+    "State": "Mississippi",
+    "Abbrev": "Miss.",
+    "Code": "US-MS"
+  },
+  {
+    "State": "Missouri",
+    "Abbrev": "Mo.",
+    "Code": "US-MO"
+  },
+  {
+    "State": "Montana",
+    "Abbrev": "Mont.",
+    "Code": "US-MT"
+  },
+  {
+    "State": "Nebraska",
+    "Abbrev": "Nebr.",
+    "Code": "US-NE"
+  },
+  {
+    "State": "Nevada",
+    "Abbrev": "Nev.",
+    "Code": "US-NV"
+  },
+  {
+    "State": "New Hampshire",
+    "Abbrev": "N.H.",
+    "Code": "US-NH"
+  },
+  {
+    "State": "New Jersey",
+    "Abbrev": "N.J.",
+    "Code": "US-NJ"
+  },
+  {
+    "State": "New Mexico",
+    "Abbrev": "N.M.",
+    "Code": "US-NM"
+  },
+  {
+    "State": "New York",
+    "Abbrev": "N.Y.",
+    "Code": "US-NY"
+  },
+  {
+    "State": "North Carolina",
+    "Abbrev": "N.C.",
+    "Code": "US-NC"
+  },
+  {
+    "State": "North Dakota",
+    "Abbrev": "N.D.",
+    "Code": "US-ND"
+  },
+  {
+    "State": "Ohio",
+    "Abbrev": "Ohio",
+    "Code": "US-OH"
+  },
+  {
+    "State": "Oklahoma",
+    "Abbrev": "Okla.",
+    "Code": "US-OK"
+  },
+  {
+    "State": "Oregon",
+    "Abbrev": "Ore.",
+    "Code": "US-OR"
+  },
+  {
+    "State": "Pennsylvania",
+    "Abbrev": "Pa.",
+    "Code": "US-PA"
+  },
+  {
+    "State": "Rhode Island",
+    "Abbrev": "R.I.",
+    "Code": "US-RI"
+  },
+  {
+    "State": "South Carolina",
+    "Abbrev": "S.C.",
+    "Code": "US-SC"
+  },
+  {
+    "State": "South Dakota",
+    "Abbrev": "S.D.",
+    "Code": "US-SD"
+  },
+  {
+    "State": "Tennessee",
+    "Abbrev": "Tenn.",
+    "Code": "US-TN"
+  },
+  {
+    "State": "Texas",
+    "Abbrev": "Tex.",
+    "Code": "US-TX"
+  },
+  {
+    "State": "Utah",
+    "Abbrev": "Utah",
+    "Code": "US-UT"
+  },
+  {
+    "State": "Vermont",
+    "Abbrev": "Vt.",
+    "Code": "US-VT"
+  },
+  {
+    "State": "Virginia",
+    "Abbrev": "Va.",
+    "Code": "US-VA"
+  },
+  {
+    "State": "Washington",
+    "Abbrev": "Wash.",
+    "Code": "US-WA"
+  },
+  {
+    "State": "West Virginia",
+    "Abbrev": "W.Va.",
+    "Code": "US-WV"
+  },
+  {
+    "State": "Wisconsin",
+    "Abbrev": "Wis.",
+    "Code": "US-WI"
+  },
+  {
+    "State": "Wyoming",
+    "Abbrev": "Wyo.",
+    "Code": "US-WY"
+  }
+]

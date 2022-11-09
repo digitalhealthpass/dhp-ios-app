@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Test Mode View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="TestModeViewController" customModule="IBM_Pass_Verify" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" allowsSelectionDuringEditing="YES" allowsMultipleSelection="YES" allowsMultipleSelectionDuringEditing="YES" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="ccb-Zg-q9j">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="790"/>
+                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="TestCredentialCell" rowHeight="88" id="b9b-H7-d6G" customClass="TestCredentialCell" customModule="IBM_Pass_Verify" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="49.5" width="374" height="88"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="b9b-H7-d6G" id="qOB-Ns-OPD">
+                                            <rect key="frame" x="0.0" y="0.0" width="345.5" height="88"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="9nH-Ka-wiA">
+                                                    <rect key="frame" x="20" y="10" width="315.5" height="68"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wJX-z7-gaF">
+                                                            <rect key="frame" x="0.0" y="2" width="64" height="64"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="64" id="NJB-2c-Ot8"/>
+                                                                <constraint firstAttribute="height" constant="64" id="mw3-VY-4Xw"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="2L5-AJ-LHa">
+                                                            <rect key="frame" x="84" y="4" width="179.5" height="60.5"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Image Name" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iby-5s-KE2">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="71" height="14.5"/>
+                                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Credential Spec" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dvt-Wa-bje">
+                                                                    <rect key="frame" x="0.0" y="14.5" width="107.5" height="17"/>
+                                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Verification Status" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gCw-ZF-M0Q">
+                                                                    <rect key="frame" x="0.0" y="31.5" width="104" height="14.5"/>
+                                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                                    <color key="textColor" name="valid"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Error Message" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eo1-dc-4Ir">
+                                                                    <rect key="frame" x="0.0" y="46" width="82" height="14.5"/>
+                                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zmR-Lk-ZgJ">
+                                                            <rect key="frame" x="283.5" y="18" width="32" height="32"/>
+                                                            <color key="tintColor" systemColor="systemYellowColor"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="32" id="Bub-DQ-b5b"/>
+                                                                <constraint firstAttribute="width" constant="32" id="pyu-2q-O6X"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="9nH-Ka-wiA" firstAttribute="centerY" secondItem="qOB-Ns-OPD" secondAttribute="centerY" id="2Zi-IT-uWA"/>
+                                                <constraint firstAttribute="bottom" secondItem="9nH-Ka-wiA" secondAttribute="bottom" constant="10" id="2pA-FG-ypc"/>
+                                                <constraint firstAttribute="trailing" secondItem="9nH-Ka-wiA" secondAttribute="trailing" constant="10" id="4vg-fr-PR7"/>
+                                                <constraint firstItem="9nH-Ka-wiA" firstAttribute="top" secondItem="qOB-Ns-OPD" secondAttribute="top" constant="10" id="GIt-RI-eL8"/>
+                                                <constraint firstItem="9nH-Ka-wiA" firstAttribute="leading" secondItem="qOB-Ns-OPD" secondAttribute="leading" constant="20" id="dOU-AL-3K9"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
+                                        <connections>
+                                            <outlet property="errorLabel" destination="Eo1-dc-4Ir" id="zjt-GG-fwP"/>
+                                            <outlet property="imageName" destination="Iby-5s-KE2" id="itj-3P-pwE"/>
+                                            <outlet property="qrImage" destination="wJX-z7-gaF" id="n8d-Ww-xvp"/>
+                                            <outlet property="specLabel" destination="dvt-Wa-bje" id="4fJ-RR-1fH"/>
+                                            <outlet property="statusImage" destination="zmR-Lk-ZgJ" id="1VQ-AA-ZuW"/>
+                                            <outlet property="statusLabel" destination="gCw-ZF-M0Q" id="2h7-On-FrZ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Fan-po-KsM">
+                                <rect key="frame" x="20" y="798" width="374" height="44"/>
+                                <subviews>
+                                    <button hidden="YES" opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" role="destructive" translatesAutoresizingMaskIntoConstraints="NO" id="2wh-LQ-4XI">
+                                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="44"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" priority="750" constant="44" id="kTn-bG-3Zm"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
+                                        <state key="normal" title="Remove Selected">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onRemoveSelected:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="69u-nT-Nnj"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="6hx-mW-qIL">
+                                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="44"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" priority="750" constant="44" id="iZ5-2r-hbP"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
+                                        <state key="normal" title="Verify Selected">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onVerifySelected:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="zRC-ms-S0b"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" role="destructive" translatesAutoresizingMaskIntoConstraints="NO" id="MJq-Sc-mgO">
+                                        <rect key="frame" x="0.0" y="0.0" width="183" height="44"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" priority="750" constant="44" id="Xhu-qQ-aHY"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
+                                        <state key="normal" title="Remove All">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onRemoveAll:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="FJk-3Z-wAO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ZpI-tK-Ov1">
+                                        <rect key="frame" x="191" y="0.0" width="183" height="44"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" priority="750" constant="44" id="TE0-vI-1c3"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
+                                        <state key="normal" title="Verify All">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onVerifyAll:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="0f9-7v-x1y"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Fan-po-KsM" secondAttribute="bottom" constant="20" id="FYk-of-NhW"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="top" secondItem="ccb-Zg-q9j" secondAttribute="top" constant="44" id="PK8-Gz-P58"/>
+                            <constraint firstItem="Fan-po-KsM" firstAttribute="top" secondItem="ccb-Zg-q9j" secondAttribute="bottom" constant="8" id="XzK-Gx-iZB"/>
+                            <constraint firstItem="ccb-Zg-q9j" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="cOt-Ox-5DY"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Fan-po-KsM" secondAttribute="trailing" constant="20" id="fe4-fZ-FPp"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="ccb-Zg-q9j" secondAttribute="trailing" id="jke-ZZ-hkq"/>
+                            <constraint firstItem="Fan-po-KsM" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="qv8-au-KyB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="removeAll" destination="MJq-Sc-mgO" id="K7j-rv-SgM"/>
+                        <outlet property="removeSelected" destination="2wh-LQ-4XI" id="4cx-IK-q2M"/>
+                        <outlet property="tableView" destination="ccb-Zg-q9j" id="t7d-6d-kYF"/>
+                        <outlet property="verifyAll" destination="ZpI-tK-Ov1" id="Mcz-JI-v8n"/>
+                        <outlet property="verifySelected" destination="6hx-mW-qIL" id="0JZ-LV-IHb"/>
+                        <segue destination="Y0B-KW-gwl" kind="show" identifier="showResult" id="0ha-ab-4Xs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-333.33333333333337" y="103.79464285714285"/>
+        </scene>
+        <!--Result-->
+        <scene sceneID="iUS-Td-ObO">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Result" id="Y0B-KW-gwl" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="S6F-7c-BfR"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vzK-Y5-fH7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="330" y="104"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="valid">
+            <color red="0.090196078431372548" green="0.62745098039215685" blue="0.30196078431372547" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

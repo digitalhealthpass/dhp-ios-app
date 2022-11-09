@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wZ1-XX-Buu">
+    <device id="retina6_0" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="IBMPlexSans-Bold.ttf">
+            <string>IBMPlexSans-Bold</string>
+        </array>
+        <array key="IBMPlexSans-Medium.ttf">
+            <string>IBMPlexSans-Medium</string>
+        </array>
+        <array key="IBMPlexSans-Regular.ttf">
+            <string>IBMPlexSans</string>
+        </array>
+        <array key="IBMPlexSans-SemiBold.ttf">
+            <string>IBMPlexSans-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Scan Complete View Controller-->
+        <scene sceneID="tkh-M6-euU">
+            <objects>
+                <viewController id="pnB-0m-hrv" customClass="ScanCompleteViewController" customModule="IBM_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7xj-PW-c9h">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9mj-6X-stE" userLabel="Container" customClass="GradientView" customModule="IBM_Wallet" customModuleProvider="target">
+                                <rect key="frame" x="23.666666666666657" y="344" width="343" height="210"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="JTX-oV-Ds4">
+                                        <rect key="frame" x="16" y="7.9999999999999964" width="319" height="48.666666666666657"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test Result " lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qik-4Q-7rd">
+                                                <rect key="frame" x="0.0" y="0.0" width="119.66666666666667" height="28.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="IBMPlexSans-Bold" family="IBM Plex Sans" pointSize="22"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Tjj-7o-62a">
+                                                <rect key="frame" x="0.0" y="28.666666666666686" width="132" height="20"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Org Healthpass 1" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Rr-f5-6C4">
+                                                        <rect key="frame" x="0.0" y="0.0" width="110" height="20"/>
+                                                        <fontDescription key="fontDescription" name="IBMPlexSans-Medium" family="IBM Plex Sans" pointSize="14"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="Nk9-rZ-lPP">
+                                                        <rect key="frame" x="112" y="0.0" width="20" height="20"/>
+                                                    </activityIndicatorView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="fd6-Ze-MVU">
+                                        <rect key="frame" x="16" y="105" width="319" height="42"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ayanna Denton" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="80u-df-cJA">
+                                                <rect key="frame" x="0.0" y="0.0" width="127" height="23.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="IBMPlexSans-SemiBold" family="IBM Plex Sans" pointSize="18"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="FKW-O3-SIZ">
+                                                <rect key="frame" x="0.0" y="23.666666666666686" width="144.66666666666666" height="18.333333333333329"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DOB" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gt4-Sy-RFE">
+                                                        <rect key="frame" x="0.0" y="0.0" width="28.666666666666668" height="18.333333333333332"/>
+                                                        <fontDescription key="fontDescription" name="IBMPlexSans" family="IBM Plex Sans" pointSize="14"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20 January 1985" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lpW-mn-Kau">
+                                                        <rect key="frame" x="33.666666666666657" y="0.0" width="111" height="18.333333333333332"/>
+                                                        <fontDescription key="fontDescription" name="IBMPlexSans-Bold" family="IBM Plex Sans" pointSize="14"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="bottom" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="p02-Mq-Iy2">
+                                        <rect key="frame" x="16" y="152" width="319" height="50"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verifiable Credential" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yiy-h3-iyJ">
+                                                <rect key="frame" x="0.0" y="31.666666666666629" width="220" height="18.333333333333329"/>
+                                                <fontDescription key="fontDescription" name="IBMPlexSans-SemiBold" family="IBM Plex Sans" pointSize="14"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a1G-0N-4VM">
+                                                <rect key="frame" x="239" y="0.0" width="80" height="50"/>
+                                                <color key="tintColor" systemColor="labelColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="9YM-hV-Alj"/>
+                                                    <constraint firstAttribute="height" constant="50" id="jRh-dQ-hkt"/>
+                                                </constraints>
+                                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="24"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.shadowColor">
+                                                        <color key="value" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowOpacity">
+                                                        <real key="value" value="0.5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
+                                                        <size key="value" width="0.5" height="0.5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <constraints>
+                                    <constraint firstItem="JTX-oV-Ds4" firstAttribute="leading" secondItem="9mj-6X-stE" secondAttribute="leading" constant="16" id="4oT-yf-fpr"/>
+                                    <constraint firstItem="p02-Mq-Iy2" firstAttribute="trailing" secondItem="JTX-oV-Ds4" secondAttribute="trailing" id="9DB-hb-Aeu"/>
+                                    <constraint firstAttribute="height" constant="210" id="EL9-Vq-ZBW"/>
+                                    <constraint firstAttribute="bottom" secondItem="p02-Mq-Iy2" secondAttribute="bottom" constant="8" id="NUh-aR-yx9"/>
+                                    <constraint firstItem="p02-Mq-Iy2" firstAttribute="leading" secondItem="JTX-oV-Ds4" secondAttribute="leading" id="OCI-2r-jLo"/>
+                                    <constraint firstItem="JTX-oV-Ds4" firstAttribute="top" secondItem="9mj-6X-stE" secondAttribute="top" constant="8" id="bzx-i7-QUo"/>
+                                    <constraint firstItem="p02-Mq-Iy2" firstAttribute="top" secondItem="fd6-Ze-MVU" secondAttribute="bottom" constant="5" id="gCn-d6-FL2"/>
+                                    <constraint firstItem="fd6-Ze-MVU" firstAttribute="leading" secondItem="JTX-oV-Ds4" secondAttribute="leading" id="gVt-Mm-9tJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="JTX-oV-Ds4" secondAttribute="trailing" constant="8" id="pxa-Ug-Kud"/>
+                                    <constraint firstAttribute="width" priority="750" constant="343" id="qUe-V3-OzZ"/>
+                                    <constraint firstItem="fd6-Ze-MVU" firstAttribute="trailing" secondItem="JTX-oV-Ds4" secondAttribute="trailing" id="qqB-I0-YJe"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow.down.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="jQF-Mw-ZMJ">
+                                <rect key="frame" x="171" y="568.33333333333337" width="48" height="39.666666666666629"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="TOR-es-FBL"/>
+                                    <constraint firstAttribute="width" constant="48" id="mNj-w7-3b5"/>
+                                </constraints>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
+                            </imageView>
+                            <view hidden="YES" alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UJO-mb-LRZ" userLabel="Container" customClass="GradientView" customModule="IBM_Wallet" customModuleProvider="target">
+                                <rect key="frame" x="109.33333333333334" y="622" width="257.33333333333326" height="157.66666666666663"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="OEs-MR-9wI">
+                                        <rect key="frame" x="16.000000000000014" y="8" width="233.33333333333337" height="41"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test Result " lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RXh-dR-rf2">
+                                                <rect key="frame" x="0.0" y="0.0" width="87" height="21"/>
+                                                <fontDescription key="fontDescription" name="IBMPlexSans-Bold" family="IBM Plex Sans" pointSize="16"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="xlf-tn-r9d">
+                                                <rect key="frame" x="0.0" y="21" width="85" height="20"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Org Healthpass 1" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8mF-7f-66g">
+                                                        <rect key="frame" x="0.0" y="0.0" width="63" height="20"/>
+                                                        <fontDescription key="fontDescription" name="IBMPlexSans-Medium" family="IBM Plex Sans" pointSize="8"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="ySc-Bu-ssH">
+                                                        <rect key="frame" x="65.000000000000014" y="0.0" width="20" height="20"/>
+                                                    </activityIndicatorView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="bottom" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="uz1-mv-2cE">
+                                        <rect key="frame" x="16.000000000000014" y="112.66666666666663" width="233.33333333333337" height="37"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verifiable Credential" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nMr-AU-kSg">
+                                                <rect key="frame" x="0.0" y="26.333333333333371" width="154.33333333333334" height="10.666666666666664"/>
+                                                <fontDescription key="fontDescription" name="IBMPlexSans-SemiBold" family="IBM Plex Sans" pointSize="8"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fuV-lE-n61">
+                                                <rect key="frame" x="173.33333333333337" y="0.0" width="60" height="37"/>
+                                                <color key="tintColor" systemColor="labelColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="60" id="W7W-8M-tkN"/>
+                                                    <constraint firstAttribute="height" constant="37" id="pNd-bW-iw8"/>
+                                                </constraints>
+                                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="18"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.shadowColor">
+                                                        <color key="value" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowOpacity">
+                                                        <real key="value" value="0.5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
+                                                        <size key="value" width="0.5" height="0.5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Fgo-jX-ZMx">
+                                        <rect key="frame" x="16.000000000000014" y="81.333333333333371" width="233.33333333333337" height="26.333333333333329"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ayanna Denton" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X6q-Pp-ZdF">
+                                                <rect key="frame" x="0.0" y="0.0" width="84.666666666666671" height="15.666666666666666"/>
+                                                <fontDescription key="fontDescription" name="IBMPlexSans-SemiBold" family="IBM Plex Sans" pointSize="12"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="0M5-p2-Vbd">
+                                                <rect key="frame" x="0.0" y="15.666666666666629" width="84.666666666666671" height="10.666666666666664"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DOB" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dJt-Du-X9d">
+                                                        <rect key="frame" x="0.0" y="0.0" width="16.333333333333332" height="10.666666666666666"/>
+                                                        <fontDescription key="fontDescription" name="IBMPlexSans" family="IBM Plex Sans" pointSize="8"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20 January 1985" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eEU-NP-uau">
+                                                        <rect key="frame" x="21.333333333333332" y="0.0" width="63.333333333333343" height="10.666666666666666"/>
+                                                        <fontDescription key="fontDescription" name="IBMPlexSans-Bold" family="IBM Plex Sans" pointSize="8"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="uz1-mv-2cE" secondAttribute="bottom" constant="8" id="9B4-ec-nNM"/>
+                                    <constraint firstItem="Fgo-jX-ZMx" firstAttribute="trailing" secondItem="OEs-MR-9wI" secondAttribute="trailing" id="Bfm-eq-ZNJ"/>
+                                    <constraint firstItem="uz1-mv-2cE" firstAttribute="trailing" secondItem="OEs-MR-9wI" secondAttribute="trailing" id="JpG-f0-ZPp"/>
+                                    <constraint firstItem="uz1-mv-2cE" firstAttribute="leading" secondItem="OEs-MR-9wI" secondAttribute="leading" id="gl0-cL-LPS"/>
+                                    <constraint firstItem="uz1-mv-2cE" firstAttribute="top" secondItem="Fgo-jX-ZMx" secondAttribute="bottom" constant="4.9999999999999289" id="iL4-YJ-oeM"/>
+                                    <constraint firstItem="Fgo-jX-ZMx" firstAttribute="leading" secondItem="OEs-MR-9wI" secondAttribute="leading" id="mlj-aS-shX"/>
+                                    <constraint firstAttribute="trailing" secondItem="OEs-MR-9wI" secondAttribute="trailing" constant="8" id="qME-fr-QUv"/>
+                                    <constraint firstItem="OEs-MR-9wI" firstAttribute="top" secondItem="UJO-mb-LRZ" secondAttribute="top" constant="8" id="sn1-0k-L5H"/>
+                                    <constraint firstItem="OEs-MR-9wI" firstAttribute="leading" secondItem="UJO-mb-LRZ" secondAttribute="leading" constant="16" id="yyS-3f-ykk"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dyj-bO-iKI">
+                                <rect key="frame" x="20" y="274" width="350" height="350"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="m8I-eJ-M4v">
+                                        <rect key="frame" x="20" y="127.66666666666669" width="310" height="126"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verifing Credential. Please Wait..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bu-Hu-r9I">
+                                                <rect key="frame" x="51.000000000000014" y="0.0" width="208.33333333333337" height="61"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="F0x-ZF-Qlp">
+                                                <rect key="frame" x="136.66666666666666" y="89" width="37" height="37"/>
+                                                <color key="color" systemColor="labelColor"/>
+                                            </activityIndicatorView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="m8I-eJ-M4v" secondAttribute="trailing" constant="20" id="NLv-PY-aVh"/>
+                                    <constraint firstItem="m8I-eJ-M4v" firstAttribute="leading" secondItem="Dyj-bO-iKI" secondAttribute="leading" constant="20" id="Orf-7l-Iqv"/>
+                                    <constraint firstAttribute="width" secondItem="Dyj-bO-iKI" secondAttribute="height" multiplier="1:1" id="dbJ-nj-YBG"/>
+                                    <constraint firstItem="m8I-eJ-M4v" firstAttribute="top" secondItem="Dyj-bO-iKI" secondAttribute="top" constant="127.66666666666669" id="khm-87-dd0"/>
+                                </constraints>
+                            </view>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This card already exists in the wallet. Replacing it will overwrite its current contents." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Lr-Aa-xYB">
+                                <rect key="frame" x="23.666666666666657" y="789.66666666666663" width="343" height="22.333333333333371"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" id="IXT-08-YXt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <color key="textColor" systemColor="secondaryLabelColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="J2W-py-AfL"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9mj-6X-stE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="J2W-py-AfL" secondAttribute="leading" constant="10" id="1dM-Ln-Aoc"/>
+                            <constraint firstItem="9mj-6X-stE" firstAttribute="centerY" secondItem="J2W-py-AfL" secondAttribute="centerY" id="2AI-MM-TtG"/>
+                            <constraint firstItem="1Lr-Aa-xYB" firstAttribute="width" secondItem="9mj-6X-stE" secondAttribute="width" id="7nY-b6-aK2"/>
+                            <constraint firstItem="J2W-py-AfL" firstAttribute="trailing" secondItem="Dyj-bO-iKI" secondAttribute="trailing" constant="20" id="9Q9-pR-TC9"/>
+                            <constraint firstItem="9mj-6X-stE" firstAttribute="centerX" secondItem="J2W-py-AfL" secondAttribute="centerX" id="AW6-dk-rsh"/>
+                            <constraint firstItem="jQF-Mw-ZMJ" firstAttribute="top" secondItem="9mj-6X-stE" secondAttribute="bottom" constant="10" id="KDu-mu-mJc"/>
+                            <constraint firstItem="UJO-mb-LRZ" firstAttribute="height" secondItem="9mj-6X-stE" secondAttribute="height" multiplier="0.75" id="OC2-t4-vHT"/>
+                            <constraint firstItem="1Lr-Aa-xYB" firstAttribute="centerX" secondItem="J2W-py-AfL" secondAttribute="centerX" id="UGa-hX-kj9"/>
+                            <constraint firstItem="jQF-Mw-ZMJ" firstAttribute="centerY" secondItem="J2W-py-AfL" secondAttribute="centerY" id="YDb-A7-dhY"/>
+                            <constraint firstItem="J2W-py-AfL" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9mj-6X-stE" secondAttribute="trailing" constant="10" id="YLQ-ZG-Wfz"/>
+                            <constraint firstItem="1Lr-Aa-xYB" firstAttribute="top" relation="greaterThanOrEqual" secondItem="UJO-mb-LRZ" secondAttribute="bottom" constant="10" id="dCD-e5-1C8"/>
+                            <constraint firstItem="UJO-mb-LRZ" firstAttribute="trailing" secondItem="9mj-6X-stE" secondAttribute="trailing" id="dLT-e6-CFY"/>
+                            <constraint firstItem="jQF-Mw-ZMJ" firstAttribute="centerX" secondItem="J2W-py-AfL" secondAttribute="centerX" id="e0a-Xv-r8u"/>
+                            <constraint firstAttribute="bottom" secondItem="1Lr-Aa-xYB" secondAttribute="bottom" constant="32" id="j5w-LC-S0g"/>
+                            <constraint firstItem="Dyj-bO-iKI" firstAttribute="leading" secondItem="J2W-py-AfL" secondAttribute="leading" constant="20" id="jWu-Tv-mAD"/>
+                            <constraint firstItem="UJO-mb-LRZ" firstAttribute="width" secondItem="9mj-6X-stE" secondAttribute="width" multiplier="0.75" id="opH-1O-2w5"/>
+                            <constraint firstItem="Dyj-bO-iKI" firstAttribute="centerX" secondItem="J2W-py-AfL" secondAttribute="centerX" id="rFf-HB-WLI"/>
+                            <constraint firstItem="Dyj-bO-iKI" firstAttribute="centerY" secondItem="J2W-py-AfL" secondAttribute="centerY" id="sZd-c2-mNh"/>
+                            <constraint firstItem="UJO-mb-LRZ" firstAttribute="top" secondItem="jQF-Mw-ZMJ" secondAttribute="bottom" constant="10" id="zvK-qC-YcB"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="39a-ai-8Qs">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="1AE-9I-5dn">
+                            <connections>
+                                <action selector="onCancel:" destination="pnB-0m-hrv" id="B1u-zD-fn9"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Add To Wallet" style="done" id="MuE-Uq-aGQ">
+                            <connections>
+                                <action selector="onAddToWallet:" destination="pnB-0m-hrv" id="YoB-gg-oHE"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="addBarButtonItem" destination="MuE-Uq-aGQ" id="Kr5-r5-ANU"/>
+                        <outlet property="cancelBarButtonItem" destination="1AE-9I-5dn" id="nKw-7P-s4a"/>
+                        <outlet property="credentialActivityIndicatorView" destination="Nk9-rZ-lPP" id="0K7-Jk-m9S"/>
+                        <outlet property="credentialIssuerImageView" destination="a1G-0N-4VM" id="reB-i3-fRk"/>
+                        <outlet property="credentialIssuerNameLabel" destination="8Rr-f5-6C4" id="udb-JM-pb4"/>
+                        <outlet property="credentialSchemaNameLabel" destination="Qik-4Q-7rd" id="ZNO-iC-Pap"/>
+                        <outlet property="credentialSpecLabel" destination="Yiy-h3-iyJ" id="h5K-ib-oOa"/>
+                        <outlet property="credentialView" destination="9mj-6X-stE" id="xbZ-Kv-7er"/>
+                        <outlet property="credentialViewCenterConstraint" destination="2AI-MM-TtG" id="oaU-4Y-VWM"/>
+                        <outlet property="dobLabel" destination="gt4-Sy-RFE" id="SyL-F6-4nA"/>
+                        <outlet property="dobValueLabel" destination="lpW-mn-Kau" id="9sm-gT-wzD"/>
+                        <outlet property="existingCredentialActivityIndicatorView" destination="ySc-Bu-ssH" id="Oj2-AS-Lja"/>
+                        <outlet property="existingCredentialIssuerImageView" destination="fuV-lE-n61" id="8a1-XW-z8s"/>
+                        <outlet property="existingCredentialIssuerNameLabel" destination="8mF-7f-66g" id="Fys-2C-bO2"/>
+                        <outlet property="existingCredentialSchemaNameLabel" destination="RXh-dR-rf2" id="7eI-nh-LCR"/>
+                        <outlet property="existingCredentialSpecLabel" destination="nMr-AU-kSg" id="BKD-Il-CdX"/>
+                        <outlet property="existingCredentialView" destination="UJO-mb-LRZ" id="fdW-QJ-0r8"/>
+                        <outlet property="existingDOBLabel" destination="dJt-Du-X9d" id="nme-FH-XJx"/>
+                        <outlet property="existingDOBValueLabel" destination="eEU-NP-uau" id="tAe-oB-lq8"/>
+                        <outlet property="existingFullNameLabel" destination="X6q-Pp-ZdF" id="9QB-Yl-4PX"/>
+                        <outlet property="fullNameLabel" destination="80u-df-cJA" id="Tg9-u5-8nu"/>
+                        <outlet property="placeholderView" destination="Dyj-bO-iKI" id="4va-vk-vD2"/>
+                        <outlet property="replaceCardImageView" destination="jQF-Mw-ZMJ" id="153-1L-qOa"/>
+                        <outlet property="replaceCardInfoLabel" destination="1Lr-Aa-xYB" id="9i5-Ry-EhM"/>
+                        <segue destination="q8Z-fs-WLT" kind="unwind" identifier="unwindToWallet" unwindAction="unwindToWalletWithSegue:" id="JNH-lL-PSg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="exH-1M-ReZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="q8Z-fs-WLT" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1204" y="144"/>
+        </scene>
+        <!--Custom Navigation Controller-->
+        <scene sceneID="jEG-9K-r5k">
+            <objects>
+                <navigationController storyboardIdentifier="ScanCompleteNavigationController" id="wZ1-XX-Buu" customClass="CustomNavigationController" customModule="IBM_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oCZ-HG-mmq">
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="pnB-0m-hrv" kind="relationship" relationship="rootViewController" id="tSD-SG-ulj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E1u-Im-VdH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="259" y="144"/>
+        </scene>
+        <!--Import Complete View Controller-->
+        <scene sceneID="lpB-QG-iia">
+            <objects>
+                <tableViewController modalPresentationStyle="formSheet" id="Jzf-kQ-d6w" customClass="ImportCompleteViewController" customModule="IBM_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" id="WYk-Vr-P6O">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="n9e-Zw-dxw">
+                            <rect key="frame" x="0.0" y="0.0" width="390" height="132"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TIF-zk-ckE">
+                                    <rect key="frame" x="20" y="0.0" width="350" height="132"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SMART® Health Card from Apple Health" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YDH-HP-LQE">
+                                            <rect key="frame" x="27.666666666666657" y="0.0" width="294.66666666666674" height="132"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <viewLayoutGuide key="safeArea" id="vwI-BA-XSk"/>
+                            <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="vwI-BA-XSk" firstAttribute="trailing" secondItem="TIF-zk-ckE" secondAttribute="trailing" constant="20" id="Eig-I4-FHh"/>
+                                <constraint firstItem="vwI-BA-XSk" firstAttribute="bottom" secondItem="TIF-zk-ckE" secondAttribute="bottom" id="HeP-gI-L7N"/>
+                                <constraint firstItem="TIF-zk-ckE" firstAttribute="leading" secondItem="vwI-BA-XSk" secondAttribute="leading" constant="20" id="Qra-ms-oOZ"/>
+                                <constraint firstItem="TIF-zk-ckE" firstAttribute="top" secondItem="vwI-BA-XSk" secondAttribute="top" id="bGj-uh-htR"/>
+                            </constraints>
+                        </view>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ImportCompleteItemCell" rowHeight="132" id="t2b-zw-dt4" customClass="ImportCompleteItemTableViewCell" customModule="IBM_Wallet" customModuleProvider="target">
+                                <rect key="frame" x="20" y="181" width="350" height="132"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="t2b-zw-dt4" id="WbR-Eu-bCq">
+                                    <rect key="frame" x="0.0" y="0.0" width="350" height="132"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="yqL-lL-np6">
+                                            <rect key="frame" x="20" y="14" width="322" height="104"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="B9f-BJ-mFB">
+                                                    <rect key="frame" x="0.0" y="0.0" width="95" height="31.333333333333332"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Schema name" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.15000000596046448" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VQA-L9-e4d">
+                                                            <rect key="frame" x="0.0" y="0.0" width="95" height="17"/>
+                                                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unknown Issuer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.15000000596046448" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Ys-5a-dBd">
+                                                            <rect key="frame" x="0.0" y="17" width="90" height="14.333333333333336"/>
+                                                            <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                            <color key="textColor" systemColor="secondaryLabelColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="zxY-tf-GFY">
+                                                    <rect key="frame" x="0.0" y="70" width="110.33333333333333" height="34"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Appleseed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.25" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c1i-4u-o5Z">
+                                                            <rect key="frame" x="0.0" y="0.0" width="104.33333333333333" height="17"/>
+                                                            <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="January 01, 1989" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.25" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bx1-EG-Qnj">
+                                                            <rect key="frame" x="0.0" y="17" width="110.33333333333333" height="17"/>
+                                                            <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="108" id="ekf-ed-GJu"/>
+                                            </constraints>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="yqL-lL-np6" firstAttribute="leading" secondItem="WbR-Eu-bCq" secondAttribute="leading" constant="20" id="AeW-Fu-sOr"/>
+                                        <constraint firstAttribute="trailing" secondItem="yqL-lL-np6" secondAttribute="trailing" constant="8" id="mO3-Rw-rZm"/>
+                                        <constraint firstAttribute="bottom" secondItem="yqL-lL-np6" secondAttribute="bottom" constant="14" id="sAq-oJ-QKV"/>
+                                        <constraint firstItem="yqL-lL-np6" firstAttribute="top" secondItem="WbR-Eu-bCq" secondAttribute="top" constant="14" id="xYJ-4r-2Bp"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="credentialInfo1Label" destination="c1i-4u-o5Z" id="OMA-uo-M5c"/>
+                                    <outlet property="credentialInfo2Label" destination="Bx1-EG-Qnj" id="5ek-DX-HxI"/>
+                                    <outlet property="credentialIssuerLabel" destination="9Ys-5a-dBd" id="gbr-dC-B5O"/>
+                                    <outlet property="credentialSchemaNameLabel" destination="VQA-L9-e4d" id="w3q-rm-drl"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Jzf-kQ-d6w" id="4hN-rF-adb"/>
+                            <outlet property="delegate" destination="Jzf-kQ-d6w" id="DkW-rg-d5i"/>
+                        </connections>
+                    </tableView>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="L6V-Ok-ZdS">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="BaE-2P-7jg">
+                            <connections>
+                                <action selector="onCancel:" destination="Jzf-kQ-d6w" id="BFf-mY-ow4"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Add To Wallet" style="done" id="Sd0-cC-NhB">
+                            <connections>
+                                <action selector="onAddToWallet:" destination="Jzf-kQ-d6w" id="ntn-gt-1eq"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="addBarButtonItem" destination="Sd0-cC-NhB" id="UOB-yC-abG"/>
+                        <outlet property="cancelBarButtonItem" destination="BaE-2P-7jg" id="6Yf-ch-0mg"/>
+                        <segue destination="WyU-qh-NLh" kind="unwind" identifier="unwindToWallet" unwindAction="unwindToWalletWithSegue:" id="pCc-93-egF"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iw0-BF-vBw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="WyU-qh-NLh" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1147.5" y="822.88732394366195"/>
+        </scene>
+        <!--Custom Navigation Controller-->
+        <scene sceneID="RDk-r5-egj">
+            <objects>
+                <navigationController storyboardIdentifier="ImportCompleteNavigationController" modalPresentationStyle="formSheet" id="x1e-A4-V99" customClass="CustomNavigationController" customModule="IBM_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fcP-fx-lFG">
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Jzf-kQ-d6w" kind="relationship" relationship="rootViewController" id="uQu-m3-zZF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QUY-aY-H9q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="258" y="824"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.down.right" catalog="system" width="128" height="112"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,23 @@
+{
+    "id": "did:hpass:barcelona:483922049834213232485727110170736478066884981228",
+    "name": "Barcelona hospital",
+    "created": "123",
+    "updated": "456",
+    "@context": {
+        "did": "cschema",
+        "name": "cname"
+    },
+    "publicKey": [
+        {
+            "id": "did:hpass:barcelona:483922049834213232485727110170736478066884981228#key-1",
+            "type": "secp256r1",
+            "controller": "did:hpass:barcelona:483922049834213232485727110170736478066884981228",
+            "publicKeyJwk": {
+                "crv": "P-256",
+                "kty": "EC",
+                "x": "UcHRiNIyRkzYchFFurD9Vdp-HEHIbi1TUwYhZqJ1RPQ",
+                "y": "-gNtc3_9Ye8LJu4Tvpt60-s2GY47vMkZm5ijoAe4m08"
+            }
+        }
+    ]
+}

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="b1L-Tx-c72">
+    <device id="retina6_0" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="IBMPlexSans-Regular.ttf">
+            <string>IBMPlexSans</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Scan-->
+        <scene sceneID="EyL-Oz-brN">
+            <objects>
+                <viewController title="Scan" id="usj-si-wyj" customClass="ScanViewController" customModule="IBM_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iGP-wg-nYI">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p3A-yH-nql" customClass="QRCodeScannerView" customModule="QRCoder">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2wq-sg-B7m">
+                                <rect key="frame" x="1048" y="70" width="44" height="44"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="Z42-Jr-nu2"/>
+                                    <constraint firstAttribute="height" constant="44" id="c56-4U-VfI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IBMPlexSans" family="IBM Plex Sans" pointSize="18"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" image="plus" catalog="system"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="22"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UeE-KB-lKQ">
+                                <rect key="frame" x="20" y="70" width="44" height="44"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="ItY-LI-KLW"/>
+                                    <constraint firstAttribute="width" constant="44" id="pM7-C2-ez7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IBMPlexSans" family="IBM Plex Sans" pointSize="18"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" image="bolt" catalog="system"/>
+                                <state key="selected" image="bolt.fill" catalog="system"/>
+                                <state key="highlighted" image="bolt.fill" catalog="system"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="22"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hold camera still with the QR code in the box above" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yLF-XQ-jTm">
+                                <rect key="frame" x="80" y="687.66666666666663" width="230" height="42.333333333333371"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vo5-K4-pF1">
+                                <rect key="frame" x="0.0" y="88" width="390" height="756"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="wlQ-cP-U0E">
+                                        <rect key="frame" x="20" y="292.66666666666669" width="350" height="137"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Health Pass is not authorized to access the device camera." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wuu-X0-reA">
+                                                <rect key="frame" x="34" y="0.0" width="282" height="36"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                <color key="textColor" systemColor="secondaryLabelColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please update Health Pass App settings." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gld-S4-WbA">
+                                                <rect key="frame" x="44.666666666666686" y="56" width="261" height="17"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                <color key="textColor" systemColor="secondaryLabelColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vc8-rW-bF9" customClass="PlatterButton" customModule="IBM_Wallet" customModuleProvider="target">
+                                                <rect key="frame" x="115" y="93" width="120" height="44"/>
+                                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="120" id="fvq-bm-ASz"/>
+                                                    <constraint firstAttribute="height" constant="44" id="mUU-Xy-O5V"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
+                                                <state key="normal" title="Settings">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="onSettings:" destination="usj-si-wyj" eventType="touchUpInside" id="lpU-kl-G7n"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="wlQ-cP-U0E" secondAttribute="trailing" constant="20" id="5CO-gE-Sl7"/>
+                                    <constraint firstItem="wlQ-cP-U0E" firstAttribute="centerX" secondItem="Vo5-K4-pF1" secondAttribute="centerX" id="Adq-W7-xf4"/>
+                                    <constraint firstItem="wlQ-cP-U0E" firstAttribute="centerY" secondItem="Vo5-K4-pF1" secondAttribute="centerY" constant="-17" id="f4E-la-hnZ"/>
+                                    <constraint firstItem="wlQ-cP-U0E" firstAttribute="leading" secondItem="Vo5-K4-pF1" secondAttribute="leading" constant="20" id="nwn-7U-CSC"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ew9-i1-6Q3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Ew9-i1-6Q3" firstAttribute="trailing" secondItem="2wq-sg-B7m" secondAttribute="trailing" constant="20" id="4Oi-eL-Sf9"/>
+                            <constraint firstItem="p3A-yH-nql" firstAttribute="width" secondItem="iGP-wg-nYI" secondAttribute="width" id="88n-2H-Y3f"/>
+                            <constraint firstItem="2wq-sg-B7m" firstAttribute="top" secondItem="Ew9-i1-6Q3" secondAttribute="top" constant="20" id="CY7-L7-nfg"/>
+                            <constraint firstItem="UeE-KB-lKQ" firstAttribute="top" secondItem="Ew9-i1-6Q3" secondAttribute="top" constant="20" id="DQL-sW-mEb"/>
+                            <constraint firstItem="UeE-KB-lKQ" firstAttribute="leading" secondItem="Ew9-i1-6Q3" secondAttribute="leading" constant="20" id="NVy-is-ZSM"/>
+                            <constraint firstItem="Ew9-i1-6Q3" firstAttribute="trailing" secondItem="yLF-XQ-jTm" secondAttribute="trailing" constant="80" id="PB1-eu-M3c"/>
+                            <constraint firstItem="Vo5-K4-pF1" firstAttribute="top" secondItem="Ew9-i1-6Q3" secondAttribute="top" id="PTQ-Vd-aDP"/>
+                            <constraint firstItem="p3A-yH-nql" firstAttribute="centerY" secondItem="iGP-wg-nYI" secondAttribute="centerY" id="QqR-9G-p0i"/>
+                            <constraint firstItem="Vo5-K4-pF1" firstAttribute="leading" secondItem="Ew9-i1-6Q3" secondAttribute="leading" id="c8H-Pw-Lnd"/>
+                            <constraint firstItem="Ew9-i1-6Q3" firstAttribute="bottom" secondItem="Vo5-K4-pF1" secondAttribute="bottom" constant="-34" id="clO-dk-Qds"/>
+                            <constraint firstItem="p3A-yH-nql" firstAttribute="height" secondItem="iGP-wg-nYI" secondAttribute="height" id="gVj-XI-AqL"/>
+                            <constraint firstItem="Ew9-i1-6Q3" firstAttribute="trailing" secondItem="Vo5-K4-pF1" secondAttribute="trailing" id="hwr-X2-HPr"/>
+                            <constraint firstItem="p3A-yH-nql" firstAttribute="centerX" secondItem="iGP-wg-nYI" secondAttribute="centerX" id="wKU-HU-sC7"/>
+                            <constraint firstItem="Ew9-i1-6Q3" firstAttribute="bottom" secondItem="yLF-XQ-jTm" secondAttribute="bottom" constant="80" id="xBn-bz-mDV"/>
+                            <constraint firstItem="yLF-XQ-jTm" firstAttribute="leading" secondItem="Ew9-i1-6Q3" secondAttribute="leading" constant="80" id="z0d-M9-37S"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="2wq-sg-B7m"/>
+                                <exclude reference="UeE-KB-lKQ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Scan QR code" largeTitleDisplayMode="never" id="Wd2-Dd-pXg">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="rKu-2J-iBW">
+                            <connections>
+                                <action selector="onCancel:" destination="usj-si-wyj" id="KoM-ra-P34"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="flashButton" destination="UeE-KB-lKQ" id="kBX-F5-qv8"/>
+                        <outlet property="instructionLabel" destination="yLF-XQ-jTm" id="TlH-Ma-sj6"/>
+                        <outlet property="optionsButton" destination="2wq-sg-B7m" id="EiY-ti-1aZ"/>
+                        <outlet property="placeholder1Label" destination="wuu-X0-reA" id="j9M-o2-q03"/>
+                        <outlet property="placeholder2Label" destination="Gld-S4-WbA" id="n8t-f2-tk0"/>
+                        <outlet property="scannerView" destination="p3A-yH-nql" id="rMd-Km-cnA"/>
+                        <outlet property="settingsButton" destination="Vc8-rW-bF9" id="hXB-rI-XqW"/>
+                        <outlet property="viewPlaceholder" destination="Vo5-K4-pF1" id="BR0-VV-egb"/>
+                        <segue destination="MLW-sc-J9D" kind="unwind" unwindAction="unwindToScanWithSegue:" id="iSo-ZJ-U9t"/>
+                        <segue destination="MLW-sc-J9D" kind="unwind" identifier="unwindToWallet" unwindAction="unwindToWalletWithSegue:" id="MqE-Np-beX"/>
+                        <segue destination="4PO-fH-nr9" kind="presentation" identifier="showScanComplete" modalPresentationStyle="formSheet" id="q6m-uG-6ML"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w9N-JZ-gDl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="MLW-sc-J9D" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="333.84615384615381" y="130.80568720379145"/>
+        </scene>
+        <!--ScanComplete-->
+        <scene sceneID="MeR-rb-nAZ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ScanComplete" id="4PO-fH-nr9" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sPj-NN-wVa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1132" y="131"/>
+        </scene>
+        <!--Custom Navigation Controller-->
+        <scene sceneID="Fgx-DU-0XQ">
+            <objects>
+                <navigationController modalPresentationStyle="fullScreen" id="b1L-Tx-c72" customClass="CustomNavigationController" customModule="IBM_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Bwa-RD-MG4">
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="usj-si-wyj" kind="relationship" relationship="rootViewController" id="vBQ-kC-HWh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2qX-j7-ksi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-523" y="131"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bolt" catalog="system" width="101" height="128"/>
+        <image name="bolt.fill" catalog="system" width="101" height="128"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

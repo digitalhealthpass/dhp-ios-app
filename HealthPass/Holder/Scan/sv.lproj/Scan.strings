@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Please update Health Pass App settings."; ObjectID = "Gld-S4-WbA"; */
+"Gld-S4-WbA.text" = "Please update Health Pass App settings.";
+
+/* Class = "UIButton"; normalTitle = "Settings"; ObjectID = "Vc8-rW-bF9"; */
+"Vc8-rW-bF9.normalTitle" = "Settings";
+
+/* Class = "UINavigationItem"; title = "Scan QR code"; ObjectID = "Wd2-Dd-pXg"; */
+"Wd2-Dd-pXg.title" = "Scan QR code";
+
+/* Class = "UIViewController"; title = "Scan"; ObjectID = "usj-si-wyj"; */
+"usj-si-wyj.title" = "Scan";
+
+/* Class = "UILabel"; text = "Health Pass is not authorized to access the device camera."; ObjectID = "wuu-X0-reA"; */
+"wuu-X0-reA.text" = "Health Pass is not authorized to access the device camera.";

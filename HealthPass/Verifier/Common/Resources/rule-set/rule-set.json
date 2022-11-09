@@ -1,0 +1,32 @@
+{
+    "type": "rule-set",
+    "payload": [
+        {
+            "id": "74250b54-c52c-488b-8ef7-57432b645f7a",
+            "version": "1.0.0",
+            "unrestricted": true,
+            "name": "Verify Good Health Pass Test Credential",
+            "type": "ghp.test",
+            "created_by": "hpasstestorg.verifier",
+            "rules": [
+                {
+                    "id": "00b31c4a-7c04-4251-9137-49cb5761d534",
+                    "version": "1.0.0"
+                },
+                {
+                    "id": "03540a21-c987-4e76-8664-69e5346d9657",
+                    "version": "1.0.0"
+                },
+                {
+                    "id": "566225aa-2449-4d10-8f38-a13bf4435ea3",
+                    "version": "1.0.1"
+                }
+            ],
+            "schemas": [
+                "schemaId"
+            ],
+            "created_at": "2021-06-23T15:58:36Z",
+            "updated_at": "2021-06-23T15:58:36Z"
+        }
+    ]
+}
