@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "40D5331824F836770015DDEE"
-               BuildableName = "IBM Pass Verify.app"
+               BuildableName = "Pass Verify.app"
                BlueprintName = "Verifier"
                ReferencedContainer = "container:Verifier.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "40D5331824F836770015DDEE"
-            BuildableName = "IBM Pass Verify.app"
+            BuildableName = "Pass Verify.app"
             BlueprintName = "Verifier"
             ReferencedContainer = "container:Verifier.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "40D5331824F836770015DDEE"
-            BuildableName = "IBM Pass Verify.app"
+            BuildableName = "Pass Verify.app"
             BlueprintName = "Verifier"
             ReferencedContainer = "container:Verifier.xcodeproj">
          </BuildableReference>
