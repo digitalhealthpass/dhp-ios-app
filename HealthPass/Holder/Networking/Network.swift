@@ -11,6 +11,7 @@ import Alamofire
 import Foundation
 
 public enum EnvTarget: String, CaseIterable {
+    case localhost
     case sandbox1
     case sandbox2
     case dev1
@@ -28,6 +29,7 @@ public enum EnvTarget: String, CaseIterable {
 
     var title: String {
         switch self {
+        case .localhost: return "Localhost"
         case .sandbox1: return "env.us".localized + " Sandbox 1"
         case .sandbox2: return "env.us".localized + " Sandbox 2"
         case .dev1: return "env.us".localized + " Dev 1"
@@ -40,12 +42,12 @@ public enum EnvTarget: String, CaseIterable {
     
     var subTitle: String? {
         switch self {
+        case .localhost: return "localhost"
         case .sandbox1: return "sandbox1.wh-hpass.dev.acme.com"
         case .sandbox2: return "sandbox2.wh-hpass.dev.acme.com"
         case .dev1: return "dev1.wh-hpass.dev.acme.com"
         case .dev2: return "dev2.wh-hpass.dev.acme.com"
         case .qa: return "release1.wh-hpass.dev.acme.com"
-
         case .prod: return nil
        
         }
@@ -95,6 +97,7 @@ class Network {
     
     static var baseURL: String {
         switch SettingsBundleHelper.shared.savedEnvironment {
+        case .localhost: return "https://localhost/api/v1"
         case .sandbox1: return "https://sandbox1.wh-hpass.dev.acme.com/api/v1"
         case .sandbox2: return "https://sandbox2.wh-hpass.dev.acme.com/api/v1"
         case .dev1: return "https://dev1.wh-hpass.dev.acme.com/api/v1"
@@ -106,6 +109,7 @@ class Network {
     
     static var issuerId: String {
         switch SettingsBundleHelper.shared.savedEnvironment {
+        case .localhost: return "hpass.issuer1"
         case .sandbox1: return "hpass.issuer1"
         case .sandbox2: return "hpass.issuer1"
         case .dev1: return "hpass.issuer1"
@@ -137,6 +141,7 @@ class Network {
     
     static var certificateName: String {
         switch SettingsBundleHelper.shared.savedEnvironment {
+        case .localhost: return "dev"
         case .sandbox1: return "dev"
         case .sandbox2: return "dev"
         case .dev1: return "dev"
@@ -149,6 +154,7 @@ class Network {
     
     static var pinningURL: String {
         switch SettingsBundleHelper.shared.savedEnvironment {
+        case .localhost: return "localhost"
         case .sandbox1: return "sandbox1.wh-hpass.dev.acme.com"
         case .sandbox2: return "sandbox2.wh-hpass.dev.acme.com"
         case .dev1: return "dev1.wh-hpass.dev.acme.com"
