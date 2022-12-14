@@ -38,7 +38,7 @@ public enum VCType: String, Codable {
     public var displayValue: String {
         switch self {
         case .VC: return "Verifiable Credential"
-        
+        case .IDHP: return "IBM Digital Health Pass"
         case .SHC: return "SMART® Health Card"
         case .DIVOC: return "DIVOC's India Cowin"
         case .DCC: return "EU Digital COVID Certificate"

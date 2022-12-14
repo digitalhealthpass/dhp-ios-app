@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "App_Icon_Builder_Light.pdf",
+      "filename" : "wallet.png",
       "idiom" : "universal"
     },
     {
@@ -11,7 +11,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "App_Icon_Builder.pdf",
+      "filename" : "wallet-1.png",
       "idiom" : "universal"
     }
   ],

@@ -26,21 +26,21 @@
         <!--Wallet-->
         <scene sceneID="NK6-Qy-oEM">
             <objects>
-                <tableViewController id="UAN-tV-aJp" customClass="WalletTableViewController" customModule="IBM_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="UAN-tV-aJp" customClass="WalletTableViewController" customModule="Wallet" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="20" sectionFooterHeight="18" id="wsf-vh-Qyk">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                         <color key="tintColor" systemColor="systemBlueColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CredentialCardCell" rowHeight="220" id="T8t-gy-p1T" customClass="CredentialCardTableViewCell" customModule="IBM_Wallet" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CredentialCardCell" rowHeight="220" id="T8t-gy-p1T" customClass="CredentialCardTableViewCell" customModule="Wallet" customModuleProvider="target">
                                 <rect key="frame" x="116" y="55.5" width="396" height="220"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="T8t-gy-p1T" id="eio-VF-dZl">
                                     <rect key="frame" x="0.0" y="0.0" width="396" height="220"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sMC-dP-3XV" userLabel="Container" customClass="GradientView" customModule="IBM_Wallet" customModuleProvider="target">
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sMC-dP-3XV" userLabel="Container" customClass="GradientView" customModule="Wallet" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="5" width="396" height="210"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EXPIRED" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GEx-UU-vdI">
@@ -205,7 +205,7 @@
                                     <outlet property="fullNameLabel" destination="l4C-YZ-1Xj" id="yNQ-qt-dUz"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PlaceholderCell" rowHeight="120" id="da9-N1-052" userLabel="PlaceholderCell" customClass="PlaceholderTableViewCell" customModule="IBM_Wallet" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PlaceholderCell" rowHeight="120" id="da9-N1-052" userLabel="PlaceholderCell" customClass="PlaceholderTableViewCell" customModule="Wallet" customModuleProvider="target">
                                 <rect key="frame" x="116" y="275.5" width="396" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="da9-N1-052" id="V4c-VU-m4N">
@@ -273,7 +273,7 @@
                                     <outlet property="titleLabel" destination="KOf-yC-itG" id="uZq-EF-iVx"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ContactCardCell" rowHeight="90" id="6Z0-Tq-RB5" customClass="ContactCardTableViewCell" customModule="IBM_Wallet" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ContactCardCell" rowHeight="90" id="6Z0-Tq-RB5" customClass="ContactCardTableViewCell" customModule="Wallet" customModuleProvider="target">
                                 <rect key="frame" x="116" y="775.5" width="396" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6Z0-Tq-RB5" id="aIb-QF-4Oj">
@@ -499,7 +499,7 @@
         <!--Custom Split View Controller-->
         <scene sceneID="aVX-Mo-53G">
             <objects>
-                <splitViewController allowDoubleColumnStyle="YES" preferredSupplementaryColumnWidthFraction="0.40000000000000002" id="Q5v-8Y-nWc" customClass="CustomSplitViewController" customModule="IBM_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                <splitViewController allowDoubleColumnStyle="YES" preferredSupplementaryColumnWidthFraction="0.40000000000000002" id="Q5v-8Y-nWc" customClass="CustomSplitViewController" customModule="Wallet" customModuleProvider="target" sceneMemberID="viewController">
                     <connections>
                         <segue destination="8ey-p6-60N" kind="relationship" relationship="masterViewController" id="S2c-Ry-8Dk"/>
                     </connections>
@@ -511,7 +511,7 @@
         <!--Wallet-->
         <scene sceneID="LwQ-uu-niV">
             <objects>
-                <navigationController id="8ey-p6-60N" customClass="CustomNavigationController" customModule="IBM_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController id="8ey-p6-60N" customClass="CustomNavigationController" customModule="Wallet" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Wallet" image="wallet.pass" catalog="system" id="pGw-Sz-ia3"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" largeTitles="YES" id="Q8j-H8-ccu">
@@ -538,12 +538,12 @@
         <!--Contact Complete View Controller-->
         <scene sceneID="CCM-HE-bRR">
             <objects>
-                <viewController storyboardIdentifier="ContactCompleteViewController" modalPresentationStyle="fullScreen" id="CFo-9U-tHv" customClass="ContactCompleteViewController" customModule="IBM_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ContactCompleteViewController" modalPresentationStyle="fullScreen" id="CFo-9U-tHv" customClass="ContactCompleteViewController" customModule="Wallet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L1c-Zm-VmF">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KWO-so-mDZ" customClass="GradientView" customModule="IBM_Wallet" customModuleProvider="target">
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KWO-so-mDZ" customClass="GradientView" customModule="Wallet" customModuleProvider="target">
                                 <rect key="frame" x="23.666666666666657" y="290" width="343" height="210"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Ufb-tP-35I">
@@ -700,7 +700,7 @@
         <!--Open Options Table View Controller-->
         <scene sceneID="0Pk-Eu-I1m">
             <objects>
-                <tableViewController modalPresentationStyle="pageSheet" id="ENf-St-NPN" customClass="OpenOptionsTableViewController" customModule="IBM_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController modalPresentationStyle="pageSheet" id="ENf-St-NPN" customClass="OpenOptionsTableViewController" customModule="Wallet" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="MRr-uT-l9W">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -965,7 +965,7 @@
         <!--Custom Navigation Controller-->
         <scene sceneID="WPP-Jp-exX">
             <objects>
-                <navigationController storyboardIdentifier="AddWalletItemNavID" modalPresentationStyle="pageSheet" id="eZf-Su-IeQ" customClass="CustomNavigationController" customModule="IBM_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="AddWalletItemNavID" modalPresentationStyle="pageSheet" id="eZf-Su-IeQ" customClass="CustomNavigationController" customModule="Wallet" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oUR-1n-1YN">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
@@ -1017,7 +1017,7 @@
         <!--Custom Navigation Controller-->
         <scene sceneID="r6M-0i-mFZ">
             <objects>
-                <navigationController storyboardIdentifier="ContactCompleteNavigationController" id="en7-Pz-jMp" customClass="CustomNavigationController" customModule="IBM_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="ContactCompleteNavigationController" id="en7-Pz-jMp" customClass="CustomNavigationController" customModule="Wallet" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hNF-fJ-qgx">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>

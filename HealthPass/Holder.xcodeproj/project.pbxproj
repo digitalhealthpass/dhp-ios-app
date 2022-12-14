@@ -2069,7 +2069,7 @@
 				CODE_SIGN_ENTITLEMENTS = Holder/Holder.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 007;
+				CURRENT_PROJECT_VERSION = 008;
 				DEVELOPMENT_TEAM = TV94R78T3S;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -2086,7 +2086,7 @@
 				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited) -D HOLDER";
-				PRODUCT_BUNDLE_IDENTIFIER = com.merative.healthpass.wallet;
+				PRODUCT_BUNDLE_IDENTIFIER = healthpass.wallet;
 				PRODUCT_NAME = Wallet;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
@@ -2108,7 +2108,7 @@
 				CODE_SIGN_ENTITLEMENTS = Holder/Holder.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 007;
+				CURRENT_PROJECT_VERSION = 008;
 				DEVELOPMENT_TEAM = TV94R78T3S;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -2125,7 +2125,7 @@
 				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited) -D HOLDER";
-				PRODUCT_BUNDLE_IDENTIFIER = com.merative.healthpass.wallet;
+				PRODUCT_BUNDLE_IDENTIFIER = healthpass.wallet;
 				PRODUCT_NAME = Wallet;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
