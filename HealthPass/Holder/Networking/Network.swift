@@ -10,7 +10,7 @@
 import Alamofire
 import Foundation
 
-public enum EnvTarget: String, CaseIterable {/
+public enum EnvTarget: String, CaseIterable {
     case sandbox1
     case sandbox2
     case dev1
